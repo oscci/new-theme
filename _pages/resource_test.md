@@ -6,6 +6,15 @@ tagline: a trial page
 description: resources for robust research practices
 permalink: /resources/
 
+defaults:
+  # _pages
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: single
+      author_profile: true
+
 
 ---
 
