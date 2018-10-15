@@ -36,7 +36,7 @@ This project is run by a group of researchers at the University of Oxford. Here 
      <div class="" style="max-width: 100%;max-height: 100%;display: inline-block;">
      	  <figure>
 		<a href="https://linkedin.com">
-		   <img src="images/face1.png" alt="i am person 1 again" style="width:140px;height:140px;border:0;">
+		   <img src="../images/face1.png" alt="i am person 1 again" style="width:140px;height:140px;border:0;">
 		</a>
 		<figcaption>Person Y</figcaption>
 	</figure>

@@ -2,7 +2,7 @@
 
 title: title of the first resource
 tagline: with a subtitle here
-permalink: /resource-1/
+permalink: /resource_1/
 
 defaults:
   # _pages
