@@ -103,7 +103,7 @@ analytics:
 author:
   name             : "E. Hamerslag"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "I am an amazing person."
+  bio              : "I am the author"
   location         : "Somewhere"
   email            :
   links:
