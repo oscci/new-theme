@@ -1,3 +1,17 @@
+---
+
+layout: page
+title: About
+tagline: About us!
+description: these are the amazing people running RROxford
+permalink: /about/
+
+
+---
+
+
+
+
 This project is run by a group of researchers at the University of Oxford. Here are some of their faces.
 
 **The core team**
