@@ -4,7 +4,7 @@ title: About
 tagline: About us!
 description: these are the amazing people running RROxford
 permalink: /about/
-
+type: pages
 
 ---
 
