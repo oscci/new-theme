@@ -31,4 +31,4 @@ Add a informative picture like this one:
 
 **Second subtitle**
 
-And now refer onwards to the [next page](about.html)
+And now refer onwards to the [next page](/about/)
