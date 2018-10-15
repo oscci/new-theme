@@ -12,3 +12,8 @@ This is a test of a **first post**.
 
 Let's try to add a fun image!
 
+<img src="../images/graph.png" alt="This is a graph" width="300" height="100">
+
+**Second subtitle**
+
+And now refer onwards to the [next page](/about/)
