@@ -23,7 +23,7 @@ Want to make your research more reproducible and robust? This page should give y
 
 **The basics**
 
-* [How do I go about preregistering my studies?](resource_1.html)
+* [How do I go about preregistering my studies?](/resource_1/)
 * Why should I care about making my data open access?
 
 **Teaching**

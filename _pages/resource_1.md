@@ -1,7 +1,17 @@
 ---
-layout: page
+
 title: title of the first resource
 tagline: with a subtitle here
+permalink: /resource-1/
+
+defaults:
+  # _pages
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: single
+      author_profile: true
 
 ---
 
