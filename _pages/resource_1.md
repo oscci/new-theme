@@ -2,16 +2,9 @@
 
 title: title of the first resource
 tagline: with a subtitle here
+description: learn about making research more reproducible
 permalink: /resource_1/
-
-defaults:
-  # _pages
-  - scope:
-      path: ""
-      type: pages
-    values:
-      layout: single
-      author_profile: true
+type: pages
 
 ---
 
@@ -27,7 +20,7 @@ Here's what you would explain.
 
 Add a informative picture like this one:
 
-<img src="images/graph.png" alt="This is a graph" width="300" height="100">
+<img src="../images/graph.png" alt="This is a graph" width="300" height="100">
 
 **Second subtitle**
 
