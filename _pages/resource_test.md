@@ -19,4 +19,6 @@ Want to make your research more reproducible and robust? This page should give y
 
 **Teaching**
 
-* How can I incorporate reproducible research practices into my teaching?
+* How can I incorporate reproducible research practices into my teaching?(/new-theme/2018-10-15-first-post/)
+
+* How can I incorporate reproducible research practices into my teaching?(/2018-10-15-first-post/)
