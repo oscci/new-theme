@@ -6,7 +6,7 @@ description: resources for robust research practices
 permalink: /resources/
 
 defaults:
-    _pages
+  # _pages
   - scope:
       path: ""
       type: pages
