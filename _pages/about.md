@@ -27,7 +27,7 @@ This project is run by a group of researchers at the University of Oxford. Here 
      <div class="" style="max-width: 100%;max-height: 100%;display: inline-block;">
      	  <figure>
 		<a href="events.html">
-		   <img src="images/face1.png" alt="i am person 1" style="width:140px;height:140px;border:0;">
+		   <img src="../images/face1.png" alt="i am person 1" style="width:140px;height:140px;border:0;">
 		</a>
 		<figcaption>Person X</figcaption>
 	</figure>
@@ -45,7 +45,7 @@ This project is run by a group of researchers at the University of Oxford. Here 
      <div class="" style="max-width: 100%;max-height: 100%;display: inline-block;">
      	  <figure>
 		<a href="events.html">
-		   <img src="images/face1.png" alt="i am person 1 a third time" style="width:140px;height:140px;border:0;">
+		   <img src="../images/face1.png" alt="i am person 1 a third time" style="width:140px;height:140px;border:0;">
 		</a>
 		<figcaption>Person Z</figcaption>
 	</figure>
@@ -59,7 +59,7 @@ This project is run by a group of researchers at the University of Oxford. Here 
      <div class="" style="max-width: 100%;max-height: 100%;display: inline-block;">
      	  <figure>
 		<a href="events.html">
-		   <img src="images/face4.jpg" alt="i am person 2" style="width:140px;height:140px;border:0;">
+		   <img src="../images/face4.jpg" alt="i am person 2" style="width:140px;height:140px;border:0;">
 		</a>
 		<figcaption>Person X</figcaption>
 	</figure>
@@ -68,7 +68,7 @@ This project is run by a group of researchers at the University of Oxford. Here 
      <div class="" style="max-width: 100%;max-height: 100%;display: inline-block;">
      	  <figure>
 		<a href="https://linkedin.com">
-		   <img src="images/face4.jpg" alt="i am person 3" style="width:140px;height:140px;border:0;">
+		   <img src="../images/face4.jpg" alt="i am person 3" style="width:140px;height:140px;border:0;">
 		</a>
 		<figcaption>Person Y</figcaption>
 	</figure>
@@ -77,7 +77,7 @@ This project is run by a group of researchers at the University of Oxford. Here 
      <div class="" style="max-width: 100%;max-height: 100%;display: inline-block;">
      	  <figure>
 		<a href="events.html">
-		   <img src="images/face4.jpg" alt="i am person 4" style="width:140px;height:140px;border:0;">
+		   <img src="../images/face4.jpg" alt="i am person 4" style="width:140px;height:140px;border:0;">
 		</a>
 		<figcaption>Person Z</figcaption>
 	</figure>
