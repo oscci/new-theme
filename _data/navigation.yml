@@ -5,7 +5,7 @@ main:
   - title: "About"
     url: /about/
   - title: "Events"
-    url: /pages/events.html
+    url: /events/
   - title: "Resources"
     url: /resources/
   # - title: "Sitemap"
