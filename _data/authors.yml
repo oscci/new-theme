@@ -1,0 +1,28 @@
+# This file contains information on all authors of posts/articles
+
+Elise Hamerslag:
+  name        : "Elise Hamerslag"
+  bio         : "What do you want, jewels? I am a very extravagant man."
+  avatar      : "/assets/images/bio-photo-2.jpg"
+  links:
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope-square"
+      url: "mailto:elisehamerslag@gmail.com"
+    - label: "Website"
+      icon: "fas fa-fw fa-link"
+    # url: ""
+    - label: "Twitter"
+      icon: "fab fa-fw fa-twitter-square"
+      url: "https://twitter.com/extravagantman"
+
+Test author 1:
+  name        : "Author no. 1"
+  bio         : "I am the first author"
+  avatar      : "/images/face4.jpg"
+  links:
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope-square"
+      url: "mailto:ReproducibleResearchOxford@gmail.com"
+    - label: "Twitter"
+      icon: "fab fa-fw fa-twitter-square"
+      url: "https://twitter.com/RROxford"
