@@ -6,6 +6,8 @@ description: these are the amazing people running RROxford
 permalink: /about/
 type: pages
 
+author_profile: false
+
 row1:
   - url: https://linkedin.com
     image_path: /images/face1.png
@@ -60,8 +62,4 @@ This project is run by a group of researchers at the University of Oxford. Here 
 
 
 
-
-
----
-
-[Get involved!](test_about.html)
+[Get involved!](/../events/)
