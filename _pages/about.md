@@ -15,6 +15,27 @@ This project is run by a group of researchers at the University of Oxford. Here 
 
 **The core team**
 
+
+gallery1:
+  - url: /images/face1.jpg
+    image_path: /images/face1.jpg
+    alt: "photo of person 1"
+    title: "Name of person 1"
+  - url: /images/face2.jpg
+    image_path: /images/face2.jpg
+    alt: "photo of person 2"
+    title: "Name of person 2"
+  - url: /images/face3.jpg
+    image_path: /images/face3.jpg
+    alt: "photo of person 3"
+    title: "Name of person 3"
+
+
+{% include gallery id="gallery1" caption="These are the first three faces." %}
+
+
+
+
 <div id="banner" style="overflow: hidden;justify-content:space-around;">
      <div class="" style="max-width: 100%;max-height: 100%;display: inline-block;">
      	  <figure>
