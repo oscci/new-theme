@@ -6,7 +6,7 @@ description: these are the amazing people running RROxford
 permalink: /about/
 type: pages
 
-gallery1:
+row1:
   - url: https://linkedin.com
     image_path: /images/face1.png
     alt: "photo of person 1"
@@ -25,7 +25,7 @@ gallery1:
     title: "Name of person 3"
 
 
-gallery2:
+row2:
   - url: https://linkedin.com
     image_path: /images/face4.jpg
     alt: "photo of person 4"
@@ -51,12 +51,12 @@ This project is run by a group of researchers at the University of Oxford. Here 
 **The core team**
 
 
-{% include gallery id="gallery1" caption="These are the first three faces." %}
+{% include feature_row id="row1" caption="These are the first three faces." %}
 
 
 **Our amazing champions**
 
-{% include gallery id="gallery2" %}
+{% include feature_row id="row2" %}
 
 
 
