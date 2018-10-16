@@ -6,19 +6,9 @@ description: these are the amazing people running RROxford
 permalink: /about/
 type: pages
 
----
-
-
-
-
-This project is run by a group of researchers at the University of Oxford. Here are some of their faces.
-
-**The core team**
-
-
 gallery1:
   - url: /images/face1.jpg
-    image_path: /images/face1.jpg
+    image_path: /images/face1.png
     alt: "photo of person 1"
     title: "Name of person 1"
   - url: /images/face2.jpg
@@ -29,6 +19,15 @@ gallery1:
     image_path: /images/face3.jpg
     alt: "photo of person 3"
     title: "Name of person 3"
+
+---
+
+
+
+
+This project is run by a group of researchers at the University of Oxford. Here are some of their faces.
+
+**The core team**
 
 
 {% include gallery id="gallery1" caption="These are the first three faces." %}
