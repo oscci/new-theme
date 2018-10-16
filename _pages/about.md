@@ -7,14 +7,16 @@ permalink: /about/
 type: pages
 
 gallery1:
-  - url: /images/face1.jpg
+  - url: https://linkedin.com
     image_path: /images/face1.png
     alt: "photo of person 1"
     title: "Name of person 1"
+    image_caption: “This is the name of person 1”
   - url: /images/face2.jpg
     image_path: /images/face2.jpg
     alt: "photo of person 2"
     title: "Name of person 2"
+    btn_label: "Test of a button label"
   - url: /images/face3.jpg
     image_path: /images/face3.jpg
     alt: "photo of person 3"
