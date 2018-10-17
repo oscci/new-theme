@@ -22,7 +22,11 @@ row1:
 
 
 row2:
-  - url: /_pages/about_person1
+  - url: /about_person1
+    image_path: /images/face4.jpg
+    alt: "photo of person 4"
+    btn_label: "Name of person 4"
+  - url: /about_person1/
     image_path: /images/face4.jpg
     alt: "photo of person 4"
     btn_label: "Name of person 4"
@@ -30,23 +34,16 @@ row2:
     image_path: /images/face4.jpg
     alt: "photo of person 4"
     btn_label: "Name of person 4"
-  - url: /_pages/about_person1
-    image_path: /images/face4.jpg
-    alt: "photo of person 4"
-    btn_label: "Name of person 4"
-
-
-row3:
   - url: https://linkedin.com
-    image_path: /images/face1.jpg
+    image_path: /images/face1.png
     alt: "photo of person 1"
     btn_label: "Name of person 1"
   - url: /images/face1.jpg
-    image_path: /images/face1.jpg
+    image_path: /images/face1.png
     alt: "photo of person 1"
     btn_label: "Name of person 1"
   - url: /images/face1.jpg
-    image_path: /images/face1.jpg
+    image_path: /images/face1.png
     alt: "photo of person 1"
     btn_label: "Name of person 1"
 
@@ -85,7 +82,7 @@ This project is run by a group of researchers at the University of Oxford. Here 
 **Our amazing champions**
 
 {% include feature_row id="row2" %}
-{% include feature_row id="row3" %}
+
 
 
 
