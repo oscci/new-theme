@@ -301,6 +301,6 @@ defaults:
 
 
 # Setting up collections
-collections:
-  - team_members:
-      people: true
+# collections:
+#   - team_members:
+#      people: true
