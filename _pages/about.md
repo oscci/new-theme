@@ -11,34 +11,47 @@ row1:
     image_path: /images/face1.png
     alt: "photo of person 1"
     btn_label: "Name of person 1"
-  - url: /images/face2.jpg
+  - url: https://linkedin.com
     image_path: /images/face2.jpg
     alt: "photo of person 2"
     btn_label: "Name of person 2"
-  - url: /images/face3.jpg
+  - url: https://linkedin.com
     image_path: /images/face3.jpg
     alt: "photo of person 3"
     btn_label: "Name of person 3"
 
 
 row2:
-  - url: https://linkedin.com
+  - url: /_pages/about_person1
     image_path: /images/face4.jpg
     alt: "photo of person 4"
-    title: "Name of person 4"
-    image_caption: “This is the name of person 1”
-  - url: /images/face4.jpg
+    btn_label: "Name of person 4"
+  - url: /_pages/about_person1
     image_path: /images/face4.jpg
     alt: "photo of person 4"
-    title: "Name of person 4"
-    btn_label: "Test of a button label"
-  - url: /images/face4.jpg
+    btn_label: "Name of person 4"
+  - url: /_pages/about_person1
     image_path: /images/face4.jpg
     alt: "photo of person 4"
-    title: "Name of person 4"
+    btn_label: "Name of person 4"
 
 
 row3:
+  - url: https://linkedin.com
+    image_path: /images/face1.jpg
+    alt: "photo of person 1"
+    btn_label: "Name of person 1"
+  - url: /images/face1.jpg
+    image_path: /images/face1.jpg
+    alt: "photo of person 1"
+    btn_label: "Name of person 1"
+  - url: /images/face1.jpg
+    image_path: /images/face1.jpg
+    alt: "photo of person 1"
+    btn_label: "Name of person 1"
+
+
+row4:
   - url: https://linkedin.com
     image_path: /images/face4.jpg
     alt: "photo of person 4"
@@ -67,10 +80,13 @@ This project is run by a group of researchers at the University of Oxford. Here 
 {% include feature_row id="row1" caption="These are the first three faces." %}
 
 
+
+
 **Our amazing champions**
 
 {% include feature_row id="row2" %}
+{% include feature_row id="row3" %}
 
 
 
-[Get involved!](/../events/)
+[Get involved!](/events/)
