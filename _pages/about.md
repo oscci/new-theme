@@ -69,10 +69,9 @@ row4:
 
 
 
-This project is run by a group of researchers at the University of Oxford. Here are some of their faces.
+This project is led by a group of researchers at the University of Oxford. Here are some of their faces.
 
 **The core team**
-
 
 {% include feature_row id="row1" caption="These are the first three faces." %}
 
@@ -80,6 +79,8 @@ This project is run by a group of researchers at the University of Oxford. Here 
 
 
 **Our amazing champions**
+
+Champions are researchers who are promoting reproducibility and open research at their departments.
 
 {% include feature_row id="row2" %}
 
