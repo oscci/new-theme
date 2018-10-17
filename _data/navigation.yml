@@ -4,5 +4,7 @@ main:
     url: /about/
   - title: "Events"
     url: /events/
+  - title: "News"
+    url: /main/
   - title: "Resources"
     url: /resources/
