@@ -298,3 +298,9 @@ defaults:
     values:
       layout: single
       author_profile: false
+
+
+# Setting up collections
+collections:
+  - team_members:
+      people: true
