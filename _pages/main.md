@@ -1,6 +1,6 @@
 ---
 
-layout: home
+type: page
 permalink: /
 
 ---
