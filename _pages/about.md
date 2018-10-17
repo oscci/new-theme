@@ -26,11 +26,11 @@ row2:
     image_path: /images/face4.jpg
     alt: "photo of person 4"
     btn_label: "Name of person 4"
-  - url: /about_person1/
+  - url: /about_person1
     image_path: /images/face4.jpg
     alt: "photo of person 4"
     btn_label: "Name of person 4"
-  - url: /_pages/about_person1
+  - url: /about_person1
     image_path: /images/face4.jpg
     alt: "photo of person 4"
     btn_label: "Name of person 4"
