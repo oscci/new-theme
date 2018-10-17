@@ -41,6 +41,25 @@ row2:
     alt: "photo of person 4"
     title: "Name of person 4"
 
+
+
+row3:
+  - url: https://linkedin.com
+    image_path: /images/face4.jpg
+    alt: "photo of person 4"
+    title: "Name of person 4"
+    image_caption: “This is the name of person 1”
+  - url: /images/face4.jpg
+    image_path: /images/face4.jpg
+    alt: "photo of person 4"
+    title: "Name of person 4"
+    btn_label: "Test of a button label"
+  - url: /images/face4.jpg
+    image_path: /images/face4.jpg
+    alt: "photo of person 4"
+    title: "Name of person 4"
+
+
 ---
 
 
