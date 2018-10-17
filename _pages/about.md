@@ -6,10 +6,6 @@ description: These are the amazing people running RROxford
 permalink: /about/
 type: pages
 
-author_profile: false
-
-layout: splash
-
 row1:
   - url: https://linkedin.com
     image_path: /images/face1.png

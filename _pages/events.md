@@ -1,18 +1,10 @@
 ---
 
-title: events
-tagline: a trial page
+title: Events
+tagline: Join our events!
 description: events as part of RROxford
 permalink: /events/
 
-defaults:
-  # _pages
-  - scope:
-      path: ""
-      type: pages
-    values:
-      layout: single
-      author_profile: true
 
 ---
 
