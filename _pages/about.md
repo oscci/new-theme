@@ -10,19 +10,15 @@ row1:
   - url: https://linkedin.com
     image_path: /images/face1.png
     alt: "photo of person 1"
-    title: "Name of person 1"
-    image_caption: “This is the name of person 1”
+    btn_label: "Name of person 1"
   - url: /images/face2.jpg
     image_path: /images/face2.jpg
     alt: "photo of person 2"
-    title: "Name of person 2"
-    btn_label: "Test of a button label"
-    image_caption: “This is the name of person 2”
+    btn_label: "Name of person 2"
   - url: /images/face3.jpg
-    image_caption: “This is the name of person 3”
     image_path: /images/face3.jpg
     alt: "photo of person 3"
-    title: "Name of person 3"
+    btn_label: "Name of person 3"
 
 
 row2:
@@ -40,7 +36,6 @@ row2:
     image_path: /images/face4.jpg
     alt: "photo of person 4"
     title: "Name of person 4"
-
 
 
 row3:

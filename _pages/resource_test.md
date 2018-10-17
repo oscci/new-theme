@@ -5,7 +5,6 @@ tagline: a trial page
 description: resources for robust research practices
 permalink: /resources/
 type: pages
-author_profile: false
 
 ---
 
