@@ -298,13 +298,21 @@ defaults:
     values:
       layout: single
       author_profile: false
+  # _collectiontest
+  - scope:
+      path: ""
+      type: collectiontest
+    values:
+      layout: single
+      author_profile: false
+      share: true
 
 
 # Setting up collections
-# collections:
-#  - collections:
-#      output: true
-#      permalink: /collections/:path/
+collections:
+  - collectiontest:
+      output: true
+      permalink: /collectiontest/:path/
 #  - team_members:
 #     output: true
 #     permalink: /team_members/:path/
