@@ -10,7 +10,7 @@ permalink: /team_members/elise
 type: team_members
 
 author_profile: true
-author: Test author 1
+author: Elise Hamerslag
 
 ---
 
