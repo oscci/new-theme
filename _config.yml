@@ -197,9 +197,9 @@ collections:
   team_members:
     output: true
     permalink: /team_members/:path/
-#  resources:
-#    output: true
-#    permalink: /resources/:path/
+  resources:
+    output: true
+    permalink: /resources/:path/
 
 
 # Conversion

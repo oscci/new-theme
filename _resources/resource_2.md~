@@ -1,8 +1,13 @@
 ---
 
 title: Second resource
+tagline: this is a tagline
+description: the description of the second resource
 permalink: /resources/resource-2/
 type: resources
+
+author_profile: true
+author: Test author 1
 
 ---
 
