@@ -302,9 +302,12 @@ defaults:
 
 # Setting up collections
 collections:
-  - team_members:
-     output: true
-     permalink: /team_members/:path/
-  - resources:
-     output: true
-     permalink: /resources/:path/
+  - collections:
+      output: true
+      permalink: /collections/:path/
+#  - team_members:
+#     output: true
+#     permalink: /team_members/:path/
+#  - resources:
+#     output: true
+#     permalink: /resources/:path/
