@@ -4,7 +4,8 @@ title: title of the first resource
 tagline: with a subtitle here
 description: learn about making research more reproducible
 permalink: /resources/resource_1/
-type: pages
+type: resources
+
 author_profile: true
 author: Test author 1
 
