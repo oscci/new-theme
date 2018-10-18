@@ -191,9 +191,9 @@ markdown_ext: "markdown,mkdown,mkdn,mkd,md"
 
 # Setting up collections
 collections:
-   - collectiontest:
-      output: true
-      permalink: /collectiontest/:path/
+  collectiontest:
+    output: true
+    permalink: /collectiontest/:path/
 #  - team_members:
 #     output: true
 #     permalink: /team_members/:path/
