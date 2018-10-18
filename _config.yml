@@ -194,6 +194,9 @@ collections:
   collectiontest:
     output: true
     permalink: /collectiontest/:path/
+  resources:
+    output: true
+    permalink: /resources/:path/
 #  team_members:
 #    output: true
 #    permalink: /team_members/:path/
