@@ -17,7 +17,7 @@ This page contains some resources which can help you to make your research more 
 **The basics**
 
 * [How do I go about preregistering my studies?](/new-theme/resources/resource_1/)
-* [Why should I care about making my data open access?](/new-theme/resources/second-resource/)
+* [Why should I care about making my data open access?](/new-theme/resources/resource-2/)
 
 **Teaching**
 

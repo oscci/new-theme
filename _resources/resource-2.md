@@ -1,7 +1,7 @@
 ---
 
 title: Second resource
-permalink: /resources/second-resource
+permalink: /resources/resource-2/
 type: resources
 
 ---
