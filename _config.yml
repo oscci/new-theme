@@ -189,6 +189,19 @@ encoding: "utf-8"
 markdown_ext: "markdown,mkdown,mkdn,mkd,md"
 
 
+# Setting up collections
+collections:
+   - collectiontest:
+      output: true
+      permalink: /collectiontest/:path/
+#  - team_members:
+#     output: true
+#     permalink: /team_members/:path/
+#  - resources:
+#     output: true
+#     permalink: /resources/:path/
+
+
 # Conversion
 markdown: kramdown
 highlighter: rouge
@@ -306,16 +319,3 @@ defaults:
       layout: single
       author_profile: false
       share: true
-
-
-# Setting up collections
-# collections:
-#   - collectiontest:
-#       output: true
-#      permalink: /collectiontest/:path/
-#  - team_members:
-#     output: true
-#     permalink: /team_members/:path/
-#  - resources:
-#     output: true
-#     permalink: /resources/:path/
