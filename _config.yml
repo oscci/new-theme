@@ -301,10 +301,10 @@ defaults:
 
 
 # Setting up collections
-collections:
-  - collections:
-      output: true
-      permalink: /collections/:path/
+# collections:
+#  - collections:
+#      output: true
+#      permalink: /collections/:path/
 #  - team_members:
 #     output: true
 #     permalink: /team_members/:path/
