@@ -22,27 +22,27 @@ row1:
 
 
 row2:
-  - url: /team_members/about_person1/
+  - url: /team_members/about_person1
     image_path: /images/face4.jpg
     alt: "photo of person 4"
     btn_label: "Name of person 4"
-  - url: /team_members/about_person1/
+  - url: /team_members/about_person1
     image_path: /images/face4.jpg
     alt: "photo of person 4"
     btn_label: "Name of person 4"
-  - url: /team_members/about_person1/
+  - url: /team_members/about_person1
     image_path: /images/face4.jpg
     alt: "photo of person 4"
     btn_label: "Name of person 4"
-  - url: /team_members/elise/
+  - url: /team_members/elise
     image_path: /images/face1.png
     alt: "photo of person 1"
     btn_label: "Name of person 1"
-  - url: /team_members/elise/
+  - url: /team_members/elise
     image_path: /images/face1.png
     alt: "photo of person 1"
     btn_label: "Name of person 1"
-  - url: /team_members/elise/
+  - url: /team_members/elise
     image_path: /images/face1.png
     alt: "photo of person 1"
     btn_label: "Name of person 1"

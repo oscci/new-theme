@@ -13,7 +13,7 @@ Elise Hamerslag:
     # url: ""
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/extravagantman"
+    # url: ""
 
 Test author 1:
   name        : "Author no. 1"

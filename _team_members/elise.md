@@ -9,7 +9,6 @@ description: this is a description
 permalink: /team_members/elise
 type: team_members
 
-author_profile: true
 author: Elise Hamerslag
 
 ---
