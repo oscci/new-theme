@@ -303,8 +303,8 @@ defaults:
 # Setting up collections
 collections:
   - team_members:
-     output: true
+     # output: true
      permalink: /team_members/:path/
   - resources:
-     output: true
+     # output: true
      permalink: /resources/:path/
