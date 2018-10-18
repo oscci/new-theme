@@ -4,7 +4,10 @@ title: Resources
 tagline: a trial page
 description: resources for robust research practices
 permalink: /resources/
-type: pages
+layout: collection
+collection: resources
+
+# type: pages
 
 ---
 
