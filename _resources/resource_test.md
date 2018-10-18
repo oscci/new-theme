@@ -3,7 +3,7 @@
 title: Resources
 tagline: a trial page
 description: resources for robust research practices
-permalink: /resources/
+permalink: /resources/resource-test/
 type: resources
 
 ---
