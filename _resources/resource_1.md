@@ -3,7 +3,7 @@
 title: title of the first resource
 tagline: with a subtitle here
 description: learn about making research more reproducible
-permalink: /resource_1/
+permalink: /resources/resource_1/
 type: pages
 author_profile: true
 author: Test author 1

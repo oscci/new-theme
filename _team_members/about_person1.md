@@ -2,7 +2,7 @@
 
 title: Name of first person
 description: This is a description of the first person
-permalink: /about_person1/
+permalink: /team_members/about_person1/
 type: pages
 author_profile: true
 author: Test author 1
