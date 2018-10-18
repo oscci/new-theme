@@ -322,6 +322,7 @@ defaults:
       layout: single
       author_profile: false
       share: true
+  # _resources
   - scope:
       path: ""
       type: resources
