@@ -3,6 +3,8 @@
 type: page
 permalink: /
 layout: splash
+classes:
+  - landing
 
 ---
   
