@@ -2,6 +2,7 @@
 
 type: page
 permalink: /
+layout: splash
 
 ---
 
