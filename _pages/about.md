@@ -87,4 +87,4 @@ Champions are researchers who are promoting reproducibility and open research at
 
 
 
-[Get involved!](/new-theme/events/)
+[Get involved!](/events/)
