@@ -2,7 +2,6 @@
 layout: page
 title: Authors
 permalink: /authors/
-type: pages
 ---
 
 {% assign author_posts = site.posts | group_by: 'author' %}
