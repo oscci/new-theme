@@ -4,8 +4,8 @@ title: About
 tagline: About us!
 description: These are the amazing people running RROxford
 permalink: /about/
-# type: page
-layout: splash
+type: page
+# layout: splash
 
 row1:
   - url: https://linkedin.com
