@@ -114,14 +114,36 @@ Champions are researchers who are promoting reproducibility and open research at
 {% include gallery id="gallery2" caption="This is a trial of a gallery" layout="third" class="full" %}
 
 
-# The following is a trial with coding images in HTML
 
-<div class="gallery">
-	<a href="http://linkedin.com><img src="/images/face4.jpg" width="50" height="50" alt="test"></a>
-	<a href="http://linkedin.com><img src="/images/face4.jpg" width="50" height="50" alt="test"></a>
-	<a href="http://linkedin.com><img src="/images/face4.jpg" width="50" height="50" alt="test"></a>
-	<a href="http://linkedin.com><img src="/images/face4.jpg" width="50" height="50" alt="test"></a>
+<div id="banner" style="overflow: hidden;justify-content:space-around;">
+     <div class="" style="max-width: 100%;max-height: 100%;display: inline-block;">
+     	  <figure>
+		<a href="events.html">
+		   <img src="images/face1.png" alt="i am person 1" style="width:140px;height:140px;border:0;">
+		</a>
+		<figcaption>Person X</figcaption>
+	</figure>
+     </div>
+
+     <div class="" style="max-width: 100%;max-height: 100%;display: inline-block;">
+     	  <figure>
+		<a href="https://linkedin.com">
+		   <img src="images/face1.png" alt="i am person 1 again" style="width:140px;height:140px;border:0;">
+		</a>
+		<figcaption>Person Y</figcaption>
+	</figure>
+     </div>
+
+     <div class="" style="max-width: 100%;max-height: 100%;display: inline-block;">
+     	  <figure>
+		<a href="events.html">
+		   <img src="images/face1.png" alt="i am person 1 a third time" style="width:140px;height:140px;border:0;">
+		</a>
+		<figcaption>Person Z</figcaption>
+	</figure>
+     </div>
 </div>
+
 
 
 [Get involved!](/events/)
