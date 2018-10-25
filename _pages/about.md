@@ -90,6 +90,15 @@ row4:
     alt: "photo of person 4"
     title: "Name of person 4"
 
+#figcaption1 {
+  font-size: 9px;
+  text-align: left;
+  width: 50%;
+  margin: 0;
+  display: block;
+}
+
+
 
 ---
 
@@ -151,7 +160,7 @@ Champions are researchers who are promoting reproducibility and open research at
 		<a href="events.html">
 		   <img src="../images/face1.png" alt="i am person 1 a third time" style="width:100px;height:100px;border:0;">
 		</a>
-		<figcaption>Person Z</figcaption>
+		<figcaption id="figcaption1">Person Z</figcaption>
 	</figure>
      </div>
 
