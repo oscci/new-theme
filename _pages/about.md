@@ -6,6 +6,7 @@ description: These are the amazing people running RROxford
 permalink: /about/
 type: pages
 layout: single
+classes: wide
 
 intro:
   - excerpt: 'This project is led by a group of researchers at the University of Oxford. Here are some of their faces.'
@@ -18,7 +19,7 @@ row1:
   - url: https://linkedin.com
     image_path: /images/face2.jpg
     alt: "photo of person 2"
-    title: "Name of person 2"
+    btn_label: "Name of person 2"
   - url: https://linkedin.com
     image_path: /images/face3.jpg
     alt: "photo of person 3"
