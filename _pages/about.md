@@ -108,18 +108,12 @@ This project is led by a group of researchers at the University of Oxford. Here 
 
 Champions are researchers who are promoting reproducibility and open research at their departments.
 
-{% include feature_row id="row2" %}
-
-
-{% include gallery id="gallery2" caption="This is a trial of a gallery" layout="third" class="full" %}
-
-
 
 <div id="banner" style="overflow: hidden;justify-content:space-around;">
      <div class="" style="max-width: 100%;max-height: 100%;display: inline-block;">
      	  <figure>
 		<a href="events.html">
-		   <img src="../images/face1.png" alt="i am person 1" style="width:140px;height:140px;border:0;">
+		   <img src="../images/face1.png" alt="i am person 1" style="width:100px;height:100px;border:0;">
 		</a>
 	</figure>
      </div>
@@ -127,7 +121,7 @@ Champions are researchers who are promoting reproducibility and open research at
      <div class="" style="max-width: 100%;max-height: 100%;display: inline-block;">
      	  <figure>
 		<a href="https://linkedin.com">
-		   <img src="../images/face1.png" alt="i am person 1 again" style="width:140px;height:140px;border:0;">
+		   <img src="../images/face1.png" alt="i am person 1 again" style="width:100px;height:100px;border:0;">
 		</a>
 	</figure>
      </div>
@@ -135,7 +129,7 @@ Champions are researchers who are promoting reproducibility and open research at
      <div class="" style="max-width: 100%;max-height: 100%;display: inline-block;">
      	  <figure>
 		<a href="events.html">
-		   <img src="../images/face1.png" alt="i am person 1 a third time" style="width:140px;height:140px;border:0;">
+		   <img src="../images/face1.png" alt="i am person 1 a third time" style="width:100px;height:100px;border:0;">
 		</a>
 	</figure>
      </div>
@@ -143,7 +137,7 @@ Champions are researchers who are promoting reproducibility and open research at
      <div class="" style="max-width: 100%;max-height: 100%;display: inline-block;">
      	  <figure>
 		<a href="events.html">
-		   <img src="../images/face1.png" alt="i am person 1 a third time" style="width:140px;height:140px;border:0;">
+		   <img src="../images/face1.png" alt="i am person 1 a third time" style="width:100px;height:100px;border:0;">
 		</a>
 	</figure>
      </div>
@@ -151,7 +145,7 @@ Champions are researchers who are promoting reproducibility and open research at
      <div class="" style="max-width: 100%;max-height: 100%;display: inline-block;">
      	  <figure>
 		<a href="events.html">
-		   <img src="../images/face1.png" alt="i am person 1 a third time" style="width:140px;height:140px;border:0;">
+		   <img src="../images/face1.png" alt="i am person 1 a third time" style="width:100px;height:100px;border:0;">
 		</a>
 	</figure>
      </div>
@@ -159,7 +153,7 @@ Champions are researchers who are promoting reproducibility and open research at
      <div class="" style="max-width: 100%;max-height: 100%;display: inline-block;">
      	  <figure>
 		<a href="events.html">
-		   <img src="../images/face1.png" alt="i am person 1 a third time" style="width:140px;height:140px;border:0;">
+		   <img src="../images/face1.png" alt="i am person 1 a third time" style="width:100px;height:100px;border:0;">
 		</a>
 		<figcaption>Person Z</figcaption>
 	</figure>
@@ -168,7 +162,7 @@ Champions are researchers who are promoting reproducibility and open research at
      <div class="" style="max-width: 100%;max-height: 100%;display: inline-block;">
      	  <figure>
 		<a href="events.html">
-		   <img src="../images/face1.png" alt="i am person 1 a third time" style="width:140px;height:140px;border:0;">
+		   <img src="../images/face1.png" alt="i am person 1 a third time" style="width:100px;height:100px;border:0;">
 		</a>
 		<figcaption>Person Z</figcaption>
 	</figure>
