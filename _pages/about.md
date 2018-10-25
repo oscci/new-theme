@@ -119,7 +119,7 @@ Champions are researchers who are promoting reproducibility and open research at
      <div class="" style="max-width: 100%;max-height: 100%;display: inline-block;">
      	  <figure>
 		<a href="events.html">
-		   <img src="images/face1.png" alt="i am person 1" style="width:140px;height:140px;border:0;">
+		   <img src="/images/face1.png" alt="i am person 1" style="width:140px;height:140px;border:0;">
 		</a>
 		<figcaption>Person X</figcaption>
 	</figure>
@@ -128,7 +128,7 @@ Champions are researchers who are promoting reproducibility and open research at
      <div class="" style="max-width: 100%;max-height: 100%;display: inline-block;">
      	  <figure>
 		<a href="https://linkedin.com">
-		   <img src="images/face1.png" alt="i am person 1 again" style="width:140px;height:140px;border:0;">
+		   <img src="../images/face1.png" alt="i am person 1 again" style="width:140px;height:140px;border:0;">
 		</a>
 		<figcaption>Person Y</figcaption>
 	</figure>
@@ -137,7 +137,7 @@ Champions are researchers who are promoting reproducibility and open research at
      <div class="" style="max-width: 100%;max-height: 100%;display: inline-block;">
      	  <figure>
 		<a href="events.html">
-		   <img src="images/face1.png" alt="i am person 1 a third time" style="width:140px;height:140px;border:0;">
+		   <img src="/../images/face1.png" alt="i am person 1 a third time" style="width:140px;height:140px;border:0;">
 		</a>
 		<figcaption>Person Z</figcaption>
 	</figure>
