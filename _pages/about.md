@@ -107,6 +107,8 @@ row4:
 
 {% include feature_row id="row2" %}
 
+{% include gallery id="gallery2" layout="third" %}
+
 
 **Our champions**
 
