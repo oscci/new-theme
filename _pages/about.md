@@ -111,7 +111,7 @@ Champions are researchers who are promoting reproducibility and open research at
 {% include feature_row id="row2" %}
 
 
-{% include gallery id="gallery2" caption="This is a trial of a gallery" layout="fourth" %}
+{% include gallery id="gallery2" caption="This is a trial of a gallery" layout="third ." %}
 
 
 
