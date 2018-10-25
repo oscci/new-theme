@@ -5,7 +5,7 @@ tagline: About us!
 description: These are the amazing people running RROxford
 permalink: /about/
 type: pages
-layout: splash
+layout: single
 
 intro:
   - excerpt: 'This project is led by a group of researchers at the University of Oxford. Here are some of their faces.'
