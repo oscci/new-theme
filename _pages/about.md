@@ -5,11 +5,6 @@ tagline: About us!
 description: These are the amazing people running RROxford
 permalink: /about/
 type: pages
-layout: single
-classes: wide
-
-intro:
-  - excerpt: 'This project is led by a group of researchers at the University of Oxford. Here are some of their faces.'
 
 row1:
   - url: https://linkedin.com
@@ -98,17 +93,11 @@ row4:
 
 ---
 
-
-
-{% include feature_row id="intro" type="center" %}
+This project is led by a group of researchers at the University of Oxford. Here are some of their faces
 
 **The steering committee**
 
 {% include feature_row id="row1" caption="These are the first three faces." %}
-
-{% include feature_row id="row2" %}
-
-{% include gallery id="gallery2" layout="third" %}
 
 
 **Our champions**
