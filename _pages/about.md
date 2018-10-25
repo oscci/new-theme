@@ -18,7 +18,7 @@ row1:
   - url: https://linkedin.com
     image_path: /images/face2.jpg
     alt: "photo of person 2"
-    btn_label: "Name of person 2"
+    title: "Name of person 2"
   - url: https://linkedin.com
     image_path: /images/face3.jpg
     alt: "photo of person 3"
@@ -103,9 +103,9 @@ row4:
 
 **The steering committee**
 
-{% include feature_row id="row1" caption="These are the first three faces." type="center" %}
+{% include feature_row id="row1" caption="These are the first three faces." %}
 
-{% include feature_row id="row2" type="center" %}
+{% include feature_row id="row2" %}
 
 
 **Our champions**
