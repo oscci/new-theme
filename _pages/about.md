@@ -114,7 +114,7 @@ Champions are researchers who are promoting reproducibility and open research at
 {% include gallery id="gallery2" caption="This is a trial of a gallery" layout="third" class="full" %}
 
 
-% The following is a trial with coding images in HTML
+# The following is a trial with coding images in HTML
 
 <div class="gallery">
 	<a href="http://linkedin.com><img src="/images/face4.jpg" width="50" height="50" alt="test"></a>
