@@ -7,6 +7,9 @@ permalink: /about/
 type: pages
 layout: splash
 
+intro:
+  - exerpt: 'This project is led by a group of researchers at the University of Oxford. Here are some of their faces.'
+
 row1:
   - url: https://linkedin.com
     image_path: /images/face1.png
@@ -96,7 +99,7 @@ row4:
 
 
 
-This project is led by a group of researchers at the University of Oxford. Here are some of their faces.
+{% include feature_row id="intro" type="center" %}
 
 **The steering committee**
 
