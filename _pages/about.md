@@ -47,6 +47,32 @@ row2:
     alt: "photo of person 1"
     btn_label: "Name of person 1"
 
+gallery2:
+  - url: /team_members/about_person1
+    image_path: /images/face4.jpg
+    alt: "photo of person 4"
+    title: "Name of person 4"
+  - url: /team_members/about_person1
+    image_path: /images/face4.jpg
+    alt: "photo of person 4"
+    title: "Name of person 4"
+  - url: /team_members/about_person1
+    image_path: /images/face4.jpg
+    alt: "photo of person 4"
+    title: "Name of person 4"
+  - url: /team_members/elise
+    image_path: /images/face1.png
+    alt: "photo of person 1"
+    title: "Name of person 1"
+  - url: /team_members/elise
+    image_path: /images/face1.png
+    alt: "photo of person 1"
+    title: "Name of person 1"
+  - url: /team_members/elise
+    image_path: /images/face1.png
+    alt: "photo of person 1"
+    title: "Name of person 1"
+
 
 row4:
   - url: https://linkedin.com
@@ -84,6 +110,8 @@ Champions are researchers who are promoting reproducibility and open research at
 
 {% include feature_row id="row2" %}
 
+
+{% include gallery id="gallery2" caption="This is a trial of a gallery" layout="half" %}
 
 
 
