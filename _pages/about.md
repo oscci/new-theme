@@ -184,6 +184,7 @@ Champions are researchers who are promoting reproducibility and open research at
 		<a href="events.html">
 		   <img src="../images/face1.png" alt="i am person 1 a third time" style="width:100px;height:100px;border:0;">
 		</a>
+		<pre><code>name;</code></pre>
 	</figure>
      </div>
 
