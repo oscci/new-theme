@@ -4,7 +4,7 @@ title: About
 tagline: About us!
 description: These are the amazing people running RROxford
 permalink: /about/
-type: pages
+# type: pages
 
 row1:
   - url: https://linkedin.com
@@ -102,7 +102,7 @@ row4:
 
 ---
 
-This project is led by a group of researchers at the University of Oxford. Here are some of their faces
+This project is led by a group of researchers at the University of Oxford. Here are some of their faces.
 
 **The steering committee**
 
