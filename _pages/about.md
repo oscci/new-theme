@@ -91,16 +91,6 @@ row4:
     title: "Name of person 4"
 
 
-# #figcaption1 {
-#   font-size: 9px;
-#   text-align: left;
-#   width: 50%;
-#   margin: 0;
-#   display: block;
-#  }
-
-
-
 ---
 
 This project is led by a group of researchers at the University of Oxford. Here are some of their faces.
