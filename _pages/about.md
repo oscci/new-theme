@@ -4,7 +4,7 @@ title: About
 tagline: About us!
 description: These are the amazing people running RROxford
 permalink: /about/
-# type: pages
+type: pages
 
 row1:
   - url: https://linkedin.com
@@ -90,13 +90,14 @@ row4:
     alt: "photo of person 4"
     title: "Name of person 4"
 
-#figcaption1 {
-  font-size: 9px;
-  text-align: left;
-  width: 50%;
-  margin: 0;
-  display: block;
-}
+
+# #figcaption1 {
+#   font-size: 9px;
+#   text-align: left;
+#   width: 50%;
+#   margin: 0;
+#   display: block;
+#  }
 
 
 
@@ -106,7 +107,7 @@ This project is led by a group of researchers at the University of Oxford. Here 
 
 **The steering committee**
 
-# {% include feature_row id="row1" caption="These are the first three faces." %}
+{% include feature_row id="row1" caption="These are the first three faces." %}
 
 
 **Our champions**
