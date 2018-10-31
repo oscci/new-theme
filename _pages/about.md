@@ -152,6 +152,46 @@ Champions are researchers who are promoting reproducibility and open research at
 		<a href="events.html">
 		   <img src="../images/face1.png" alt="i am person 1 a third time" style="width:100px;height:100px;border:0;">
 		</a>
+	</figure>
+     </div>
+
+     <div class="" style="max-width: 100%;max-height: 100%;display: inline-block;">
+     	  <figure>
+		<a href="events.html">
+		   <img src="../images/face1.png" alt="i am person 1 a third time" style="width:100px;height:100px;border:0;">
+		</a>
+	</figure>
+     </div>
+
+     <div class="" style="max-width: 100%;max-height: 100%;display: inline-block;">
+     	  <figure>
+		<a href="events.html">
+		   <img src="../images/face1.png" alt="i am person 1 a third time" style="width:100px;height:100px;border:0;">
+		</a>
+	</figure>
+     </div>
+
+     <div class="" style="max-width: 100%;max-height: 100%;display: inline-block;">
+     	  <figure>
+		<a href="events.html">
+		   <img src="../images/face1.png" alt="i am person 1 a third time" style="width:100px;height:100px;border:0;">
+		</a>
+	</figure>
+     </div>
+
+     <div class="" style="max-width: 100%;max-height: 100%;display: inline-block;">
+     	  <figure>
+		<a href="events.html">
+		   <img src="../images/face1.png" alt="i am person 1 a third time" style="width:100px;height:100px;border:0;">
+		</a>
+	</figure>
+     </div>
+
+     <div class="" style="max-width: 100%;max-height: 100%;display: inline-block;">
+     	  <figure>
+		<a href="events.html">
+		   <img src="../images/face1.png" alt="i am person 1 a third time" style="width:100px;height:100px;border:0;">
+		</a>
 		<figcaption id="figcaption1">Person Z</figcaption>
 	</figure>
      </div>
