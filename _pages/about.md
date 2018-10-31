@@ -12,7 +12,7 @@ row1:
     alt: "photo of person 1"
     btn_label: "Name of person 1"
   - url: https://linkedin.com
-    image_path: /images/face2.jpg
+    image_path: /images/face2.png
     alt: "photo of person 2"
     btn_label: "Name of person 2"
   - url: https://linkedin.com
@@ -202,6 +202,7 @@ Champions are researchers who are promoting reproducibility and open research at
 		   <img src="../images/face1.png" alt="i am person 1 a third time" style="width:100px;height:100px;border:0;">
 		</a>
 		<figcaption>Person Z</figcaption>
+		<pre><code>alert('Hello!');</code></pre>
 	</figure>
      </div>
 </div>
