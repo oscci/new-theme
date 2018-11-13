@@ -99,6 +99,8 @@ This project is led by a group of researchers at the University of Oxford. Here 
 
 {% include feature_row id="row1" caption="These are the first three faces." %}
 
+{% include feature_row id="row2" caption="These are the first three faces." %}
+
 
 **Our champions**
 
