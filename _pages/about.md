@@ -7,11 +7,11 @@ permalink: /about/
 type: pages
 
 row1:
-  - url: https://linkedin.com
+  - url: /team_members/about_person1
     image_path: /images/face1.png
     alt: "photo of person 1"
     btn_label: "Name of person 1"
-  - url: https://linkedin.com
+  - url: /team_members/elise
     image_path: /images/face2.png
     alt: "photo of person 2"
     btn_label: "Name of person 2"
