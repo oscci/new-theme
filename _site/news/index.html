@@ -18,7 +18,7 @@
 <meta property="og:locale" content="en_GB">
 <meta property="og:site_name" content="Test RR-project">
 <meta property="og:title" content="Test RR-project">
-<meta property="og:url" content="http://localhost:4000/new-theme/">
+<meta property="og:url" content="http://localhost:4000/new-theme/news/">
 
 
 
@@ -36,7 +36,7 @@
   
 
 
-<link rel="canonical" href="http://localhost:4000/new-theme/">
+<link rel="canonical" href="http://localhost:4000/new-theme/news/">
 
 
 
@@ -100,7 +100,7 @@
 
   </head>
 
-  <body class="layout--single landing">
+  <body class="layout--home">
 
     <!--[if lt IE 9]>
 <div class="notice--danger align-center" style="margin: 0;">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience.</div>
@@ -146,49 +146,77 @@
 <div id="main" role="main">
   
 
-  <article class="page" itemscope itemtype="http://schema.org/CreativeWork">
+  <div class="archive">
     
+      <h1 id="page-title" class="page__title"></h1>
     
-    
-    
+    This page gives an overview of our past blog posts!
 
-    <div class="page__inner-wrap">
+
+<h3 class="archive__subtitle">Recent posts</h3>
+
+
+  
+
+
+
+<div class="list__item">
+  <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
+    
+    <h2 class="archive__item-title" itemprop="headline">
       
-        <header>
-          
-          
-        </header>
+        <a href="/new-theme/2018-10-17-second-post/" rel="permalink">The second blog post
+</a>
       
-
-      <section class="page__content" itemprop="text">
-        
-        <p><strong>Welcome!</strong></p>
-
-<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus.</p>
-
-<p>Discover more <a href="/new-theme/about/">about</a> what we do, check out our <a href="/new-theme/events">events</a> and <a href="/new-theme/resources">resources</a>!</p>
-
-        
-      </section>
-
-      <footer class="page__meta">
-        
-        
-
-
-        
-      </footer>
-
-      
-
-      
-    </div>
-
+    </h2>
     
+      <p class="page__meta"><i class="far fa-clock" aria-hidden="true"></i> 
+
+
+
+
+  2 minute read
+</p>
+    
+    <p class="archive__item-excerpt" itemprop="description">This is a test of a second post.
+
+</p>
   </article>
+</div>
 
   
-  
+
+
+
+<div class="list__item">
+  <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
+    
+    <h2 class="archive__item-title" itemprop="headline">
+      
+        <a href="/new-theme/2018-10-15-first-post/" rel="permalink">The first post
+</a>
+      
+    </h2>
+    
+      <p class="page__meta"><i class="far fa-clock" aria-hidden="true"></i> 
+
+
+
+
+  less than 1 minute read
+</p>
+    
+    <p class="archive__item-excerpt" itemprop="description">This is a test of a first post.
+
+</p>
+  </article>
+</div>
+
+
+
+
+
+  </div>
 </div>
     </div>
 
