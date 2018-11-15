@@ -110,6 +110,7 @@ Champions are researchers who are promoting reproducibility and open research at
 
 div.small_item {
   width: 30%;
+  display: inline-block;
   clear: none;
   margin-left: 1.695% !important;
 }
@@ -120,6 +121,7 @@ div.small_item:nth-child(3n+1) {
 
 @media only screen and (min-width: 37.5em) {
   div.small_item {
+    display: block;
     width: 18%;
   }
   div.small_item:nth-child(3n+1) {
@@ -136,353 +138,108 @@ div.small_item:nth-child(3n+1) {
 </style>
 
 <div class="feature__wrapper">
-
-
-
-
-
     <div class="feature__item small_item">
       <div class="archive__item">
-
           <div class="archive__item-teaser">
             <img src="/new-theme/images/face4.jpg" alt="photo of person 42">
-
           </div>
-
-
         <div class="archive__item-body">
-
-
-
-
-
             <p><a href="/new-theme/team_members/about_person1" class="btn ">Name of person 42</a></p>
-
         </div>
       </div>
     </div>
-
-
     <div class="feature__item small_item">
       <div class="archive__item">
-
           <div class="archive__item-teaser">
             <img src="/new-theme/images/face4.jpg" alt="photo of person 43">
-
           </div>
-
-
         <div class="archive__item-body">
-
-
-
-
-
             <p><a href="/new-theme/team_members/about_person1" class="btn ">Name of person 43</a></p>
-
         </div>
       </div>
     </div>
-
-
-
     <div class="feature__item small_item">
       <div class="archive__item">
-
           <div class="archive__item-teaser">
             <img src="/new-theme/images/face4.jpg" alt="photo of person 44">
-
           </div>
-
-
         <div class="archive__item-body">
-
-
-
-
-
             <p><a href="/new-theme/team_members/about_person1" class="btn ">Name of person 44</a></p>
-
         </div>
       </div>
     </div>
-
-
-
     <div class="feature__item small_item">
       <div class="archive__item">
-
           <div class="archive__item-teaser">
             <img src="/new-theme/images/face4.jpg" alt="photo of person 45">
-
           </div>
-
-
         <div class="archive__item-body">
-
-
-
-
-
             <p><a href="/new-theme/team_members/about_person1" class="btn ">Name of person 45</a></p>
-
         </div>
       </div>
     </div>
-
-
-
     <div class="feature__item small_item">
       <div class="archive__item">
-
           <div class="archive__item-teaser">
             <img src="/new-theme/images/face4.jpg" alt="photo of person 46">
-
           </div>
-
-
         <div class="archive__item-body">
-
-
-
-
-
             <p><a href="/new-theme/team_members/about_person1" class="btn ">Name of person 46</a></p>
-
         </div>
       </div>
     </div>
-
-
-
     <div class="feature__item small_item">
       <div class="archive__item">
-
           <div class="archive__item-teaser">
             <img src="/new-theme/images/face4.jpg" alt="photo of person 47">
-
           </div>
-
-
         <div class="archive__item-body">
-
-
-
-
-
             <p><a href="/new-theme/team_members/about_person1" class="btn ">Name of person 47</a></p>
-
         </div>
       </div>
     </div>
-
-
-
-
     <div class="feature__item small_item">
       <div class="archive__item">
-
           <div class="archive__item-teaser">
             <img src="/new-theme/images/face4.jpg" alt="photo of person 48">
-
           </div>
-
-
         <div class="archive__item-body">
-
-
-
-
-
             <p><a href="/new-theme/team_members/about_person1" class="btn ">Name of person 48</a></p>
-
         </div>
       </div>
     </div>
-
-
-
-
     <div class="feature__item">
       <div class="archive__item">
-
           <div class="archive__item-teaser">
             <img src="/new-theme/images/face1.png" alt="photo of person 1">
-
           </div>
-
-
         <div class="archive__item-body">
-
-
-
-
-
             <p><a href="/new-theme/team_members/elise" class="btn ">Name of person 1</a></p>
-
         </div>
       </div>
     </div>
-
-
-
-
     <div class="feature__item">
       <div class="archive__item">
-
           <div class="archive__item-teaser">
             <img src="/new-theme/images/face1.png" alt="photo of person 1">
-
           </div>
-
-
         <div class="archive__item-body">
-
-
-
-
-
             <p><a href="/new-theme/team_members/elise" class="btn ">Name of person 1</a></p>
-
         </div>
       </div>
     </div>
-
-
-
-
     <div class="feature__item">
       <div class="archive__item">
-
           <div class="archive__item-teaser">
             <img src="/new-theme/images/face1.png" alt="photo of person 1">
-
           </div>
-
-
         <div class="archive__item-body">
-
-
-
-
-
             <p><a href="/new-theme/team_members/elise" class="btn ">Name of person 1</a></p>
-
         </div>
       </div>
     </div>
-
-
 </div>
 
-
-
-
-
-
-
-
-<div id="banner" style="overflow: hidden;justify-content:space-around;">
-     <div class="" style="max-width: 100%;max-height: 100%;display: inline-block;">
-     	  <figure>
-		<a href="events.html">
-		   <img src="../images/face1.png" alt="i am person 1" style="width:100px;height:100px;border:0;">
-		</a>
-	</figure>
-     </div>
-
-     <div class="" style="max-width: 100%;max-height: 100%;display: inline-block;">
-     	  <figure>
-		<a href="https://linkedin.com">
-		   <img src="../images/face1.png" alt="i am person 1 again" style="width:100px;height:100px;border:0;">
-		</a>
-	</figure>
-     </div>
-
-     <div class="" style="max-width: 100%;max-height: 100%;display: inline-block;">
-     	  <figure>
-		<a href="events.html">
-		   <img src="../images/face1.png" alt="i am person 1 a third time" style="width:100px;height:100px;border:0;">
-		</a>
-	</figure>
-     </div>
-
-     <div class="" style="max-width: 100%;max-height: 100%;display: inline-block;">
-     	  <figure>
-		<a href="events.html">
-		   <img src="../images/face1.png" alt="i am person 1 a third time" style="width:100px;height:100px;border:0;">
-		</a>
-	</figure>
-     </div>
-
-     <div class="" style="max-width: 100%;max-height: 100%;display: inline-block;">
-     	  <figure>
-		<a href="events.html">
-		   <img src="../images/face1.png" alt="i am person 1 a third time" style="width:100px;height:100px;border:0;">
-		</a>
-	</figure>
-     </div>
-
-     <div class="" style="max-width: 100%;max-height: 100%;display: inline-block;">
-     	  <figure>
-		<a href="events.html">
-		   <img src="../images/face1.png" alt="i am person 1 a third time" style="width:100px;height:100px;border:0;">
-		</a>
-	</figure>
-     </div>
-
-     <div class="" style="max-width: 100%;max-height: 100%;display: inline-block;">
-     	  <figure>
-		<a href="events.html">
-		   <img src="../images/face1.png" alt="i am person 1 a third time" style="width:100px;height:100px;border:0;">
-		</a>
-	</figure>
-     </div>
-
-     <div class="" style="max-width: 100%;max-height: 100%;display: inline-block;">
-     	  <figure>
-		<a href="events.html">
-		   <img src="../images/face1.png" alt="i am person 1 a third time" style="width:100px;height:100px;border:0;">
-		</a>
-	</figure>
-     </div>
-
-     <div class="" style="max-width: 100%;max-height: 100%;display: inline-block;">
-     	  <figure>
-		<a href="events.html">
-		   <img src="../images/face1.png" alt="i am person 1 a third time" style="width:100px;height:100px;border:0;">
-		</a>
-	</figure>
-     </div>
-
-     <div class="" style="max-width: 100%;max-height: 100%;display: inline-block;">
-     	  <figure>
-		<a href="events.html">
-		   <img src="../images/face1.png" alt="i am person 1 a third time" style="width:100px;height:100px;border:0;">
-		</a>
-		<pre><code>name;</code></pre>
-	</figure>
-     </div>
-
-     <div class="" style="max-width: 100%;max-height: 100%;display: inline-block;">
-     	  <figure>
-		<a href="events.html">
-		   <img src="../images/face1.png" alt="i am person 1 a third time" style="width:100px;height:100px;border:0;">
-		</a>
-		<figcaption id="figcaption1" style="width:50px">Person Z</figcaption>
-	</figure>
-     </div>
-
-     <div class="" style="max-width: 100%;max-height: 100%;display: inline-block;">
-     	  <figure>
-		<a href="events.html">
-		   <img src="../images/face1.png" alt="i am person 1 a third time" style="width:100px;height:100px;border:0;">
-		</a>
-		<figcaption>Person Z</figcaption>
-		<pre><code>alert('Hello!');</code></pre>
-	</figure>
-     </div>
-</div>
 
 
 
