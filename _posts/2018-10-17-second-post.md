@@ -6,6 +6,8 @@ tagline: Here is a second example blog post
 description: Describe here what this blog post is about
 permalink: /2018-10-17-second-post/
 author: Elise Hamerslag
+category: 'biology'
+tag: [psych person]
 
 ---
 

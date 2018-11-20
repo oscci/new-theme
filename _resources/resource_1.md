@@ -23,7 +23,7 @@ Here's what you would explain.
 
 Add a informative picture like this one:
 
-<img src="../images/graph.png" alt="This is a graph" width="300" height="100">
+<img src="../../images/graph.png" alt="This is a graph" width="300" height="100">
 
 **Second subtitle**
 

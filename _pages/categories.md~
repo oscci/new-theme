@@ -1,0 +1,31 @@
+---
+title: "Team members"
+layout: categories
+permalink: /categories/
+---
+
+
+Test
+
+<ul>
+{% for category in site.categories %}
+  <li><a name="{{ category | first }}">{{ category | first }}</a>
+    <ul>
+    {% for page in category.last %}
+      <li><a href="{{ post.url }}">{{ page.title }}</a></li>
+    {% endfor %}
+    </ul>
+  </li>
+{% endfor %}
+</ul>
+
+
+<p>Posts in category "basic" are:</p>
+
+<ul>
+  {% for page in site.categories.basic %}
+    {% if page.url %}
+        <li><a href="{{ post.url }}">{{ page.title }}</a></li>
+    {% endif %}
+  {% endfor %}
+</ul>

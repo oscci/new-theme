@@ -7,9 +7,12 @@ title: E Hamerslag
 tagline: this is a tagline
 description: this is a description
 permalink: /team_members/elise
-type: team_members
+type: collections
+categories: [anthropology, team]
+tags: [anthro team]
 
 author: Elise Hamerslag
+
 
 ---
 
