@@ -19,17 +19,6 @@ row1:
     image_path: /images/face3.jpg
     alt: "photo of person 3"
     btn_label: "Name of person 3"
-
-
-row2:
-  - url: /team_members/about_person1
-    image_path: /images/face4.jpg
-    alt: "photo of person 4"
-    btn_label: "Name of person 4"
-  - url: /team_members/about_person1
-    image_path: /images/face4.jpg
-    alt: "photo of person 4"
-    btn_label: "Name of person 4"
   - url: /team_members/about_person1
     image_path: /images/face4.jpg
     alt: "photo of person 4"
@@ -95,16 +84,15 @@ row4:
 
 This project is led by a group of researchers at the University of Oxford. Here are some of their faces.
 
-**The steering committee**
+### The steering committee
 
 {% include feature_row id="row1" caption="These are the first three faces." %}
 
-{% include feature_row id="row2" caption="These are the first three faces." %}
 
 
-**Our champions**
+### Our champions
 
-Champions are researchers who are promoting reproducibility and open research at their departments.
+Champions are researchers who are promoting reproducibility and open research at their departments. 
 
 <style type="text/css">
 
@@ -135,7 +123,19 @@ div.small_item:nth-child(3n+1) {
 }
 
 
+div.small_item p a {
+  font-size: 0.5em;
+}
+
+div.small_item p {
+  margin: auto 0.1em;
+}
+
+
+
 </style>
+
+#### Medical Sciences
 
 <div class="feature__wrapper">
     <div class="feature__item small_item">
@@ -204,42 +204,233 @@ div.small_item:nth-child(3n+1) {
             <img src="/new-theme/images/face4.jpg" alt="photo of person 48">
           </div>
         <div class="archive__item-body">
-            <p><a href="/new-theme/team_members/about_person1" class="btn ">Name of person 48</a></p>
+            <p><a href="/new-theme/team_members/about_person1" class="btn ">Person 48 name</a></p>
         </div>
       </div>
     </div>
-    <div class="feature__item">
+    <div class="feature__item small_item">
       <div class="archive__item">
           <div class="archive__item-teaser">
             <img src="/new-theme/images/face1.png" alt="photo of person 1">
           </div>
         <div class="archive__item-body">
-            <p><a href="/new-theme/team_members/elise" class="btn ">Name of person 1</a></p>
+            <p><a href="/new-theme/team_members/elise" class="btn ">Jane Doe</a></p>
         </div>
       </div>
     </div>
-    <div class="feature__item">
+    <div class="feature__item small_item">
       <div class="archive__item">
           <div class="archive__item-teaser">
             <img src="/new-theme/images/face1.png" alt="photo of person 1">
           </div>
         <div class="archive__item-body">
-            <p><a href="/new-theme/team_members/elise" class="btn ">Name of person 1</a></p>
+            <p><a href="/new-theme/team_members/elise" class="btn ">Jason Doe</a></p>
         </div>
       </div>
     </div>
-    <div class="feature__item">
+    <div class="feature__item small_item">
       <div class="archive__item">
           <div class="archive__item-teaser">
             <img src="/new-theme/images/face1.png" alt="photo of person 1">
           </div>
         <div class="archive__item-body">
-            <p><a href="/new-theme/team_members/elise" class="btn ">Name of person 1</a></p>
+            <p><a href="/new-theme/team_members/elise" class="btn ">Joanna Jane Doe</a></p>
         </div>
       </div>
     </div>
 </div>
 
+
+
+#### Social Sciences
+
+<div class="feature__wrapper">
+    <div class="feature__item small_item">
+      <div class="archive__item">
+          <div class="archive__item-teaser">
+            <img src="/new-theme/images/face4.jpg" alt="photo of person 42">
+          </div>
+        <div class="archive__item-body">
+            <p><a href="/new-theme/team_members/about_person1" class="btn ">Name of person 42</a></p>
+        </div>
+      </div>
+    </div>
+    <div class="feature__item small_item">
+      <div class="archive__item">
+          <div class="archive__item-teaser">
+            <img src="/new-theme/images/face4.jpg" alt="photo of person 43">
+          </div>
+        <div class="archive__item-body">
+            <p><a href="/new-theme/team_members/about_person1" class="btn ">Name of person 43</a></p>
+        </div>
+      </div>
+    </div>
+    <div class="feature__item small_item">
+      <div class="archive__item">
+          <div class="archive__item-teaser">
+            <img src="/new-theme/images/face4.jpg" alt="photo of person 44">
+          </div>
+        <div class="archive__item-body">
+            <p><a href="/new-theme/team_members/about_person1" class="btn ">Name of person 44</a></p>
+        </div>
+      </div>
+    </div>
+    <div class="feature__item small_item">
+      <div class="archive__item">
+          <div class="archive__item-teaser">
+            <img src="/new-theme/images/face4.jpg" alt="photo of person 45">
+          </div>
+        <div class="archive__item-body">
+            <p><a href="/new-theme/team_members/about_person1" class="btn ">Name of person 45</a></p>
+        </div>
+      </div>
+    </div>
+    <div class="feature__item small_item">
+      <div class="archive__item">
+          <div class="archive__item-teaser">
+            <img src="/new-theme/images/face4.jpg" alt="photo of person 46">
+          </div>
+        <div class="archive__item-body">
+            <p><a href="/new-theme/team_members/about_person1" class="btn ">Name of person 46</a></p>
+        </div>
+      </div>
+    </div>
+    <div class="feature__item small_item">
+      <div class="archive__item">
+          <div class="archive__item-teaser">
+            <img src="/new-theme/images/face4.jpg" alt="photo of person 47">
+          </div>
+        <div class="archive__item-body">
+            <p><a href="/new-theme/team_members/about_person1" class="btn ">Name of person 47</a></p>
+        </div>
+      </div>
+    </div>
+    <div class="feature__item small_item">
+      <div class="archive__item">
+          <div class="archive__item-teaser">
+            <img src="/new-theme/images/face4.jpg" alt="photo of person 48">
+          </div>
+        <div class="archive__item-body">
+            <p><a href="/new-theme/team_members/about_person1" class="btn ">Person 48 name</a></p>
+        </div>
+      </div>
+    </div>
+    <div class="feature__item small_item">
+      <div class="archive__item">
+          <div class="archive__item-teaser">
+            <img src="/new-theme/images/face1.png" alt="photo of person 1">
+          </div>
+        <div class="archive__item-body">
+            <p><a href="/new-theme/team_members/elise" class="btn ">Jane Doe</a></p>
+        </div>
+      </div>
+    </div>
+    <div class="feature__item small_item">
+      <div class="archive__item">
+          <div class="archive__item-teaser">
+            <img src="/new-theme/images/face1.png" alt="photo of person 1">
+          </div>
+        <div class="archive__item-body">
+            <p><a href="/new-theme/team_members/elise" class="btn ">Jason Doe</a></p>
+        </div>
+      </div>
+    </div>
+    <div class="feature__item small_item">
+      <div class="archive__item">
+          <div class="archive__item-teaser">
+            <img src="/new-theme/images/face1.png" alt="photo of person 1">
+          </div>
+        <div class="archive__item-body">
+            <p><a href="/new-theme/team_members/elise" class="btn ">Joanna Jane Doe</a></p>
+        </div>
+      </div>
+    </div>
+</div>
+
+#### Humanities
+
+<div class="feature__wrapper">
+    <div class="feature__item small_item">
+      <div class="archive__item">
+          <div class="archive__item-teaser">
+            <img src="/new-theme/images/face4.jpg" alt="photo of person 42">
+          </div>
+        <div class="archive__item-body">
+            <p><a href="/new-theme/team_members/about_person1" class="btn ">Name of person 42</a></p>
+        </div>
+      </div>
+    </div>
+    <div class="feature__item small_item">
+      <div class="archive__item">
+          <div class="archive__item-teaser">
+            <img src="/new-theme/images/face4.jpg" alt="photo of person 43">
+          </div>
+        <div class="archive__item-body">
+            <p><a href="/new-theme/team_members/about_person1" class="btn ">Name of person 43</a></p>
+        </div>
+      </div>
+    </div>
+    <div class="feature__item small_item">
+      <div class="archive__item">
+          <div class="archive__item-teaser">
+            <img src="/new-theme/images/face4.jpg" alt="photo of person 44">
+          </div>
+        <div class="archive__item-body">
+            <p><a href="/new-theme/team_members/about_person1" class="btn ">Name of person 44</a></p>
+        </div>
+      </div>
+    </div>
+    <div class="feature__item small_item">
+      <div class="archive__item">
+          <div class="archive__item-teaser">
+            <img src="/new-theme/images/face4.jpg" alt="photo of person 45">
+          </div>
+        <div class="archive__item-body">
+            <p><a href="/new-theme/team_members/about_person1" class="btn ">Name of person 45</a></p>
+        </div>
+      </div>
+    </div>
+    <div class="feature__item small_item">
+      <div class="archive__item">
+          <div class="archive__item-teaser">
+            <img src="/new-theme/images/face4.jpg" alt="photo of person 46">
+          </div>
+        <div class="archive__item-body">
+            <p><a href="/new-theme/team_members/about_person1" class="btn ">Name of person 46</a></p>
+        </div>
+      </div>
+    </div>
+    <div class="feature__item small_item">
+      <div class="archive__item">
+          <div class="archive__item-teaser">
+            <img src="/new-theme/images/face4.jpg" alt="photo of person 47">
+          </div>
+        <div class="archive__item-body">
+            <p><a href="/new-theme/team_members/about_person1" class="btn ">Name of person 47</a></p>
+        </div>
+      </div>
+    </div>
+    <div class="feature__item small_item">
+      <div class="archive__item">
+          <div class="archive__item-teaser">
+            <img src="/new-theme/images/face4.jpg" alt="photo of person 48">
+          </div>
+        <div class="archive__item-body">
+            <p><a href="/new-theme/team_members/about_person1" class="btn ">Person 48 name</a></p>
+        </div>
+      </div>
+    </div>
+    <div class="feature__item small_item">
+      <div class="archive__item">
+          <div class="archive__item-teaser">
+            <img src="/new-theme/images/face1.png" alt="photo of person 1">
+          </div>
+        <div class="archive__item-body">
+            <p><a href="/new-theme/team_members/elise" class="btn ">Joanna Jane Doe</a></p>
+        </div>
+      </div>
+    </div>
+</div>
 
 
 

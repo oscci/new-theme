@@ -2,7 +2,7 @@ source "https://rubygems.org"
 gemspec
 
 gem "github-pages", group: :jekyll_plugins
-gem 'jekyll-archives'
+gem "jekyll-archives"
 
 # Hello! This is where you manage which Jekyll version is used to run.
 # When you want to use a different version, change it below, save the
