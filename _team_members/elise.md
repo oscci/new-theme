@@ -3,7 +3,7 @@
 name: Elise Hamerslag
 position: Website Builder
 
-title: E Hamerslag
+title: Elise Hamerslag
 tagline: this is a tagline
 description: this is a description
 permalink: /team_members/elise
@@ -16,4 +16,4 @@ author: Elise Hamerslag
 
 ---
 
-Some bio about Elise.
+Some bio about me.

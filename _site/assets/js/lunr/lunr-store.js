@@ -19,13 +19,18 @@ var store = [{
         "tags": [],
         "url": "http://localhost:4000/new-theme/resources/resource_2/",
         "teaser":null},{
-        "title": "Name of first person",
-        "excerpt":"Person 1 is a great supporter of open science. Having studied [this and that], this person is now [doing x]. ","categories": ["psychology","team"],
+        "title": "Author no. 1",
+        "excerpt":"Person 1 is a great supporter of open science. Having studied X and Y, person 1now has a job as researcher at Z. One major interest within reproducibility ismeta science and the philosophy of probability. ","categories": ["psychology","team"],
         "tags": ["psychology person"],
         "url": "http://localhost:4000/new-theme/team_members/about_person1/",
         "teaser":null},{
-        "title": "E Hamerslag",
-        "excerpt":"Some bio about Elise. ","categories": ["anthropology","team"],
+        "title": "Elise Hamerslag",
+        "excerpt":"Some bio about me. ","categories": ["anthropology","team"],
         "tags": ["anthro team"],
         "url": "http://localhost:4000/new-theme/team_members/elise",
+        "teaser":null},{
+        "title": "Jane Doe",
+        "excerpt":"I got acquainted with open science practices while studying for my PhD inPsychology at University X. At the moment, I lecture students of theundergraduate course in Psychology, and aim to promote these practices for mystudents. I am happy to give lectures regarding the importance of open scienceand data sharing, so...","categories": ["psychology","team"],
+        "tags": ["psychology person"],
+        "url": "http://localhost:4000/new-theme/team_members/person2/",
         "teaser":null}]
