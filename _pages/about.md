@@ -86,14 +86,6 @@ This project is led by a group of researchers at the University of Oxford. Here 
 
 ### The steering committee
 
-{% include feature_row id="row1" caption="These are the first three faces." %}
-
-
-
-### Our champions
-
-Champions are researchers who are promoting reproducibility and open research at their departments. 
-
 <style type="text/css">
 
 div.small_item {
@@ -137,6 +129,121 @@ div.small_item p a.btn {
 
 
 </style>
+
+
+<div class="feature__wrapper">
+    <div class="feature__item small_item">
+      <div class="archive__item">
+          <div class="archive__item-teaser">
+            <img src="/new-theme/images/face1.png" alt="photo of person 42">
+          </div>
+        <div class="archive__item-body">
+            <p><a href="/new-theme/team_members/about_person1" class="btn ">Name of person 42</a></p>
+        </div>
+      </div>
+    </div>
+    <div class="feature__item small_item">
+      <div class="archive__item">
+          <div class="archive__item-teaser">
+            <img src="/new-theme/images/face1.png" alt="photo of person 43">
+          </div>
+        <div class="archive__item-body">
+            <p><a href="/new-theme/team_members/about_person1" class="btn ">Name of person 43</a></p>
+        </div>
+      </div>
+    </div>
+    <div class="feature__item small_item">
+      <div class="archive__item">
+          <div class="archive__item-teaser">
+            <img src="/new-theme/images/face1.png" alt="photo of person 44">
+          </div>
+        <div class="archive__item-body">
+            <p><a href="/new-theme/team_members/about_person1" class="btn ">Name of person 44</a></p>
+        </div>
+      </div>
+    </div>
+    <div class="feature__item small_item">
+      <div class="archive__item">
+          <div class="archive__item-teaser">
+            <img src="/new-theme/images/face1.png" alt="photo of person 45">
+          </div>
+        <div class="archive__item-body">
+            <p><a href="/new-theme/team_members/about_person1" class="btn ">Name of person 45</a></p>
+        </div>
+      </div>
+    </div>
+    <div class="feature__item small_item">
+      <div class="archive__item">
+          <div class="archive__item-teaser">
+            <img src="/new-theme/images/face2.png" alt="photo of person 46">
+          </div>
+        <div class="archive__item-body">
+            <p><a href="/new-theme/team_members/about_person1" class="btn ">Name of person 46</a></p>
+        </div>
+      </div>
+    </div>
+    <div class="feature__item small_item">
+      <div class="archive__item">
+          <div class="archive__item-teaser">
+            <img src="/new-theme/images/face4.jpg" alt="photo of person 47">
+          </div>
+        <div class="archive__item-body">
+            <p><a href="/new-theme/team_members/about_person1" class="btn ">Name of person 47</a></p>
+        </div>
+      </div>
+    </div>
+    <div class="feature__item small_item">
+      <div class="archive__item">
+          <div class="archive__item-teaser">
+            <img src="/new-theme/images/face4.jpg" alt="photo of person 48">
+          </div>
+        <div class="archive__item-body">
+            <p><a href="/new-theme/team_members/about_person1" class="btn ">Person 48 name</a></p>
+        </div>
+      </div>
+    </div>
+    <div class="feature__item small_item">
+      <div class="archive__item">
+          <div class="archive__item-teaser">
+            <img src="/new-theme/images/face4.jpg" alt="photo of person 1">
+          </div>
+        <div class="archive__item-body">
+            <p><a href="/new-theme/team_members/elise" class="btn ">Jane Doe</a></p>
+        </div>
+      </div>
+    </div>
+    <div class="feature__item small_item">
+      <div class="archive__item">
+          <div class="archive__item-teaser">
+            <img src="/new-theme/images/face4.jpg" alt="photo of person 1">
+          </div>
+        <div class="archive__item-body">
+            <p><a href="/new-theme/team_members/elise" class="btn ">Jason Doe</a></p>
+        </div>
+      </div>
+    </div>
+    <div class="feature__item small_item">
+      <div class="archive__item">
+          <div class="archive__item-teaser">
+            <img src="/new-theme/images/face4.jpg" alt="photo of person 1">
+          </div>
+        <div class="archive__item-body">
+            <p><a href="/new-theme/team_members/elise" class="btn ">Joanna Jane Doe</a></p>
+        </div>
+      </div>
+    </div>
+</div>
+
+
+
+
+
+
+### Our champions
+
+Champions are researchers who are promoting reproducibility and open research at their departments. 
+
+
 
 #### Medical Sciences
 
