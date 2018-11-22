@@ -131,6 +131,9 @@ div.small_item p {
   margin: auto 0.1em;
 }
 
+div.small_item p a.btn {
+  width: 100%;
+}
 
 
 </style>
