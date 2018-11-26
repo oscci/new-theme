@@ -82,7 +82,9 @@ row4:
 
 ---
 
-This project is led by a group of researchers at the University of Oxford. Here are some of their faces.
+Reproducible Research Oxford is the local node of the [UK
+Reproducibility Network](https://twitter.com/ukrepro). The project is
+led by a group of researchers at the University of Oxford.
 
 ### The steering committee
 
@@ -239,9 +241,9 @@ div.small_item p a.btn {
 
 
 
-### Our champions
+### Our ambassadors
 
-Champions are researchers who are promoting reproducibility and open research at their departments. 
+Ambassadors are researchers who are promoting reproducibility and open research practices at their departments.
 
 
 

@@ -26,6 +26,12 @@ feature_row:
 
 **Welcome!**
 
-Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus.
+Reproducible Research Oxford is a project based at the [University of
+Oxford](https://ox.ac.uk). We are the local branch of the [UK
+Reproducibility Network](https://twitter.com/ukrepro) and aim to lay
+the groundwork for a culture of reproducibility and open research
+practices at Oxford University. We do this by organising events,
+including a ReproducibiliTea reading group, weekly Open Science
+lectures, and software carpentry workshops.
 
-Discover more [about](/new-theme/about/) what we do, check out our [events](/new-theme/events) and [resources](/new-theme/resources)!
+Discover more [about](/new-theme/about/) who we are, check out our [events](/new-theme/events) and [resources](/new-theme/resources), and find out how to [get involved](/new-theme/get-involved)!
