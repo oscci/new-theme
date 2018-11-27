@@ -9,6 +9,11 @@ var store = [{
         "tags": ["psych person"],
         "url": "http://localhost:4000/new-theme/2018-10-17-second-post/",
         "teaser":null},{
+        "title": "The third post",
+        "excerpt":"This is a test of a third post. ","categories": ["anthropology"],
+        "tags": [],
+        "url": "http://localhost:4000/new-theme/2018-11-27-test-post-3",
+        "teaser":null},{
         "title": "title of the first resource",
         "excerpt":"This is a trial resource page, designed so that anyone can easily write up their resource information and turn it into a beautiful web page. First subtitle Here’s what you would explain. Add a informative picture like this one:  Second subtitle And now refer onwards to the next page ","categories": [],
         "tags": [],

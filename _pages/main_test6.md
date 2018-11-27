@@ -1,5 +1,5 @@
 ---
-title: "RR OX"
+title: "Reproducible Research Oxford"
 type: page
 permalink: /main_test6
 layout: splash

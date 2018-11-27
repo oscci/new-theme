@@ -24,4 +24,8 @@ during Trinity and Michaelmas Term 2018.
 
 **Software and data carpentry workshops**
 
-We've held software and data carpentry workshops in the past.
+We've held software and data carpentry workshops in the past, in order
+to train in the effective use of computational tools in research. This
+was done in a partnership set up with [Software
+Carpentry](https://software-carpentry.org) and [Data
+Carpentry](www.datacarpentry.org).

@@ -9,5 +9,8 @@ type: pages
 
 ---
 
-Get involved by starting to attend our events, or sign up as an
-ambassador!
+Are you passionate about reproducibility and open research? There are
+many ways to get involved, from attending one of our
+[events](/new-theme/events), to becoming an
+[ambassador](new-theme/about)!
+

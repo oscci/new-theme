@@ -84,7 +84,7 @@ row4:
 
 Reproducible Research Oxford is the local node of the [UK
 Reproducibility Network](https://twitter.com/ukrepro). The project is
-led by a group of researchers at the University of Oxford.
+supported by a group of researchers at the University of Oxford.
 
 ### The steering committee
 
