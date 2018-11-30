@@ -31,7 +31,7 @@ Oxford. We are the local branch of the UK Reproducibility Network and
 aim to lay the groundwork for a culture of reproducibility and open
 research practices in Oxford. To that purpose, we organise events, and
 have set up a network of ambassadors who provide information and
-urge conversation on these issues at their departments.
+initiate conversation on these issues at their departments.
 
 If you are passionate about open and reproducible research, do
 **[get involved](/new-theme/get-involved)** with the project!
