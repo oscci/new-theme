@@ -14,11 +14,12 @@ several ways in which you can get involved:
 
 * Attend one of our [events](new-theme/events/).
 * Find out who the current [ambassadors](new-theme/about/) in your department
-are, and contact them on any questions related to robust research practices.
+are, and contact them on any questions related to open and reproducible research
+practices.
 * Become an ambassador yourself - just
-[send an email to us](mailto:ReproducibleResearchOxford@gmail.com) and we'll
+[send us an email](mailto:ReproducibleResearchOxford@gmail.com) and we'll
 make sure your name gets added on our [team page](/new-theme/about)!
 
-For any other questions related to the project, contact us via
+If you have any other questions, contact us via
 [email](mailto:ReproducibleResearchOxford@gmail.com) or
 [Twitter](http://twitter.com/RR_Oxford).

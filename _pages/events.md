@@ -5,8 +5,7 @@ tagline: Join our events!
 description: Events by Reproducible Research Oxford
 permalink: /events/
 
-tags: [events]
-categories: [anthropology]
+categories: [events]
 
 ---
 
