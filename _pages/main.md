@@ -26,12 +26,12 @@ feature_row:
 
 **Welcome!**
 
-Reproducible Research Oxford is a project based at the [University of
-Oxford](https://ox.ac.uk). We are the local branch of the [UK
-Reproducibility Network](https://twitter.com/ukrepro) and aim to lay
-the groundwork for a culture of reproducibility and open research
-practices in Oxford.
+Reproducible Research Oxford is a project based at the University of
+Oxford. We are the local branch of the UK Reproducibility Network and
+aim to lay the groundwork for a culture of reproducibility and open
+research practices in Oxford. We host events related to reproducibility
+and data carpentry, and offer resources to help you get started on using
+open science.
 
-Discover more [about](/new-theme/about/) who we are, check out our
-[events](/new-theme/events) and [resources](/new-theme/resources), and
-find out how to [get involved](/new-theme/get-involved)!
+If you are passionate about open and reproducible research, do
+**[get involved](/new-theme/get-involved)** with the project!

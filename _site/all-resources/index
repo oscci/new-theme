@@ -9,7 +9,7 @@
   <head>
     <meta charset="utf-8">
 
-<!-- begin _includes/seo.html --><title>Reproducible Research Oxford</title>
+<!-- begin _includes/seo.html --><title>Test resources page - Reproducible Research Oxford</title>
 <meta name="description" content="A test of the website.">
 
 
@@ -17,8 +17,8 @@
 <meta property="og:type" content="website">
 <meta property="og:locale" content="en_GB">
 <meta property="og:site_name" content="Reproducible Research Oxford">
-<meta property="og:title" content="Reproducible Research Oxford">
-<meta property="og:url" content="http://localhost:4000/new-theme/">
+<meta property="og:title" content="Test resources page">
+<meta property="og:url" content="http://localhost:4000/new-theme/all-resources/">
 
 
 
@@ -36,7 +36,7 @@
   
 
 
-<link rel="canonical" href="http://localhost:4000/new-theme/">
+<link rel="canonical" href="http://localhost:4000/new-theme/all-resources/">
 
 
 
@@ -100,7 +100,7 @@
 
   </head>
 
-  <body class="layout--single landing">
+  <body class="layout--collection wide">
 
     <!--[if lt IE 9]>
 <div class="notice--danger align-center" style="margin: 0;">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience.</div>
@@ -146,55 +146,55 @@
 <div id="main" role="main">
   
 
-  <article class="page" itemscope itemtype="http://schema.org/CreativeWork">
+  <div class="archive">
     
+      <h1 id="page-title" class="page__title">Test resources page</h1>
     
-    
-    
+    Sample document listing for the collection `_resources`.
 
-    <div class="page__inner-wrap">
+
+<div class="entries-grid">
+  
+
+
+
+
+
+<div class="grid__item">
+  <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
+    
+    <h2 class="archive__item-title" itemprop="headline">
       
-        <header>
-          
-          
-        </header>
+        <a href="/new-theme/resources/resource_1/" rel="permalink">title of the first resource
+</a>
       
-
-      <section class="page__content" itemprop="text">
-        
-        <p><strong>Welcome!</strong></p>
-
-<p>Reproducible Research Oxford is a project based at the University of
-Oxford. We are the local branch of the UK Reproducibility Network and
-aim to lay the groundwork for a culture of reproducibility and open
-research practices in Oxford. We host events related to reproducibility
-and data carpentry, and offer resources to help you get started on using
-open science.</p>
-
-<p>If you are passionate about open and reproducible research, do
-<strong><a href="/new-theme/get-involved">get involved</a></strong> with the project!</p>
-
-        
-      </section>
-
-      <footer class="page__meta">
-        
-        
-
-
-        
-      </footer>
-
-      
-
-      
-    </div>
-
+    </h2>
     
+    <p class="archive__item-excerpt" itemprop="description">This is a trial resource page, designed so that anyone can easily write up their resource information and turn it into a beautiful web page.
+
+</p>
   </article>
+</div>
 
-  
-  
+
+
+<div class="grid__item">
+  <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
+    
+    <h2 class="archive__item-title" itemprop="headline">
+      
+        <a href="/new-theme/resources/resource_2/" rel="permalink">Second resource
+</a>
+      
+    </h2>
+    
+    <p class="archive__item-excerpt" itemprop="description">This is another test of the second resource, as a collection.
+</p>
+  </article>
+</div>
+</div>
+
+  </div>
 </div>
     </div>
 

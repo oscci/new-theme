@@ -12,7 +12,7 @@ header:
 #  excerpt: "Promoting robust research practices at Oxford University"
 
 row1:
-  - excerpt: 'Reproducible Research Oxford is a project based at the
+  - excerpt: "Reproducible Research Oxford is a project based at the
     [University of Oxford](https://ox.ac.uk). We are the local branch
     of the [UK Reproducibility Network](https://twitter.com/ukrepro)
     and aim to lay the groundwork for a culture of reproducible and
@@ -22,7 +22,7 @@ row1:
 
     Discover more [about](/new-theme/about/) who we are, check out our
     [events](/new-theme/events) and [resources](/new-theme/resources),
-    and find out how to [get involved](/new-theme/get-involved)!'
+    and find out how to [get involved](/new-theme/get-involved)!"
 
 
 ---

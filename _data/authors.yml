@@ -10,9 +10,12 @@ Elise Hamerslag:
       url: "mailto:elisehamerslag@gmail.com"
     - label: "Website"
       icon: "fas fa-fw fa-link"
-    # url: ""
+      url: "https://google.com"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
+    - label: "OrciD: test123"
+      icon: "/images/ORCIDiD_iconvector.svg"
+      url: "https://google.com"
     # url: ""
 
 Test author 1:
@@ -45,3 +48,22 @@ Person 2:
     - label: "ResearchGate"
       icon: "fab fa-fw fa-researchgate"
       url: "https://researchgate.com/"
+
+
+Laura Fortunato:
+  name        : "Laura Fortunato"
+  bio         : "Associate Professor of Evolutionary Anthropology"
+  avatar      : "/images/face1.png"
+  links:
+    - label: "Website"
+      icon: "fas fa-fw fa-link"
+      url: "http://tuvalu.santafe.edu/~fortunato"
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope-square"
+      url: "mailto:laura.fortunato@anthro.ox.ac.uk"
+    - label: "Twitter"
+      icon: "fab fa-fw fa-twitter-square"
+      url: "https://twitter.com/anthrolog"
+    - label: "ORCID: tba"
+      icon: "/images/ORCIDiD_iconvector.svg"
+      url: "https://orcid.io"

@@ -34,6 +34,11 @@ var store = [{
         "tags": ["anthro team"],
         "url": "http://localhost:4000/new-theme/team_members/elise",
         "teaser":null},{
+        "title": "Dr. Laura Fortunato",
+        "excerpt":"Laura is an evolutionary anthropologist. Her research focuses on the evolutionof human social and cultural behaviour, working at the interface of anthropologyand biology. She is based in the School of Anthropology and Museum Ethnography as AssociateProfessor of Evolutionary Anthropology. She is also a Fellow of MagdalenCollege, Oxford and an External...","categories": ["anthropology","team"],
+        "tags": [],
+        "url": "http://localhost:4000/new-theme/team_members/laura_fortunato",
+        "teaser":null},{
         "title": "Jane Doe",
         "excerpt":"I got acquainted with open science practices while studying for my PhD inPsychology at University X. At the moment, I lecture students of theundergraduate course in Psychology, and aim to promote these practices for mystudents. I am happy to give lectures regarding the importance of open scienceand data sharing, so...","categories": ["psychology","team"],
         "tags": ["psychology person"],

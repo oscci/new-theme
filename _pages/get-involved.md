@@ -2,7 +2,7 @@
 
 title: Get involved!
 tagline: Get involved!
-description: bHow to get involved with Reproducible Research Oxford
+description: How to get involved with Reproducible Research Oxford
 permalink: /get-involved/
 type: pages
 
@@ -10,7 +10,15 @@ type: pages
 ---
 
 Are you passionate about reproducibility and open research? There are
-many ways to get involved, from attending one of our
-[events](/new-theme/events), to becoming an
-[ambassador](new-theme/about)!
+several ways in which you can get involved:
 
+* Attend one of our [events](new-theme/events/).
+* Find out who the current [ambassadors](new-theme/about/) in your department
+are, and contact them on any questions related to robust research practices.
+* Become an ambassador yourself - just
+[send an email to us](mailto:ReproducibleResearchOxford@gmail.com) and we'll
+make sure your name gets added on our [team page](/new-theme/about)!
+
+For any other questions related to the project, contact us via
+[email](mailto:ReproducibleResearchOxford@gmail.com) or
+[Twitter](http://twitter.com/RR_Oxford).
