@@ -13,9 +13,6 @@ Elise Hamerslag:
       url: "https://google.com"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
-    - label: "OrciD: test123"
-      icon: "/images/ORCIDiD_iconvector.svg"
-      url: "https://google.com"
     # url: ""
 
 Test author 1:
@@ -64,6 +61,6 @@ Laura Fortunato:
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
       url: "https://twitter.com/anthrolog"
-    - label: "ORCID: tba"
-      icon: "/images/ORCIDiD_iconvector.svg"
+    - label: "ORCID"
+      icon: "ai ai-orcid-square"
       url: "https://orcid.io"
