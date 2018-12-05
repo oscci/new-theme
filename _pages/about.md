@@ -85,6 +85,7 @@ row4:
 Reproducible Research Oxford is the local node of the [UK
 Reproducibility Network](https://twitter.com/ukrepro). The project is
 led by a group of researchers at the University of Oxford.
+{: .text-justify}
 
 ### The steering committee
 
@@ -129,6 +130,11 @@ div.small_item p a.btn {
   width: 100%;
 }
 
+
+div.small_item:hover {
+  opacity: 0.75;
+  filter: alpha(opacity=75);
+}
 
 </style>
 
@@ -244,10 +250,9 @@ div.small_item p a.btn {
 ### Our ambassadors
 
 Ambassadors promote reproducibility and open research practices at their
-departments, and can be contacted for any questions relating to this.
-
-We always welcome new ambassadors, so do [get involved](/new-theme/get-involved/)!
-
+departments, and can be contacted about any questions. We always
+[welcome new ambassadors](/new-theme/get-involved/).
+{: .text-justify}
 
 
 #### Medical Sciences

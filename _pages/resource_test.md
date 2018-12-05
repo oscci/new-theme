@@ -1,6 +1,6 @@
 ---
 
-title: Resources
+title: " "
 tagline: Resources for open and reproducible research
 description:
 permalink: /resources/
@@ -11,19 +11,26 @@ collection: resources
 
 ## Practical resources
 
-Management of research data is an important aspect of reproducibility.
-[Research Data Oxford](http://researchdata.ox.ac.uk) has useful
-resources and information to explain what you need to do about data management,
-including the official University of Oxford policy.
+[Research Data Oxford](http://researchdata.ox.ac.uk): contains the official
+Oxford University policy regarding research data management, and has helpful
+information about research data policy.
 {: .text-justify}
 
-The [Open Access Oxford website](http://openaccess.ox.ac.uk) has useful
-resources on open access publishing.
+[Open Access Oxford](http://openaccess.ox.ac.uk) has useful resources on open
+access publishing.
 {: .text-justify}
 
 ## Podcasts
 
-The [ReproducibiliTea podcasts](https://soundcloud.com/reproducibilitea) cover
-topics like questionable research practices, the preregistration evolution, and
-the natural selection of bad science.
+[ReproducibiliTea podcasts](https://soundcloud.com/reproducibilitea): these
+cover topics like questionable research practices, the preregistration
+evolution, and the natural selection of bad science.
 {: .text-justify}
+
+## Other initiatives
+
+[R user group Oxford](https://r-oxford.github.io/) hosts events for all users
+of R
+
+[Codebar Oxford](https://codebar.io/) offers free programming workshops, with
+the goal to make the tech community more diverse!

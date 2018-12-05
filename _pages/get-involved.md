@@ -1,6 +1,6 @@
 ---
 
-title: Get involved!
+title: "Get involved!"
 tagline: Get involved!
 description: How to get involved with Reproducible Research Oxford
 permalink: /get-involved/
@@ -9,10 +9,18 @@ type: pages
 
 ---
 
-Get involved with
+<html>
+<style>
+img:hover {
+  opacity: 0.7;
+  filter: alpha(opacity=70);
+}
+</style>
+</html>
+
+![image-center]({{ site.url }}{{ site.baseurl }}/assets/images/workshop-people.png){: .align-center}
 
 Attend one of our [events](new-theme/events/).
-
 
 
 * Find out who the current [ambassadors](new-theme/about/) in your department
