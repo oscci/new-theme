@@ -9,10 +9,12 @@ type: pages
 
 ---
 
-Are you passionate about reproducibility and open research? There are
-several ways in which you can get involved:
+Get involved with
 
-* Attend one of our [events](new-theme/events/).
+Attend one of our [events](new-theme/events/).
+
+
+
 * Find out who the current [ambassadors](new-theme/about/) in your department
 are, and contact them on any questions related to open and reproducible research
 practices.

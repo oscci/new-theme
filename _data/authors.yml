@@ -50,7 +50,7 @@ Person 2:
 Laura Fortunato:
   name        : "Laura Fortunato"
   bio         : "Associate Professor of Evolutionary Anthropology"
-  avatar      : "/images/face1.png"
+  avatar      : "/assets/images/profile-pic_laura-fortunato.jpg"
   links:
     - label: "Website"
       icon: "fas fa-fw fa-link"

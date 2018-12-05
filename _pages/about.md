@@ -137,7 +137,7 @@ div.small_item p a.btn {
     <div class="feature__item small_item">
       <div class="archive__item">
           <div class="archive__item-teaser">
-            <img src="/new-theme/images/face1.png" alt="photo of person 42">
+            <img src="/new-theme/assets/images/profile-pic_laura-fortunato.jpg" alt="picture of Laura Fortunato">
           </div>
         <div class="archive__item-body">
             <p><a href="/new-theme/team_members/laura_fortunato" class="btn ">Laura Fortunato</a></p>
@@ -147,7 +147,7 @@ div.small_item p a.btn {
     <div class="feature__item small_item">
       <div class="archive__item">
           <div class="archive__item-teaser">
-            <img src="/new-theme/images/face1.png" alt="photo of person 43">
+            <img src="/new-theme/assets/images/face1.png" alt="photo of person 43">
           </div>
         <div class="archive__item-body">
             <p><a href="/new-theme/team_members/about_person1" class="btn ">TBA</a></p>
@@ -157,7 +157,7 @@ div.small_item p a.btn {
     <div class="feature__item small_item">
       <div class="archive__item">
           <div class="archive__item-teaser">
-            <img src="/new-theme/images/face1.png" alt="photo of person 44">
+            <img src="/new-theme/assets/images/face1.png" alt="photo of person 44">
           </div>
         <div class="archive__item-body">
             <p><a href="/new-theme/team_members/about_person1" class="btn ">TBA</a></p>
@@ -167,7 +167,7 @@ div.small_item p a.btn {
     <div class="feature__item small_item">
       <div class="archive__item">
           <div class="archive__item-teaser">
-            <img src="/new-theme/images/face1.png" alt="photo of person 45">
+            <img src="/new-theme/assets/images/face1.png" alt="photo of person 45">
           </div>
         <div class="archive__item-body">
             <p><a href="/new-theme/team_members/about_person1" class="btn ">TBA</a></p>
@@ -177,7 +177,7 @@ div.small_item p a.btn {
     <div class="feature__item small_item">
       <div class="archive__item">
           <div class="archive__item-teaser">
-            <img src="/new-theme/images/face1.png" alt="photo of person 46">
+            <img src="/new-theme/assets/images/face1.png" alt="photo of person 46">
           </div>
         <div class="archive__item-body">
             <p><a href="/new-theme/team_members/about_person1" class="btn ">TBA</a></p>
@@ -187,7 +187,7 @@ div.small_item p a.btn {
     <div class="feature__item small_item">
       <div class="archive__item">
           <div class="archive__item-teaser">
-            <img src="/new-theme/images/face1.png" alt="photo of person 47">
+            <img src="/new-theme/assets/images/face1.png" alt="photo of person 47">
           </div>
         <div class="archive__item-body">
             <p><a href="/new-theme/team_members/about_person1" class="btn ">TBA</a></p>
@@ -197,7 +197,7 @@ div.small_item p a.btn {
     <div class="feature__item small_item">
       <div class="archive__item">
           <div class="archive__item-teaser">
-            <img src="/new-theme/images/face1.png" alt="photo of person 48">
+            <img src="/new-theme/assets/images/face1.png" alt="photo of person 48">
           </div>
         <div class="archive__item-body">
             <p><a href="/new-theme/team_members/about_person1" class="btn ">TBA</a></p>
@@ -207,7 +207,7 @@ div.small_item p a.btn {
     <div class="feature__item small_item">
       <div class="archive__item">
           <div class="archive__item-teaser">
-            <img src="/new-theme/images/face1.png" alt="photo of person 1">
+            <img src="/new-theme/assets/images/face1.png" alt="photo of person 1">
           </div>
         <div class="archive__item-body">
             <p><a href="/new-theme/team_members/elise" class="btn ">TBA</a></p>
@@ -217,7 +217,7 @@ div.small_item p a.btn {
     <div class="feature__item small_item">
       <div class="archive__item">
           <div class="archive__item-teaser">
-            <img src="/new-theme/images/face1.png" alt="photo of person 1">
+            <img src="/new-theme/assets/images/face1.png" alt="photo of person 1">
           </div>
         <div class="archive__item-body">
             <p><a href="/new-theme/team_members/elise" class="btn ">TBA</a></p>
@@ -227,7 +227,7 @@ div.small_item p a.btn {
     <div class="feature__item small_item">
       <div class="archive__item">
           <div class="archive__item-teaser">
-            <img src="/new-theme/images/face1.png" alt="photo of person 1">
+            <img src="/new-theme/assets/images/face1.png" alt="photo of person 1">
           </div>
         <div class="archive__item-body">
             <p><a href="/new-theme/team_members/elise" class="btn ">TBA</a></p>
@@ -256,7 +256,7 @@ We always welcome new ambassadors, so do [get involved](/new-theme/get-involved/
     <div class="feature__item small_item">
       <div class="archive__item">
           <div class="archive__item-teaser">
-            <img src="/new-theme/images/face1.png" alt="photo of person 42">
+            <img src="/new-theme/assets/images/face1.png" alt="photo of person 42">
           </div>
         <div class="archive__item-body">
             <p><a href="/new-theme/team_members/about_person1" class="btn ">TBA</a></p>
@@ -266,7 +266,7 @@ We always welcome new ambassadors, so do [get involved](/new-theme/get-involved/
     <div class="feature__item small_item">
       <div class="archive__item">
           <div class="archive__item-teaser">
-            <img src="/new-theme/images/face1.png" alt="photo of person 43">
+            <img src="/new-theme/assets/images/face1.png" alt="photo of person 43">
           </div>
         <div class="archive__item-body">
             <p><a href="/new-theme/team_members/about_person1" class="btn ">TBA</a></p>
@@ -283,7 +283,7 @@ We always welcome new ambassadors, so do [get involved](/new-theme/get-involved/
     <div class="feature__item small_item">
       <div class="archive__item">
           <div class="archive__item-teaser">
-            <img src="/new-theme/images/face1.png" alt="photo of person 42">
+            <img src="/new-theme/assets/images/face1.png" alt="photo of person 42">
           </div>
         <div class="archive__item-body">
             <p><a href="/new-theme/team_members/about_person1" class="btn ">TBA</a></p>
@@ -293,7 +293,7 @@ We always welcome new ambassadors, so do [get involved](/new-theme/get-involved/
     <div class="feature__item small_item">
       <div class="archive__item">
           <div class="archive__item-teaser">
-            <img src="/new-theme/images/face1.png" alt="photo of person 43">
+            <img src="/new-theme/assets/images/face1.png" alt="photo of person 43">
           </div>
         <div class="archive__item-body">
             <p><a href="/new-theme/team_members/about_person1" class="btn ">TBA</a></p>
@@ -309,7 +309,7 @@ We always welcome new ambassadors, so do [get involved](/new-theme/get-involved/
     <div class="feature__item small_item">
       <div class="archive__item">
           <div class="archive__item-teaser">
-            <img src="/new-theme/images/face1.png" alt="photo of person 42">
+            <img src="/new-theme/assets/images/face1.png" alt="photo of person 42">
           </div>
         <div class="archive__item-body">
             <p><a href="/new-theme/team_members/about_person1" class="btn ">TBA</a></p>
@@ -319,7 +319,7 @@ We always welcome new ambassadors, so do [get involved](/new-theme/get-involved/
     <div class="feature__item small_item">
       <div class="archive__item">
           <div class="archive__item-teaser">
-            <img src="/new-theme/images/face1.png" alt="photo of person 43">
+            <img src="/new-theme/assets/images/face1.png" alt="photo of person 43">
           </div>
         <div class="archive__item-body">
             <p><a href="/new-theme/team_members/about_person1" class="btn ">TBA</a></p>

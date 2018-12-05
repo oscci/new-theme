@@ -8,11 +8,11 @@ classes: landing
 header:
   overlay_color: "#000"
   overlay_filter: "0.4"
-  overlay_image: images/dukehumphreys.jpg
+  overlay_image: assets/images/dukehumphreys.jpg
 #  excerpt: "Promoting robust research practices at Oxford University"
 
 row1:
-  - image_path: /images/dukehumphreys.jpg
+  - image_path: /assets/images/dukehumphreys.jpg
     alt: "About RROxford"
     url: /about/    
     btn_label: "Find out more about us"

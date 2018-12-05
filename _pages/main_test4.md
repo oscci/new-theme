@@ -8,7 +8,7 @@ classes: landing
 header:
   overlay_color: "#000"
   overlay_filter: "0.6"
-  overlay_image: images/dukehumphreys.jpg
+  overlay_image: assets/images/dukehumphreys.jpg
 excerpt: "Promoting robust research practices at Oxford University"  
 
 intro:
@@ -18,7 +18,7 @@ intro:
   research practices.'
 
 row4:
-  - image_path: /images/dukehumphreys.jpg
+  - image_path: /assets/images/dukehumphreys.jpg
     alt: "duke humphreys library"
     title: "About"
     excerpt: "Find out more about the steering committee of Reproducible

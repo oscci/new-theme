@@ -1,28 +1,29 @@
 ---
 
 title: Resources
-tagline: a trial page
-description: resources for robust research practices
+tagline: Resources for open and reproducible research
+description:
 permalink: /resources/
 type: page
 collection: resources
 
-# layout: collection
-
 ---
 
-<!-- Want to make your research more reproducible and learn about open science? This page should give you all the information you need - from information on how to preregister studies, why to make data open access, to how to incorporate reproducible science into your teaching. Or contact one of our champions to give advise! -->
+## Practical resources
 
-Resources on research reproducibility will be added to this page soon.
+Management of research data is an important aspect of reproducibility.
+[Research Data Oxford](http://researchdata.ox.ac.uk) has useful
+resources and information to explain what you need to do about data management,
+including the official University of Oxford policy.
+{: .text-justify}
 
-For now, why not check out our [events](/events/)?
+The [Open Access Oxford website](http://openaccess.ox.ac.uk) has useful
+resources on open access publishing.
+{: .text-justify}
 
-<!---
-**The basics**
+## Podcasts
 
-* [How do I go about preregistering my studies?](/new-theme/resources/resource_1/)
-* [Why should I care about making my data open access?](/new-theme/resources/resource_2/)
-
-**Teaching**
-
-* [How can I incorporate reproducible research practices into my teaching?](/new-theme/2018-10-15-first-post/) -->
+The [ReproducibiliTea podcasts](https://soundcloud.com/reproducibilitea) cover
+topics like questionable research practices, the preregistration evolution, and
+the natural selection of bad science.
+{: .text-justify}
