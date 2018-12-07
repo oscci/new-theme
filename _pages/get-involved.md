@@ -22,14 +22,7 @@ img:hover {
 
 Attend one of our [events](new-theme/events/).
 
+Become an ambassador, and help establish open and reproducible research
+practices in your department! Fill in the form to sign up now.
 
-* Find out who the current [ambassadors](new-theme/about/) in your department
-are, and contact them on any questions related to open and reproducible research
-practices.
-* Become an ambassador yourself - just
-[send us an email](mailto:ReproducibleResearchOxford@gmail.com) and we'll
-make sure your name gets added on our [team page](/new-theme/about)!
-
-If you have any other questions, contact us via
-[email](mailto:ReproducibleResearchOxford@gmail.com) or
-[Twitter](http://twitter.com/RR_Oxford).
+Don't forget to follow us on [Twitter](http://twitter.com/RR_Oxford)!

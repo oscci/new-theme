@@ -143,20 +143,20 @@ div.small_item:hover {
     <div class="feature__item small_item">
       <div class="archive__item">
           <div class="archive__item-teaser">
-            <img src="/new-theme/assets/images/profile-pic_laura-fortunato.jpg" alt="picture of Laura Fortunato">
+            <img src="/new-theme/assets/images/dorothy-bishop.png" alt="picture of Dorothy Bishop">
           </div>
         <div class="archive__item-body">
-            <p><a href="/new-theme/team_members/laura_fortunato" class="btn ">Laura Fortunato</a></p>
+            <p><a href="/new-theme/team_members/about_person1" class="btn ">Dorothy Bishop</a></p>
         </div>
       </div>
     </div>
     <div class="feature__item small_item">
       <div class="archive__item">
           <div class="archive__item-teaser">
-            <img src="/new-theme/assets/images/face1.png" alt="photo of person 43">
+            <img src="/new-theme/assets/images/profile-pic_laura-fortunato.jpg" alt="picture of Laura Fortunato">
           </div>
         <div class="archive__item-body">
-            <p><a href="/new-theme/team_members/about_person1" class="btn ">TBA</a></p>
+            <p><a href="/new-theme/team_members/laura_fortunato" class="btn ">Laura Fortunato</a></p>
         </div>
       </div>
     </div>
@@ -261,10 +261,10 @@ departments, and can be contacted about any questions. We always
     <div class="feature__item small_item">
       <div class="archive__item">
           <div class="archive__item-teaser">
-            <img src="/new-theme/assets/images/face1.png" alt="photo of person 42">
+            <img src="/new-theme/assets/images/dorothy-bishop.png" alt="picture of Dorothy Bishop">
           </div>
         <div class="archive__item-body">
-            <p><a href="/new-theme/team_members/about_person1" class="btn ">TBA</a></p>
+            <p><a href="/new-theme/team_members/about_person1" class="btn ">Dorothy Bishop</a></p>
         </div>
       </div>
     </div>
@@ -288,10 +288,10 @@ departments, and can be contacted about any questions. We always
     <div class="feature__item small_item">
       <div class="archive__item">
           <div class="archive__item-teaser">
-            <img src="/new-theme/assets/images/face1.png" alt="photo of person 42">
+            <img src="/new-theme/assets/images/profile-pic_laura-fortunato.jpg" alt="picture of Laura Fortunato">
           </div>
         <div class="archive__item-body">
-            <p><a href="/new-theme/team_members/about_person1" class="btn ">TBA</a></p>
+            <p><a href="/new-theme/team_members/laura_fortunato" class="btn ">Laura Fortunato</a></p>
         </div>
       </div>
     </div>

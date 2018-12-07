@@ -18,7 +18,7 @@ date!
 will be announced soon.
 {: .text-justify}
 
-![image-center]({{ site.url }}{{ site.baseurl }}/assets/images/workshop-people.png){: .align-center}
+![image-center]({{ site.url }}{{ site.baseurl }}/assets/images/software-carpentry2.png){: .align-center}
 
 
 
@@ -37,6 +37,8 @@ held in Hilary Term 2019!
 
 *Organised by: [Laura Fortunato](/new-theme/team_members/laura_fortunato)*
 
+
+![image-center]({{ site.url }}{{ site.baseurl }}/assets/images/software-carpentry-workshop.png){: .align-center}
 
 ### ReproducibiliTea journal clubs
 
