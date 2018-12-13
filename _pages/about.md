@@ -143,7 +143,7 @@ div.small_item:hover {
     <div class="feature__item small_item">
       <div class="archive__item">
           <div class="archive__item-teaser">
-            <img src="/new-theme/assets/images/dorothy-bishop.png" alt="picture of Dorothy Bishop">
+            <img src="/new-theme/assets/images/team_members/dorothy-bishop.png" alt="picture of Dorothy Bishop">
           </div>
         <div class="archive__item-body">
             <p><a href="/new-theme/team_members/about_person1" class="btn ">Dorothy Bishop</a></p>
@@ -153,7 +153,7 @@ div.small_item:hover {
     <div class="feature__item small_item">
       <div class="archive__item">
           <div class="archive__item-teaser">
-            <img src="/new-theme/assets/images/profile-pic_laura-fortunato.jpg" alt="picture of Laura Fortunato">
+            <img src="/new-theme/assets/images/team_members/profile-pic_laura-fortunato.jpg" alt="picture of Laura Fortunato">
           </div>
         <div class="archive__item-body">
             <p><a href="/new-theme/team_members/laura_fortunato" class="btn ">Laura Fortunato</a></p>
@@ -261,7 +261,7 @@ departments, and can be contacted about any questions. We always
     <div class="feature__item small_item">
       <div class="archive__item">
           <div class="archive__item-teaser">
-            <img src="/new-theme/assets/images/dorothy-bishop.png" alt="picture of Dorothy Bishop">
+            <img src="/new-theme/assets/images/team_members/dorothy-bishop.png" alt="picture of Dorothy">
           </div>
         <div class="archive__item-body">
             <p><a href="/new-theme/team_members/about_person1" class="btn ">Dorothy Bishop</a></p>
@@ -288,7 +288,7 @@ departments, and can be contacted about any questions. We always
     <div class="feature__item small_item">
       <div class="archive__item">
           <div class="archive__item-teaser">
-            <img src="/new-theme/assets/images/profile-pic_laura-fortunato.jpg" alt="picture of Laura Fortunato">
+            <img src="/new-theme/assets/images/team_members/profile-pic_laura-fortunato.jpg" alt="picture of Laura">
           </div>
         <div class="archive__item-body">
             <p><a href="/new-theme/team_members/laura_fortunato" class="btn ">Laura Fortunato</a></p>
@@ -298,10 +298,20 @@ departments, and can be contacted about any questions. We always
     <div class="feature__item small_item">
       <div class="archive__item">
           <div class="archive__item-teaser">
-            <img src="/new-theme/assets/images/face1.png" alt="photo of person 43">
+            <img src="/new-theme/assets/images/team_members/adam-kenny.png" alt="picture of Adam">
           </div>
         <div class="archive__item-body">
-            <p><a href="/new-theme/team_members/about_person1" class="btn ">TBA</a></p>
+            <p><a href="/new-theme/team_members/adam_kenny" class="btn ">Adam Kenny</a></p>
+        </div>
+      </div>
+    </div>
+    <div class="feature__item small_item">
+      <div class="archive__item">
+          <div class="archive__item-teaser">
+            <img src="/new-theme/assets/images/team_members/sarah-de-vries.png" alt="picture of Sarah">
+          </div>
+        <div class="archive__item-body">
+            <p><a href="/new-theme/team_members/sarah_de_vries" class="btn ">Sarah de Vries</a></p>
         </div>
       </div>
     </div>  

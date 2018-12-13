@@ -18,7 +18,7 @@ date!
 will be announced soon.
 {: .text-justify}
 
-![image-center]({{ site.url }}{{ site.baseurl }}/assets/images/software-carpentry2.png){: .align-center}
+![image-center]({{ site.url }}{{ site.baseurl }}/assets/images/about-us.png){: .align-center}
 
 
 

@@ -6,7 +6,7 @@ tagline: This is our first blog post
 description: Describe here what this blog post is about
 permalink: /2018-10-15-first-post/
 author: Test author 1
-categories: [anthropology]
+categories: [test]
 
 ---
 

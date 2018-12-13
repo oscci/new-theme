@@ -50,7 +50,7 @@ Person 2:
 Laura Fortunato:
   name        : "Laura Fortunato"
   bio         : "Associate Professor of Evolutionary Anthropology"
-  avatar      : "/assets/images/profile-pic_laura-fortunato.jpg"
+  avatar      : "/assets/images/team_members/profile-pic_laura-fortunato.jpg"
   links:
     - label: "Website"
       icon: "fas fa-fw fa-link"
@@ -64,3 +64,21 @@ Laura Fortunato:
     - label: "ORCID"
       icon: "ai ai-orcid-square"
       url: "https://orcid.io"
+
+Adam Kenny:
+  name        : "Adam Kenny"
+  bio         : "DPhil student in Cognitive & Evolutionary Anthropology"
+  avatar      : "/assets/images/team_members/adam-kenny.png"
+  links:
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope-square"
+      url: "mailto:adam.kenny@anthro.ox.ac.uk"
+
+Sarah de Vries:
+  name        : "Sarah de Vries"
+  bio         : "DPhil student in Cognitive & Evolutionary Anthropology"
+  avatar      : "/assets/images/team_members/sarah-de-vries.png"
+  links:
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope-square"
+      url: "mailto:sarah.devries@anthro.ox.ac.uk"

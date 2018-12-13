@@ -1,16 +1,16 @@
 var store = [{
         "title": "The first post",
-        "excerpt":"This is a test of a first post. Let’s try to add a fun image!  Second subtitle And now refer onwards to the next page ","categories": ["anthropology"],
+        "excerpt":"This is a test of a first post. Let’s try to add a fun image!  Second subtitle And now refer onwards to the next page ","categories": ["test"],
         "tags": [],
         "url": "http://localhost:4000/new-theme/2018-10-15-first-post/",
         "teaser":null},{
         "title": "The second blog post",
-        "excerpt":"This is a test of a second post. Let’s try to add a lot of text here to see if it adjusts the readingtime. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aeneancommodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibuset magnis dis parturient montes, nascetur ridiculus mus. Donec...","categories": ["biology"],
-        "tags": ["psych person"],
+        "excerpt":"This is a test of a second post. Let’s try to add a lot of text here to see if it adjusts the readingtime. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aeneancommodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibuset magnis dis parturient montes, nascetur ridiculus mus. Donec...","categories": ["test"],
+        "tags": ["test"],
         "url": "http://localhost:4000/new-theme/2018-10-17-second-post/",
         "teaser":null},{
         "title": "The third post",
-        "excerpt":"This is a test of a third post. ","categories": ["anthropology"],
+        "excerpt":"This is a test of a third post. ","categories": ["test"],
         "tags": [],
         "url": "http://localhost:4000/new-theme/2018-11-27-test-post-3",
         "teaser":null},{
@@ -29,6 +29,11 @@ var store = [{
         "tags": ["psychology person"],
         "url": "http://localhost:4000/new-theme/team_members/about_person1/",
         "teaser":null},{
+        "title": "Adam Kenny",
+        "excerpt":"Adam is a DPhil student in Cognitive and Evolutionary Anthropology. ","categories": ["anthropology","team"],
+        "tags": [],
+        "url": "http://localhost:4000/new-theme/team_members/adam_kenny",
+        "teaser":null},{
         "title": "Elise Hamerslag",
         "excerpt":"Some bio about me. ","categories": ["anthropology","team"],
         "tags": ["anthro team"],
@@ -43,4 +48,9 @@ var store = [{
         "excerpt":"I got acquainted with open science practices while studying for my PhD inPsychology at University X. At the moment, I lecture students of theundergraduate course in Psychology, and aim to promote these practices for mystudents. I am happy to give lectures regarding the importance of open scienceand data sharing, so...","categories": ["psychology","team"],
         "tags": ["psychology person"],
         "url": "http://localhost:4000/new-theme/team_members/person2/",
+        "teaser":null},{
+        "title": "Sarah de Vries",
+        "excerpt":"Sarah is a DPhil student in Cognitive and Evolutionary Anthropology. ","categories": ["anthropology","team"],
+        "tags": [],
+        "url": "http://localhost:4000/new-theme/team_members/sarah_de_vries",
         "teaser":null}]
