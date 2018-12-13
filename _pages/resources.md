@@ -21,20 +21,6 @@ information about research data policy.
 access publishing.
 {: .text-justify}
 
-<html>
-<style>
-img:hover {
-  opacity: 0.7;
-  filter: alpha(opacity=70);
-}
-</style>
-</html>
-
-<figure>
-  <img src="{{ site.url }}{{ site.baseurl }}/assets/images/i-can-understand.png" alt="this is an image">
-  <figcaption>A post-it from one of the participants of our software carpentry workshops.</figcaption>
-</figure>
-
 ## Information on reproducibility & open science
 
 [ReproducibiliTea podcasts](https://soundcloud.com/reproducibilitea): these
@@ -59,6 +45,19 @@ listed on this OSF page.
 improve reproducibility.
 {: .text-justify}
 
+<html>
+<style>
+img:hover {
+  opacity: 0.7;
+  filter: alpha(opacity=70);
+}
+</style>
+</html>
+
+<figure>
+  <img src="{{ site.url }}{{ site.baseurl }}/assets/images/for-loops.png" alt="this is an image">
+</figure>
+
 ## Other initiatives in Oxford
 
 [R user group Oxford](https://r-oxford.github.io/) hosts events for all users
@@ -81,3 +80,8 @@ will list updates to our latest events, including the
 **Software and data carpentry workshops** are organised during the year. Follow
 the!
 {: .text-justify}
+
+<figure>
+  <img src="{{ site.url }}{{ site.baseurl }}/assets/images/i-can-understand.png" alt="this is an image">
+  <figcaption>A post-it from one of the participants of our software carpentry workshops.</figcaption>
+</figure>

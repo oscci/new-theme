@@ -6,8 +6,8 @@ permalink: /events/
 
 ---
 
-We have several great initiatives that organise different events relating to
-open and reproducible research.
+We have several great initiatives that organise events related to open and
+reproducible research in Oxford.
 {: .text-justify}
 
 **ReproducibiliTea** journal clubs are held weekly during term time. Follow the
