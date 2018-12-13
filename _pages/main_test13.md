@@ -1,6 +1,6 @@
 ---
 type: page
-permalink: /main_test12
+permalink: /main_test13
 layout: splash
 classes: landing
 

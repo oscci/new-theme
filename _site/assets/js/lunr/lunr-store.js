@@ -50,7 +50,7 @@ var store = [{
         "url": "http://localhost:4000/new-theme/team_members/person2/",
         "teaser":null},{
         "title": "Sarah de Vries",
-        "excerpt":"Sarah is a DPhil student in Cognitive and Evolutionary Anthropology. ","categories": ["anthropology","team"],
+        "excerpt":"Sarah de Vries is a first-year PhD student at the University of Oxford. She is working on an interdisciplinary project led by Laura Fortunato (Evolutionary Anthropology) and Miles Hewstone (Experimental Psychology), funded by the Calleva Research Centre at Magdalen College. She studies how human groups shape social behaviour. Sarah completed...","categories": ["anthropology","team"],
         "tags": [],
         "url": "http://localhost:4000/new-theme/team_members/sarah_de_vries",
         "teaser":null}]
