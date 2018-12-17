@@ -1,9 +1,9 @@
 ---
 title: "People"
-tagline: Find your key contacts
+tagline: "Find your key contacts"
 description: Key people involved in ReproducibleResearchOxford
 permalink: /people/
-type: pages
+type: page
 ---
 
 <div class="initial-content">

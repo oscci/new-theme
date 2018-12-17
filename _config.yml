@@ -198,6 +198,8 @@ markdown_ext: "markdown,mkdown,mkdn,mkd,md"
 # Setting up collections
 collections:
   - team
+  - events
+  - resources
 
 
 # Conversion
