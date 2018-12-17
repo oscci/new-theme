@@ -6,3 +6,53 @@
 
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials
+
+.page__footer {
+  z-index: 30;
+}
+
+.twitter-embedd-wrapper {
+    position: fixed;
+    top: 50%;
+    right: 0;
+    transition: all .3s;
+}
+
+.twitter-embedd-wrapper:hover {
+  top: 0;
+  background-color: #557bcf;
+  padding: 1em 0 1em 1em;
+}
+
+.twitter-embedd-wrapper > svg {
+    top: 50%;
+    left: -2em;
+    background: #557bcf;
+    padding: .2em;
+    margin: 0;
+    z-index: -1;
+    height: 2em;
+    width: 2em;
+    border-top-left-radius: .5em;
+    border-bottom-left-radius: .5em;
+}
+
+.twitter-embedd-wrapper:hover > svg {
+    position: absolute;
+    left: -1em;
+}
+
+.twitter-embedd-wrapper .jekyll-twitter-plugin {
+  display: none;
+  transition: all .3s;
+}
+
+.twitter-embedd-wrapper:hover .jekyll-twitter-plugin {
+  display: block;
+  overflow-y: scroll;
+  max-height: calc(100vh - 2em);
+}
+
+.timeline-Widget {
+  border-radius: 5px 0 0 5px !important;
+}
