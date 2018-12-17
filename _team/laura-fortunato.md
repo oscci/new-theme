@@ -3,16 +3,6 @@
 name: Laura Fortunato
 position: Professor in Evolutionary Anthropology
 
-type: team_members
-title: Dr. Laura Fortunato
-tagline: [this is a tagline]
-description: [this is a description]
-permalink: /team_members/laura_fortunato
-categories: [anthropology, team]
-
-author: Laura Fortunato
-
-
 ---
 
 Laura is an evolutionary anthropologist. Her research focuses on the evolution

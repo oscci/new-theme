@@ -3,16 +3,6 @@
 name: Sarah de Vries
 position: DPhil student in Cognitive and Evolutionary Anthropology
 
-type: team_members
-title: Sarah de Vries
-tagline: [this is a tagline]
-description: [this is a description]
-permalink: /team_members/sarah_de_vries
-categories: [anthropology, team]
-
-author: Sarah de Vries
-
-
 ---
 
 Sarah is a first-year PhD student at the University of Oxford. She is working on an interdisciplinary project studying how human groups shape social behaviour, led by [Laura Fortunato]({{ site.url }}{{ site.baseurl }}/team_members/laura_fortunato/) (Evolutionary Anthropology) and Miles Hewstone (Experimental Psychology), funded by the Calleva Research Centre at Magdalen College.
