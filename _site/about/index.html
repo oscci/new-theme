@@ -178,6 +178,7 @@
       <li><a href="#the-oxford-berlin-summer-school">The Oxford Berlin summer school</a></li>
       <li><a href="#reproducibilitea">ReproducibiliTea</a></li>
       <li><a href="#tier-faculty-development-workshop">TIER Faculty Development Workshop</a></li>
+      <li><a href="#web-masters">Web masters</a></li>
     </ul>
   </li>
 </ul>
@@ -255,7 +256,7 @@ div.small_item:hover {
     <div class="feature__item small_item">
       <div class="archive__item">
           <div class="archive__item-teaser">
-            <img src="/new-theme/assets/images/team_members/profile-pic_laura-fortunato.jpg" alt="photo of Laura Fortunato" />
+            <img src="/new-theme/assets/images/team_members/laura-fortunato.jpg" alt="photo of Laura Fortunato" />
           </div>
         <div class="archive__item-body">
             <p><a href="http://tuvalu.santafe.edu/~fortunato" class="btn ">Laura Fortunato</a></p>
@@ -407,13 +408,38 @@ for more information.</p>
     <div class="feature__item small_item">
       <div class="archive__item">
           <div class="archive__item-teaser">
-            <img src="/new-theme/assets/images/team_members/profile-pic_laura-fortunato.jpg" alt="photo of Laura Fortunato" />
+            <img src="/new-theme/assets/images/team_members/laura-fortunato.jpg" alt="photo of Laura Fortunato" />
           </div>
         <div class="archive__item-body">
             <p><a href="http://tuvalu.santafe.edu/~fortunato" class="btn ">Laura Fortunato</a></p>
         </div>
       </div>
     </div>  
+</div>
+
+<h4 id="web-masters">Web masters</h4>
+
+<div class="feature__wrapper">
+    <div class="feature__item small_item">
+      <div class="archive__item">
+          <div class="archive__item-teaser">
+            <img src="/new-theme/assets/images/team_members/elise-hamerslag.jpg" alt="photo of Elise" />
+          </div>
+        <div class="archive__item-body">
+            <p><a href="/new-theme/team_members/elise" class="btn ">Elise Hamerslag</a></p>
+        </div>
+      </div>
+    </div>  
+    <div class="feature__item small_item">
+      <div class="archive__item">
+          <div class="archive__item-teaser">
+            <img src="/new-theme/assets/images/team_members/matt-jaquiery.png" alt="photo of Matt" />
+          </div>
+        <div class="archive__item-body">
+            <p><a href="https://www.psy.ox.ac.uk/team/matt-jaquiery" class="btn ">Matt Jaquiery</a></p>
+        </div>
+      </div>
+    </div>     
 </div>
 
         
@@ -450,8 +476,26 @@ for more information.</p>
     <div class="page__footer">
       <footer>
         <!-- start custom footer snippets -->
-
+<div class='twitter-embedd-wrapper'>
+  <i class="fab fa-fw fa-twitter-square" aria-hidden="true"></i>
+  <div class='jekyll-twitter-plugin'>
+      <a class="twitter-timeline" data-theme="light" href="https://twitter.com/RR_Oxford?ref_src=twsrc%5Etfw">Tweets by RR_Oxford</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+  </div>
+</div>
+<script>
+  // Keep checking until the twitter widget has loaded, and then remove
+  // those unsightly right-hand border radii
+  function killBorder() {
+    try {
+      document.getElementById('twitter-widget-0').contentWindow.document.querySelector('.timeline-Widget').style.borderRadius = '5px 0 0 5px';
+    } catch(err) {
+      window.setTimeout(killBorder, 100);
+    }
+  }
+  killBorder();
+</script>
 <!-- end custom footer snippets -->
+
         <div class="page__footer-follow">
   <ul class="social-icons">
     

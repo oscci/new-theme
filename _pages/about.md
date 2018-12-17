@@ -113,7 +113,7 @@ div.small_item:hover {
     <div class="feature__item small_item">
       <div class="archive__item">
           <div class="archive__item-teaser">
-            <img src="/new-theme/assets/images/team_members/profile-pic_laura-fortunato.jpg" alt="photo of Laura Fortunato">
+            <img src="/new-theme/assets/images/team_members/laura-fortunato.jpg" alt="photo of Laura Fortunato">
           </div>
         <div class="archive__item-body">
             <p><a href="http://tuvalu.santafe.edu/~fortunato" class="btn ">Laura Fortunato</a></p>
@@ -276,11 +276,37 @@ for more information.
     <div class="feature__item small_item">
       <div class="archive__item">
           <div class="archive__item-teaser">
-            <img src="/new-theme/assets/images/team_members/profile-pic_laura-fortunato.jpg" alt="photo of Laura Fortunato">
+            <img src="/new-theme/assets/images/team_members/laura-fortunato.jpg" alt="photo of Laura Fortunato">
           </div>
         <div class="archive__item-body">
             <p><a href="http://tuvalu.santafe.edu/~fortunato" class="btn ">Laura Fortunato</a></p>
         </div>
       </div>
     </div>  
+</div>
+
+
+#### Web masters
+
+<div class="feature__wrapper">
+    <div class="feature__item small_item">
+      <div class="archive__item">
+          <div class="archive__item-teaser">
+            <img src="/new-theme/assets/images/team_members/elise-hamerslag.jpg" alt="photo of Elise">
+          </div>
+        <div class="archive__item-body">
+            <p><a href="/new-theme/team_members/elise" class="btn ">Elise Hamerslag</a></p>
+        </div>
+      </div>
+    </div>  
+    <div class="feature__item small_item">
+      <div class="archive__item">
+          <div class="archive__item-teaser">
+            <img src="/new-theme/assets/images/team_members/matt-jaquiery.png" alt="photo of Matt">
+          </div>
+        <div class="archive__item-body">
+            <p><a href="https://www.psy.ox.ac.uk/team/matt-jaquiery" class="btn ">Matt Jaquiery</a></p>
+        </div>
+      </div>
+    </div>     
 </div>

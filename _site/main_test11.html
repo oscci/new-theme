@@ -223,8 +223,26 @@
     <div class="page__footer">
       <footer>
         <!-- start custom footer snippets -->
-
+<div class='twitter-embedd-wrapper'>
+  <i class="fab fa-fw fa-twitter-square" aria-hidden="true"></i>
+  <div class='jekyll-twitter-plugin'>
+      <a class="twitter-timeline" data-theme="light" href="https://twitter.com/RR_Oxford?ref_src=twsrc%5Etfw">Tweets by RR_Oxford</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+  </div>
+</div>
+<script>
+  // Keep checking until the twitter widget has loaded, and then remove
+  // those unsightly right-hand border radii
+  function killBorder() {
+    try {
+      document.getElementById('twitter-widget-0').contentWindow.document.querySelector('.timeline-Widget').style.borderRadius = '5px 0 0 5px';
+    } catch(err) {
+      window.setTimeout(killBorder, 100);
+    }
+  }
+  killBorder();
+</script>
 <!-- end custom footer snippets -->
+
         <div class="page__footer-follow">
   <ul class="social-icons">
     
