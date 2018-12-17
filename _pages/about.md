@@ -146,7 +146,7 @@ div.small_item:hover {
             <img src="/new-theme/assets/images/team_members/dorothy-bishop.png" alt="picture of Dorothy Bishop">
           </div>
         <div class="archive__item-body">
-            <p><a href="/new-theme/team_members/about_person1" class="btn ">Dorothy Bishop</a></p>
+            <p><a href="https://www.psy.ox.ac.uk/team/dorothy-bishop" class="btn ">Dorothy Bishop</a></p>
         </div>
       </div>
     </div>
@@ -156,7 +156,7 @@ div.small_item:hover {
             <img src="/new-theme/assets/images/team_members/profile-pic_laura-fortunato.jpg" alt="picture of Laura Fortunato">
           </div>
         <div class="archive__item-body">
-            <p><a href="/new-theme/team_members/laura_fortunato" class="btn ">Laura Fortunato</a></p>
+            <p><a href="http://tuvalu.santafe.edu/~fortunato" class="btn ">Laura Fortunato</a></p>
         </div>
       </div>
     </div>
@@ -166,7 +166,7 @@ div.small_item:hover {
             <img src="/new-theme/assets/images/face1.png" alt="photo of person 44">
           </div>
         <div class="archive__item-body">
-            <p><a href="/new-theme/team_members/about_person1" class="btn ">TBA</a></p>
+            <p><a href="/new-theme/team_members/about_person1" class="btn ">Sally Rumsey</a></p>
         </div>
       </div>
     </div>
@@ -176,7 +176,7 @@ div.small_item:hover {
             <img src="/new-theme/assets/images/face1.png" alt="photo of person 45">
           </div>
         <div class="archive__item-body">
-            <p><a href="/new-theme/team_members/about_person1" class="btn ">TBA</a></p>
+            <p><a href="/new-theme/team_members/about_person1" class="btn ">Amy Warner May</a></p>
         </div>
       </div>
     </div>
@@ -264,7 +264,7 @@ departments, and can be contacted about any questions. We always
             <img src="/new-theme/assets/images/team_members/dorothy-bishop.png" alt="picture of Dorothy">
           </div>
         <div class="archive__item-body">
-            <p><a href="/new-theme/team_members/about_person1" class="btn ">Dorothy Bishop</a></p>
+            <p><a href="https://www.psy.ox.ac.uk/team/dorothy-bishop" class="btn ">Dorothy Bishop</a></p>
         </div>
       </div>
     </div>
@@ -291,7 +291,7 @@ departments, and can be contacted about any questions. We always
             <img src="/new-theme/assets/images/team_members/profile-pic_laura-fortunato.jpg" alt="picture of Laura">
           </div>
         <div class="archive__item-body">
-            <p><a href="/new-theme/team_members/laura_fortunato" class="btn ">Laura Fortunato</a></p>
+            <p><a href="http://tuvalu.santafe.edu/~fortunato" class="btn ">Laura Fortunato</a></p>
         </div>
       </div>
     </div>
@@ -301,7 +301,7 @@ departments, and can be contacted about any questions. We always
             <img src="/new-theme/assets/images/team_members/adam-kenny.png" alt="picture of Adam">
           </div>
         <div class="archive__item-body">
-            <p><a href="/new-theme/team_members/adam_kenny" class="btn ">Adam Kenny</a></p>
+            <p><a href="https://www.icea.ox.ac.uk/people/adam-kenny" class="btn ">Adam Kenny</a></p>
         </div>
       </div>
     </div>
@@ -311,10 +311,20 @@ departments, and can be contacted about any questions. We always
             <img src="/new-theme/assets/images/team_members/sarah-de-vries.png" alt="picture of Sarah">
           </div>
         <div class="archive__item-body">
-            <p><a href="/new-theme/team_members/sarah_de_vries" class="btn ">Sarah de Vries</a></p>
+            <p><a href="https://www.anthro.ox.ac.uk/people/sarah-de-vries" class="btn ">Sarah de Vries</a></p>
         </div>
       </div>
     </div>  
+    <div class="feature__item small_item">
+      <div class="archive__item">
+          <div class="archive__item-teaser">
+            <img src="/new-theme/assets/images/face1.png" alt="photo of person 43">
+          </div>
+        <div class="archive__item-body">
+            <p><a href="/new-theme/team_members/about_person1" class="btn ">TBA</a></p>
+        </div>
+      </div>
+    </div>      
 </div>
 
 
