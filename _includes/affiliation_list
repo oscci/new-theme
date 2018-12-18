@@ -7,10 +7,10 @@
         <button type="button" class="close" data-dismiss="modal">&times;</button>
       </div>
 
-      <div class="modal-body">
+      <div class="modal-body" onclick="$(this).closest('.modal').modal('hide');">
         {% for person in site.team %}
           {% if person.affiliations contains include.affiliation %}
-            <a href="{{ '/' | relative_url }}people/#{{- person.name | replace: " ", "" -}}" onclick="navToCard('#{{- person.name | replace: " ", "" -}}')">
+          <a onclick="openCardURL('{{ ''/'' | relative_url }}people/#{{- person.name | replace: " ", "" -}}')">
               <button type="button" class="btn btn-block">
                 {{ person.name }}
               </button>

@@ -43,6 +43,6 @@ type: page
 
 <script>
   setTimeout(function () {
-    navToCard();
+    openCard();
   }, 100);
 </script>

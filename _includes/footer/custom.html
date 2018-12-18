@@ -18,26 +18,29 @@
   killBorder();
 
   // Accordion effects for cards
-  function navToCard(cardId) {
-    $('.person-card').each(function() {
-      if(this.id !== cardId)
-        this.classList.remove('expand');
-    });
-    
+  function openCard(cardId) {
     if(typeof cardId === 'undefined')
       cardId = window.location.hash;
     else
       window.location.hash = cardId;
 
+    if(cardId[0] !== '#')
+      cardId = '#' + cardId;
+
+    $('.person-card').each(function() {
+      if('#' + this.id !== cardId)
+        this.classList.remove('expand');
+    });
+
     if(cardId === "")
       return;
-    $(cardId)[0].classList.add('expand');
-    $('.modal').modal("hide");
-    // scroll to appropriate place
-    $([document.documentElement, document.body]).animate({
-        scrollTop: $(cardId).offset().top
-    }, 1000);
-    return false; // don't also fire the #main close event
+
+    $(cardId)[0].classList.toggle('expand');
+    $([document.documentElement, document.body]).scrollTop($(cardId).offset().top);
+  }
+
+  function openCardURL(cardURL) {
+    openCard(cardURL.substring(cardURL.search('#')));
   }
 </script>
 <!-- end custom footer snippets -->

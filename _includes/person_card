@@ -1,5 +1,5 @@
 <div class="card person-card" id="{{- person.name | replace: " ", "" -}}">
-  <img src="{{ '/' | relative_url }}assets/images/team_members/{{ person.image_src | default: "blank.png" }}" class="portrait card-img-top" onclick="navToCard('#{{- person.name | replace: " ", "" -}}');"/>
+  <img src="{{ '/' | relative_url }}assets/images/team_members/{{ person.image_src | default: "blank.png" }}" class="portrait card-img-top" onclick="openCard(this.parentElement.id);"/>
   <div class="card-body">
     <h4 class="card-title">
       {{ person.name }}

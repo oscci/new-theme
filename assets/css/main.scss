@@ -32,6 +32,9 @@
 .greedy-nav a, .greedy-nav a:hover {
   color: $primary;
 }
+.hidden-links a {
+  color: $secondary !important;
+}
 .masthead {
   background-color: $secondary;
 }
@@ -42,8 +45,6 @@
 .top-logo {
   height: 3em;
   margin-right: .3em;
-  background-color: $primary;
-  padding: .1em;
 }
 @include media-breakpoint-up(sm) {
   .top-logo {
@@ -96,11 +97,6 @@
   max-height: calc(100vh - 2em);
 }
 
-/* Accordions */
-.card a:focus {
-  outline: none;
-}
-
 /* Cards */
 .person-card-columns {
   display: inline-flex;
@@ -144,4 +140,16 @@
 }
 .person-card .collapse p:first-child {
   text-align: center;
+}
+
+/* Link stuff */
+
+a {
+  font-weight: bold;
+}
+nav a {
+  font-weight: inherit;
+}
+footer a {
+  color: $primary !important;
 }
