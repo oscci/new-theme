@@ -6,9 +6,18 @@ permalink: /people/
 type: page
 ---
 
-<div class="initial-content">
+<div class="initial-content" id="accordion">
   {% for person in site.team %}
-    <h2>{{ person.name }} - {{ person.position }}</h2>
-    <p>{{ person.content | markdownify }}</p>
+    <div class="panel panel-default">
+      <h2 class="panel-title">
+        <a data-toggle="collapse" data-parent="#accordion" data-target="#{{- person.name | replace: " ", "-" -}}" href="javascript:void(0);">{{ person.name }}</a>
+      </h2>
+      <p>{{ person.position }}</p>
+      <div id="{{- person.name | replace: " ", "-" -}}" class="panel-collapse collapse">
+        <div class="panel-body">
+          {{ person.content | markdownify }}
+        </div>
+      </div>
+    </div>
   {% endfor %}
 </div>
