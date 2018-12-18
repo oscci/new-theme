@@ -10,7 +10,7 @@ type: page
   {% for person in site.team %}
     <div class="panel panel-default">
       <h2 class="panel-title">
-        <a data-toggle="collapse" data-parent="#accordion" data-target="#{{- person.name | replace: " ", "-" -}}" href="javascript:void(0);">{{ person.name }}</a>
+        <a data-toggle="collapse" data-parent="#accordion" data-target="#{{- person.name | replace: " ", "-" -}}" href="javascript:void(0);" name="{{- person.name | replace: " ", "" -}}">{{ person.name }}</a>
       </h2>
       <p>{{ person.position }}</p>
       <div id="{{- person.name | replace: " ", "-" -}}" class="panel-collapse collapse">
