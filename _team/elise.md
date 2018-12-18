@@ -2,7 +2,8 @@
 
 name: Elise Hamerslag
 position: Website Builder
-groups: [Anthropology, ReproducibiliTea]
+groups: [ReproducibiliTea]
+affiliations: [Anthropology]
 
 ---
 

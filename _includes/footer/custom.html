@@ -1,5 +1,5 @@
 <!-- start custom footer snippets -->
-<div class='twitter-embedd-wrapper'>
+<div class='twitter-embedd-wrapper' onclick="this.classList.toggle('show')">
   <i class="fab fa-fw fa-twitter-square" aria-hidden="true"></i>
   <div class='jekyll-twitter-plugin'>
       <a class="twitter-timeline" data-theme="light" href="https://twitter.com/RR_Oxford?ref_src=twsrc%5Etfw">Tweets by RR_Oxford</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
@@ -16,5 +16,28 @@
     }
   }
   killBorder();
+
+  // Accordion effects for cards
+  function navToCard(cardId) {
+    $('.person-card').each(function() {
+      if(this.id !== cardId)
+        this.classList.remove('expand');
+    });
+    
+    if(typeof cardId === 'undefined')
+      cardId = window.location.hash;
+    else
+      window.location.hash = cardId;
+
+    if(cardId === "")
+      return;
+    $(cardId)[0].classList.add('expand');
+    $('.modal').modal("hide");
+    // scroll to appropriate place
+    $([document.documentElement, document.body]).animate({
+        scrollTop: $(cardId).offset().top
+    }, 1000);
+    return false; // don't also fire the #main close event
+  }
 </script>
 <!-- end custom footer snippets -->

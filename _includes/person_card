@@ -1,0 +1,34 @@
+<div class="card person-card" id="{{- person.name | replace: " ", "" -}}">
+  <img src="{{ '/' | relative_url }}assets/images/team_members/{{ person.image_src | default: "blank.png" }}" class="portrait card-img-top" onclick="navToCard('#{{- person.name | replace: " ", "" -}}');"/>
+  <div class="card-body">
+    <h4 class="card-title">
+      {{ person.name }}
+    </h4>
+    <div id="{{- person.name | replace: " ", "" -}}-Detail" class="collapse" data-parent="#accordion">
+      <p>{{ person.position }}</p>
+      <div class="panel-body">
+        {{ person.content | markdownify }}
+      </div>
+
+      {% for group in person.groups %}
+        {% if forloop.first == true %}
+          <div class="btn-group">
+        {% endif %}
+            <button type="button" class="btn btn-outline-info" data-toggle="modal" data-target="#{{- group | replace: " ", "" -}}-Modal">{{ group }}</button>
+        {% if forloop.last == true %}
+          </div>
+        {% endif %}
+      {% endfor %}
+
+      {% for group in person.affiliations %}
+        {% if forloop.first == true %}
+          <div class="btn-group">
+        {% endif %}
+            <button type="button" class="btn btn-outline-dark" data-toggle="modal" data-target="#{{- group | replace: " ", "" -}}-ModalAff">{{ group }}</button>
+        {% if forloop.last == true %}
+          </div>
+        {% endif %}
+      {% endfor %}
+    </div>
+  </div>
+</div>
