@@ -1,0 +1,28 @@
+<div class="modal" id="{{ include.group | replace: " ", "" }}-Modal">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content">
+
+      <div class="modal-header">
+        <h4 class="modal-title">{{ include.group }}</h4>
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+      </div>
+
+      <div class="modal-body">
+        {% for person in site.team %}
+          {% if person.groups contains include.group %}
+            <a href="{{ '/' | relative_url }}people/#{{- person.name | replace: " ", "" -}}" onclick="popOff('#{{- person.name | replace: " ", "" -}}')">
+              <button type="button" class="btn btn-block">
+                {{ person.name }}
+              </button>
+            </a>
+          {% endif %}
+        {% endfor %}
+      </div>
+
+      <div class="modal-footer">
+        <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+      </div>
+
+    </div>
+  </div>
+</div>

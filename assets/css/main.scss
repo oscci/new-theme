@@ -89,6 +89,9 @@ div.masthead__inner-wrap {
 }
 
 /* Accordions */
-.panel-title a:focus {
+.card a:focus {
   outline: none;
+}
+.card:hover {
+  cursor: pointer;
 }

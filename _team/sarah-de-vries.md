@@ -2,6 +2,7 @@
 
 name: Sarah de Vries
 position: DPhil student in Cognitive and Evolutionary Anthropology
+groups: [Anthropology]
 
 ---
 
