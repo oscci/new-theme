@@ -103,7 +103,7 @@ div.small_item:hover {
     <div class="feature__item small_item">
       <div class="archive__item">
           <div class="archive__item-teaser">
-            <img src="/new-theme/assets/images/team_members/dorothy-bishop.png" alt="photo of Dorothy Bishop">
+            <img src="/new-theme/assets/images/team_members/dorothy-bishop.jpeg" alt="photo of Dorothy Bishop">
           </div>
         <div class="archive__item-body">
             <p><a href="https://www.psy.ox.ac.uk/team/dorothy-bishop" class="btn ">Dorothy Bishop</a></p>
