@@ -25,7 +25,7 @@ classes: landing
     transform: translate(-50%, -50%);
 }
 
-img {
+.container img {
   opacity: 1;
   filter: alpha(opacity=100);
  -webkit-filter: brightness(45%);
