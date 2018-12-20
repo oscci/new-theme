@@ -1,4 +1,14 @@
 var store = [{
+        "title": "Software and data carpentry",
+        "excerpt":"Software and data carpentry workshops are organised during the year. Followthe Reproducible Research Oxford twitter page toreceive updates on when the next workshop will be held! ","categories": [],
+        "tags": [],
+        "url": "http://localhost:4000/new-theme/events/carpentry/",
+        "teaser":null},{
+        "title": "ReproducibiliTea",
+        "excerpt":"ReproducibiliTea journal clubs are held weekly during term time. Follow thetwitter page for updates, or to requestto sign up to the mailing list. ","categories": [],
+        "tags": [],
+        "url": "http://localhost:4000/new-theme/events/reproducibiliTea/",
+        "teaser":null},{
         "title": "The first post",
         "excerpt":"This is a test of a first post. Let’s try to add a fun image!  Second subtitle And now refer onwards to the next page ","categories": ["test"],
         "tags": [],
@@ -24,33 +34,38 @@ var store = [{
         "tags": [],
         "url": "http://localhost:4000/new-theme/resources/resource_2/",
         "teaser":null},{
-        "title": "Author no. 1",
-        "excerpt":"Person 1 is a great supporter of open science. Having studied X and Y, person 1now has a job as researcher at Z. One major interest within reproducibility ismeta science and the philosophy of probability. ","categories": ["psychology","team"],
-        "tags": ["psychology person"],
-        "url": "http://localhost:4000/new-theme/team_members/about_person1/",
-        "teaser":null},{
         "title": "Adam Kenny",
-        "excerpt":"Adam is a DPhil student in Cognitive and Evolutionary Anthropology. ","categories": ["anthropology","team"],
+        "excerpt":"Adam is a DPhil student in Cognitive and Evolutionary Anthropology. ","categories": [],
         "tags": [],
-        "url": "http://localhost:4000/new-theme/team_members/adam_kenny",
+        "url": "http://localhost:4000/new-theme/team/adam-kenny/",
         "teaser":null},{
-        "title": "Elise Hamerslag",
-        "excerpt":"Some bio about me. ","categories": ["anthropology","team"],
-        "tags": ["anthro team"],
-        "url": "http://localhost:4000/new-theme/team_members/elise",
-        "teaser":null},{
-        "title": "Dr. Laura Fortunato",
-        "excerpt":"Laura is an evolutionary anthropologist. Her research focuses on the evolutionof human social and cultural behaviour, working at the interface of anthropologyand biology. She is based in the School of Anthropology and Museum Ethnography as AssociateProfessor of Evolutionary Anthropology. She is also a Fellow of MagdalenCollege, Oxford and an External...","categories": ["anthropology","team"],
+        "title": "Amy Warner May",
+        "excerpt":"Amy Warner May is the Associate Director of Scholarly Resources at the BodleianLibraries, University of Oxford. ","categories": [],
         "tags": [],
-        "url": "http://localhost:4000/new-theme/team_members/laura_fortunato",
+        "url": "http://localhost:4000/new-theme/team/amy-warner-may/",
         "teaser":null},{
-        "title": "Jane Doe",
-        "excerpt":"I got acquainted with open science practices while studying for my PhD inPsychology at University X. At the moment, I lecture students of theundergraduate course in Psychology, and aim to promote these practices for mystudents. I am happy to give lectures regarding the importance of open scienceand data sharing, so...","categories": ["psychology","team"],
-        "tags": ["psychology person"],
-        "url": "http://localhost:4000/new-theme/team_members/person2/",
-        "teaser":null},{
-        "title": "Sarah de Vries",
-        "excerpt":"Sarah is a first-year PhD student at the University of Oxford. She is working on an interdisciplinary project studying how human groups shape social behaviour, led by Laura Fortunato (Evolutionary Anthropology) and Miles Hewstone (Experimental Psychology), funded by the Calleva Research Centre at Magdalen College. She completed a BSc in...","categories": ["anthropology","team"],
+        "title": "Dorothy Bishop",
+        "excerpt":"Dorothy Bishop is Professor of Developmental Neuropsychology at the Universityof Oxford. ","categories": [],
         "tags": [],
-        "url": "http://localhost:4000/new-theme/team_members/sarah_de_vries",
+        "url": "http://localhost:4000/new-theme/team/dorothy-bishop/",
+        "teaser":null},{
+        "title": "Elise",
+        "excerpt":"Some bio about me. ","categories": [],
+        "tags": [],
+        "url": "http://localhost:4000/new-theme/team/elise/",
+        "teaser":null},{
+        "title": "Laura Fortunato",
+        "excerpt":"Laura is an evolutionary anthropologist. Her research focuses on the evolutionof human social and cultural behaviour, working at the interface of anthropologyand biology. She is based in the School of Anthropology and Museum Ethnography as AssociateProfessor of Evolutionary Anthropology. She is also a Fellow of MagdalenCollege, Oxford and an External...","categories": [],
+        "tags": [],
+        "url": "http://localhost:4000/new-theme/team/laura-fortunato/",
+        "teaser":null},{
+        "title": "Sally Rumsey",
+        "excerpt":"Sally Rumsey (Head of Scholarly Communications &amp; RDM, Bodleian Libraries,University of Oxford) is the Libraries’ strategic lead for scholarlycommunications, including providing advise and writing University policies onaspects of open access. She oversees the university’s repository service forresearch outputs, Oxford University Research Archive(ORA and ORA-Data https://ora.ox.ac.uk/). She is currently liaising with...","categories": [],
+        "tags": [],
+        "url": "http://localhost:4000/new-theme/team/sally-rumsey/",
+        "teaser":null},{
+        "title": "Sarah De Vries",
+        "excerpt":"Sarah is a first-year PhD student at the University of Oxford. She is working on an interdisciplinary project studying how human groups shape social behaviour, led by Laura Fortunato (Evolutionary Anthropology) and Miles Hewstone (Experimental Psychology), funded by the Calleva Research Centre at Magdalen College. She completed a BSc in...","categories": [],
+        "tags": [],
+        "url": "http://localhost:4000/new-theme/team/sarah-de-vries/",
         "teaser":null}]

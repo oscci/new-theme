@@ -93,7 +93,8 @@
 
 
     <!-- start custom head snippets -->
-
+<!-- PT Sans font from Google Fonts -->
+<link href="https://fonts.googleapis.com/css?family=PT+Sans" rel="stylesheet">
 <!-- insert favicons. use https://realfavicongenerator.net/ -->
 
 <!-- end custom head snippets -->
@@ -115,9 +116,15 @@
   <div class="masthead__inner-wrap">
     <div class="masthead__menu">
       <nav id="site-nav" class="greedy-nav">
+        <div class="logo-wrapper">
+          <a href="http://ukrn.org/"><img src="/new-theme//assets/images/UKRN_LOGO10.png" class="top-logo"></a>
+          <a href="https://www.ox.ac.uk/"><img src="/new-theme//assets/images/ox_logo_white_edge.jpg" class="top-logo"></a>
+        </div>
         <a class="site-title" href="/new-theme/">Reproducible Research Oxford</a>
         <ul class="visible-links"><li class="masthead__menu-item">
               <a href="/new-theme/about/" >About</a>
+            </li><li class="masthead__menu-item">
+              <a href="/new-theme/people/" >People</a>
             </li><li class="masthead__menu-item">
               <a href="/new-theme/events/" >Events</a>
             </li><li class="masthead__menu-item">
@@ -245,7 +252,7 @@ and the schedule of speakers, please see the
     <div class="page__footer">
       <footer>
         <!-- start custom footer snippets -->
-<div class='twitter-embedd-wrapper'>
+<div class='twitter-embedd-wrapper' onclick="this.classList.toggle('show')">
   <i class="fab fa-fw fa-twitter-square" aria-hidden="true"></i>
   <div class='jekyll-twitter-plugin'>
       <a class="twitter-timeline" data-theme="light" href="https://twitter.com/RR_Oxford?ref_src=twsrc%5Etfw">Tweets by RR_Oxford</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
@@ -262,6 +269,32 @@ and the schedule of speakers, please see the
     }
   }
   killBorder();
+
+  // Accordion effects for cards
+  function openCard(cardId) {
+    if(typeof cardId === 'undefined')
+      cardId = window.location.hash;
+    else
+      window.location.hash = cardId;
+
+    if(cardId[0] !== '#')
+      cardId = '#' + cardId;
+
+    $('.person-card').each(function() {
+      if('#' + this.id !== cardId)
+        this.classList.remove('expand');
+    });
+
+    if(cardId === "")
+      return;
+
+    $(cardId)[0].classList.toggle('expand');
+    $([document.documentElement, document.body]).scrollTop($(cardId).offset().top);
+  }
+
+  function openCardURL(cardURL) {
+    openCard(cardURL.substring(cardURL.search('#')));
+  }
 </script>
 <!-- end custom footer snippets -->
 
@@ -307,6 +340,7 @@ and the schedule of speakers, please see the
     
   <script src="/new-theme/assets/js/main.min.js"></script>
   <script src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
+  <script src="/new-theme/assets/js/plugins/bootstrap.min.js"></script>
 
 
 

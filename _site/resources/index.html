@@ -93,7 +93,8 @@
 
 
     <!-- start custom head snippets -->
-
+<!-- PT Sans font from Google Fonts -->
+<link href="https://fonts.googleapis.com/css?family=PT+Sans" rel="stylesheet">
 <!-- insert favicons. use https://realfavicongenerator.net/ -->
 
 <!-- end custom head snippets -->
@@ -115,9 +116,15 @@
   <div class="masthead__inner-wrap">
     <div class="masthead__menu">
       <nav id="site-nav" class="greedy-nav">
+        <div class="logo-wrapper">
+          <a href="http://ukrn.org/"><img src="/new-theme//assets/images/UKRN_LOGO10.png" class="top-logo"></a>
+          <a href="https://www.ox.ac.uk/"><img src="/new-theme//assets/images/ox_logo_white_edge.jpg" class="top-logo"></a>
+        </div>
         <a class="site-title" href="/new-theme/">Reproducible Research Oxford</a>
         <ul class="visible-links"><li class="masthead__menu-item">
               <a href="/new-theme/about/" >About</a>
+            </li><li class="masthead__menu-item">
+              <a href="/new-theme/people/" >People</a>
             </li><li class="masthead__menu-item">
               <a href="/new-theme/events/" >Events</a>
             </li><li class="masthead__menu-item">
@@ -168,7 +175,9 @@
 
       <section class="page__content" itemprop="text">
         
-        <h2 id="practical-resources-by-oxford-university">Practical resources by Oxford University</h2>
+        <hr />
+
+<h4 id="oxford-university-resources">Oxford University resources</h4>
 
 <p class="text-justify"><a href="http://researchdata.ox.ac.uk">Research Data Oxford</a>: contains the official
 Oxford University policy regarding research data management, and has helpful
@@ -177,7 +186,15 @@ information about research data policy.</p>
 <p class="text-justify"><a href="http://openaccess.ox.ac.uk">Open Access Oxford</a> has useful resources on open
 access publishing.</p>
 
-<h2 id="information-on-reproducibility--open-science">Information on reproducibility &amp; open science</h2>
+<p class="text-justify"><a href="https://r-oxford.github.io/">R user group Oxford</a> hosts events for all users
+of R.</p>
+
+<p class="text-justify"><a href="https://codebar.io/">Codebar Oxford</a> offers free programming workshops, with
+the goal to make the tech community more diverse!</p>
+
+<hr />
+
+<h4 id="information-on-reproducible--open-science">Information on reproducible &amp; open science</h4>
 
 <p class="text-justify"><a href="https://soundcloud.com/reproducibilitea">ReproducibiliTea podcasts</a>: these
 cover topics like questionable research practices, the preregistration
@@ -210,15 +227,9 @@ img:hover {
   <img src="http://localhost:4000/new-theme/assets/images/for-loops.png" alt="this is an image" />
 </figure>
 
-<h2 id="other-initiatives-in-oxford">Other initiatives in Oxford</h2>
+<hr />
 
-<p class="text-justify"><a href="https://r-oxford.github.io/">R user group Oxford</a> hosts events for all users
-of R.</p>
-
-<p class="text-justify"><a href="https://codebar.io/">Codebar Oxford</a> offers free programming workshops, with
-the goal to make the tech community more diverse!</p>
-
-<h2 id="reproducible-research-events">Reproducible Research events</h2>
+<h4 id="reproducible-research-events">Reproducible Research events</h4>
 
 <p class="text-justify"><a href="https://twitter.com/reproducibilit">ReproducibiliTea twitter page</a>: follow this
 for updates on the ReproducibiliTea journal clubs that are held each week during
@@ -228,11 +239,6 @@ term time in Oxford!</p>
 will list updates to our latest events, including the
 <strong>Software and data carpentry workshops</strong> are organised during the year. Follow
 the!</p>
-
-<figure>
-  <img src="http://localhost:4000/new-theme/assets/images/i-can-understand.png" alt="this is an image" />
-  <figcaption>A post-it from one of the participants of our software carpentry workshops.</figcaption>
-</figure>
 
         
       </section>
@@ -268,7 +274,7 @@ the!</p>
     <div class="page__footer">
       <footer>
         <!-- start custom footer snippets -->
-<div class='twitter-embedd-wrapper'>
+<div class='twitter-embedd-wrapper' onclick="this.classList.toggle('show')">
   <i class="fab fa-fw fa-twitter-square" aria-hidden="true"></i>
   <div class='jekyll-twitter-plugin'>
       <a class="twitter-timeline" data-theme="light" href="https://twitter.com/RR_Oxford?ref_src=twsrc%5Etfw">Tweets by RR_Oxford</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
@@ -285,6 +291,32 @@ the!</p>
     }
   }
   killBorder();
+
+  // Accordion effects for cards
+  function openCard(cardId) {
+    if(typeof cardId === 'undefined')
+      cardId = window.location.hash;
+    else
+      window.location.hash = cardId;
+
+    if(cardId[0] !== '#')
+      cardId = '#' + cardId;
+
+    $('.person-card').each(function() {
+      if('#' + this.id !== cardId)
+        this.classList.remove('expand');
+    });
+
+    if(cardId === "")
+      return;
+
+    $(cardId)[0].classList.toggle('expand');
+    $([document.documentElement, document.body]).scrollTop($(cardId).offset().top);
+  }
+
+  function openCardURL(cardURL) {
+    openCard(cardURL.substring(cardURL.search('#')));
+  }
 </script>
 <!-- end custom footer snippets -->
 
@@ -330,6 +362,7 @@ the!</p>
     
   <script src="/new-theme/assets/js/main.min.js"></script>
   <script src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
+  <script src="/new-theme/assets/js/plugins/bootstrap.min.js"></script>
 
 
 

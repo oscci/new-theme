@@ -20,9 +20,11 @@ img:hover {
 
 ![image-center]({{ site.url }}{{ site.baseurl }}/assets/images/workshop-people.png){: .align-center}
 
-Attend one of our [events](new-theme/events/).
+We'd love for you to get involved! Have you already attended one of our
+[events]({{ site.url }}{{ site.baseurl }}/events/)?
 
-Become an ambassador, and help establish open and reproducible research
-practices in your department! Fill in the form to sign up now.
+Take a look at the [people involved]({{ site.url }}{{ site.baseurl }}/people/)
+in the project and get in touch if you have any questions, or ideas for events.
 
-Don't forget to follow us on [Twitter](http://twitter.com/RR_Oxford)!
+Don't forget to follow us on [Twitter](http://twitter.com/RR_Oxford) to stay up
+to date on everything that's going on!

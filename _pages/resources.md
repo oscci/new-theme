@@ -10,7 +10,9 @@ collection: resources
 
 ---
 
-## Practical resources by Oxford University
+---
+
+#### Oxford University resources
 
 [Research Data Oxford](http://researchdata.ox.ac.uk): contains the official
 Oxford University policy regarding research data management, and has helpful
@@ -21,7 +23,17 @@ information about research data policy.
 access publishing.
 {: .text-justify}
 
-## Information on reproducibility & open science
+[R user group Oxford](https://r-oxford.github.io/) hosts events for all users
+of R.
+{: .text-justify}
+
+[Codebar Oxford](https://codebar.io/) offers free programming workshops, with
+the goal to make the tech community more diverse!
+{: .text-justify}
+
+---
+
+#### Information on reproducible & open science
 
 [ReproducibiliTea podcasts](https://soundcloud.com/reproducibilitea): these
 cover topics like questionable research practices, the preregistration
@@ -58,17 +70,9 @@ img:hover {
   <img src="{{ site.url }}{{ site.baseurl }}/assets/images/for-loops.png" alt="this is an image">
 </figure>
 
-## Other initiatives in Oxford
+---
 
-[R user group Oxford](https://r-oxford.github.io/) hosts events for all users
-of R.
-{: .text-justify}
-
-[Codebar Oxford](https://codebar.io/) offers free programming workshops, with
-the goal to make the tech community more diverse!
-{: .text-justify}
-
-## Reproducible Research events
+#### Reproducible Research events
 
 [ReproducibiliTea twitter page](https://twitter.com/reproducibilit): follow this
 for updates on the ReproducibiliTea journal clubs that are held each week during
@@ -80,8 +84,3 @@ will list updates to our latest events, including the
 **Software and data carpentry workshops** are organised during the year. Follow
 the!
 {: .text-justify}
-
-<figure>
-  <img src="{{ site.url }}{{ site.baseurl }}/assets/images/i-can-understand.png" alt="this is an image">
-  <figcaption>A post-it from one of the participants of our software carpentry workshops.</figcaption>
-</figure>

@@ -2,7 +2,7 @@
 
 name: Laura Fortunato
 position: Professor in Evolutionary Anthropology
-image_src: laura-fortunato.jpg
+image_src: laura-fortunato.png
 affiliations: [Anthropology, Magdalen College]
 groups: [ReproducibiliTea, Steering Committee]
 ---
