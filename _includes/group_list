@@ -8,11 +8,12 @@
       </div>
 
       <div class="modal-body" onclick="$(this).closest('.modal').modal('hide');">
-        {% for person in site.team %}
+        {% assign people = site.team | sort_natural: 'lastname' %}
+        {% for person in people %}
           {% if person.groups contains include.group %}
-            <a onclick="openCardURL('{{ '/' | relative_url }}people/#{{- person.name | replace: " ", "" -}}')">
+            <a onclick="openCardURL('{{ '/' | relative_url }}people/#{{- person.firstname | append: person.lastname | replace: " ", "" -}}')">
               <button type="button" class="btn btn-block">
-                {{ person.name }}
+                {{ person.firstname }} {{ person.lastname }}
               </button>
             </a>
           {% endif %}

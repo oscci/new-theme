@@ -1,6 +1,7 @@
 ---
 
-name: Laura Fortunato
+firstname: Laura
+lastname: Fortunato
 position: Professor in Evolutionary Anthropology
 image_src: laura-fortunato.png
 website: https://www.anthro.ox.ac.uk/people/dr-laura-fortunato

@@ -1,6 +1,7 @@
 ---
 
-name: Sarah de Vries
+firstname: Sarah
+lastname: de Vries
 position: DPhil student in Cognitive and Evolutionary Anthropology
 affiliations: []
 groups: [ReproducibiliTea]

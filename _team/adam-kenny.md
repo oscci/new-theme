@@ -1,6 +1,7 @@
 ---
 
-name: Adam Kenny
+firstname: Adam
+lastname: Kenny
 position: DPhil student in Cognitive and Evolutionary Anthropology
 image_src: adam-kenny.png
 groups: [ReproducibiliTea]

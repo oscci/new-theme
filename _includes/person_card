@@ -1,17 +1,17 @@
-<div class="card person-card" id="{{- person.name | replace: " ", "" -}}">
+<div class="card person-card" id="{{- person.firstname | append: person.lastname | replace: " ", "" -}}">
   <div class="card-top" onclick="openCard(this.parentElement.id);">
     <div class="card-pic">
       <img src="{{ '/' | relative_url }}assets/images/team_members/{{ person.image_src | default: "blank.png" }}" class="portrait"/>
     </div>
     <div class="card-brief">
       <h4 class="card-title">
-        {{ person.name }}
+        {{ person.firstname }} {{ person.lastname }}
       </h4>
       <p>{{ person.position }}</p>
     </div>
   </div>
   <div class="card-body">
-    <div id="{{- person.name | replace: " ", "" -}}-Detail" class="collapse" data-parent="#accordion">
+    <div id="{{- person.firstname | append: person.lastname | replace: " ", "" -}}-Detail" class="collapse" data-parent="#accordion">
       <div class="card-links">
         <ul>
         {% if person.twitter %}

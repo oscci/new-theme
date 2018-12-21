@@ -11,7 +11,8 @@ Below you can find information on many people involved in reproducible research 
 You can also find people by [project group]({{ "/all_groups" | relative_url }}) or [affiliation]({{ "/all_affiliations" | relative_url }}).
 
 <div class="initial-content person-card-columns" id="accordion">
-  {% for person in site.team %}
+  {% assign people = site.team | sort_natural: 'lastname' %}
+  {% for person in people %}
     {% include person_card person=person %}
   {% endfor %}
 </div>
