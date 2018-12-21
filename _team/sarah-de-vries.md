@@ -9,7 +9,7 @@ groups: []
 
 ---
 
-Sarah is a first-year PhD student at the University of Oxford. She is working on an interdisciplinary project studying how human groups shape social behaviour, led by [Laura Fortunato]({{ site.url }}{{ site.baseurl }}/team_members/laura_fortunato/) (Evolutionary Anthropology) and Miles Hewstone (Experimental Psychology), funded by the Calleva Research Centre at Magdalen College.
+Sarah is a first-year PhD student at the University of Oxford. She is working on an interdisciplinary project studying how human groups shape social behaviour, led by [Laura Fortunato]({{ '/people#LauraFortunato' | relative_url }}) (Evolutionary Anthropology) and Miles Hewstone (Experimental Psychology), funded by the Calleva Research Centre at Magdalen College.
 {: .text-justify}
 
 She completed a BSc in Psychology and a MSc in Behavioural Science at Radboud University. She wrote her Bachelor's thesis on the relation between exposure to psychological adversity and deception detection ability. The topic of her Master's thesis was the effect of resource scarcity on prosocial behaviour in a trust game.
