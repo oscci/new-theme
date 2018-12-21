@@ -18,6 +18,7 @@ permalink: /all_affiliations
   {% endif %}
 {% endfor %}
 {% assign affArray = affArray | uniq %}
+{% assign affArray = affArray | sort %}
 
 {% comment %} List each affiliation and the people in it {% endcomment %}
 

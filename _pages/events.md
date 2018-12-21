@@ -22,12 +22,15 @@ permalink: /events/
       </div>
       <div class="card-body collapse" id="{{- event.title | replace: " ", "" -}}" data-parent="#accordion">
         <div class="card-links">
-          <ul>
+          <ul class="border-left border-muted">
+          {% if event.website %}
+            <li><i class="fa fa-globe" aria-hidden="true"></i><a href="{{ event.website }}">Event website</a></li>
+          {% endif %}
           {% if event.twitter %}
             <li><i class="fab fa-fw fa-twitter-square" aria-hidden="true"></i><a href="https://twitter.com/{{ event.twitter }}">@{{ event.twitter }}</a></li>
           {% endif %}
-          {% if event.website %}
-            <li><i class="fa fa-globe" aria-hidden="true"></i><a href="{{ event.website }}">Event website</a></li>
+          {% if event.soundcloud %}
+            <li><i class="fab fa-soundcloud"></i><a href="https://soundcloud.com/{{ event.soundcloud }}">Soundcloud</a></li>
           {% endif %}
           </ul>
         </div>

@@ -6,8 +6,8 @@ position: Professor in Evolutionary Anthropology
 image_src: laura-fortunato.png
 website: https://www.anthro.ox.ac.uk/people/dr-laura-fortunato
 twitter: anthrolog
-affiliations: [Anthropology, Magdalen College]
-groups: [ReproducibiliTea, Steering Committee]
+affiliations: [Anthropology, Magdalen College, Steering Committee]
+groups: [ReproducibiliTea, Software and data carpentry]
 ---
 
 Laura is an evolutionary anthropologist. Her research focuses on the evolution

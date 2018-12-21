@@ -23,7 +23,10 @@ permalink: /all_groups
 
 {% for group in groupArray %}
   <div class="card group-list">
-    <div class="card-header" data-toggle="collapse" data-target="#{{ group }}"><a href="{{ '/' | relative_url }}events/#{{- group | replace: " ", "" -}}">{{ group }}</a></div>
+    <div class="card-header" data-toggle="collapse" data-target="#{{ group }}">
+      <a href="{{ '/' | relative_url }}events/#{{- group | replace: " ", "" -}}">{{ group }}</a>
+      <div class="close"><i class="fas fa-angle-double-down"></i></div>
+    </div>
     <div class="card-body collapse" id="{{ group }}">
       {% for person in site.team %}
         {% if person.groups contains group %}

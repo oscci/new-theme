@@ -4,8 +4,8 @@ firstname: Sally
 lastname: Rumsey
 position: Head of Scholarly Communications & RDM, Bodleian Libraries
 image_src: sally-rumsey.png
-affiliations: [Bodleian]
-groups: [Steering Committee]
+affiliations: [Bodleian, Steering Committee]
+groups: []
 ---
 
 Sally Rumsey (Head of Scholarly Communications & RDM, Bodleian Libraries,
