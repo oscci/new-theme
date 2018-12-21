@@ -25,11 +25,9 @@ permalink: /all_affiliations
     <div class="card-body collapse" id="{{ affiliation }}">
       {% for person in site.team %}
         {% if person.affiliations contains affiliation %}
-          <a href="{{ '/' | relative_url }}people/#{{- person.name | replace: " ", "" -}}">
-            <button type="button" class="btn btn-block">
-              {{ person.name }}
-            </button>
-          </a>
+          <button type="button" class="btn btn-block" onclick="window.location.assign('{{ '/' | relative_url }}people/#{{- person.name | replace: " ", "" -}}')">
+            {{ person.firstname }} {{ person.lastname}}
+          </button>
         {% endif %}
       {% endfor %}
     </div>

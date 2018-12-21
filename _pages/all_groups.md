@@ -25,11 +25,9 @@ permalink: /all_groups
     <div class="card-body collapse" id="{{ group }}">
       {% for person in site.team %}
         {% if person.groups contains group %}
-          <a href="{{ '/' | relative_url }}people/#{{- person.name | replace: " ", "" -}}">
-            <button type="button" class="btn btn-block">
-              {{ person.name }}
-            </button>
-          </a>
+          <button type="button" class="btn btn-block" onclick="window.location.assign('{{ '/' | relative_url }}people/#{{- person.name | replace: " ", "" -}}')">
+            {{ person.firstname }} {{ person.lastname}}
+          </button>
         {% endif %}
       {% endfor %}
     </div>
