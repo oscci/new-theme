@@ -5,47 +5,37 @@ permalink: /
 layout: splash
 classes: landing
 
-
 ---
 
-<html>
-<head>
-<meta name="viewport" content="width=device-width, initial-scale=1">
 <style>
+body {
+  background-image: url({{ 'assets/images/dukehumphreys.jpg' | relative_url }});
+  background-attachment: fixed;
+  background-size: cover;
+  background-position-y: center;
+  margin-bottom: 0 !important;
+}
+.initial-content {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
 .container {
-    position: relative;
-    text-align: center;
-    color: #E1E1E1;
-}
-
-.centered {
-    position: absolute;
-    top: 40%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-}
-
-.container img {
-  opacity: 1;
-  filter: alpha(opacity=100);
- -webkit-filter: brightness(45%);
-  filter: brightness(45%);
+  color: #fff;
+  background-color: #00193b;
+  padding: 1em;
+  text-align: justify;
+    margin-bottom: 3em; /* don't flow into the footer */
 }
 </style>
-</head>
-<body>
-
-
 
 <div class="container">
-  <img src="assets/images/dukehumphreys.jpg" alt="Image">
-  <div class="centered">Reproducible Research Oxford is a project based at the University of
-  Oxford. We are the local branch of the UK Reproducibility Network and
+  <p>Reproducible Research Oxford is a project based at the <a href="https://www.ox.ac.uk/">University of
+  Oxford</a>. We are the local branch of the <a href="http://ukrn.org/">UK Reproducibility Network</a> and
   aim to lay the groundwork for a culture of reproducibility and open
-  research practices in Oxford. To that purpose, we organise events, and
-  have set up a network of ambassadors who provide information and
-  initiate conversation on these issues at their departments.</div>
+  research practices in Oxford.</p>
+  <p>To that purpose, we organise <a href="{{ '/events' | relative_url }}">events</a>, and
+  have set up a network of <a href="{{ '/people' | relative_url }}">ambassadors</a> who provide information and initiate conversation on these issues at their departments. We also maintain a list of helpful <a href="{{ '/resources' | relative_url }}">resources</a>.</p>
+  <p>If you're affiliated with Oxford and are interested in reproducible research, <a href="{{ '/get-involved' | relative_url }}">join us</a>!</p>
 </div>
-
-</body>
-</html>
