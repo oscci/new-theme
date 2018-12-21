@@ -1,8 +1,10 @@
 ---
 
+title: Ambassadors listed by group
 type: page
 permalink: /all_groups
 
+---
 ---
 {% comment %} Iterate through people and build a list of groups {% endcomment %}
 {% assign groupArray = "a, b, c" | split: ", " %}

@@ -1,10 +1,10 @@
 ---
 
-firstname: Elise 
+firstname: Elise
 lastname: Hamerslag
 position: Website Builder
 groups: [ReproducibiliTea]
-affiliations: [Anthropology]
+affiliations: [Anthropology, Website]
 
 ---
 

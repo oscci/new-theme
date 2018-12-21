@@ -5,7 +5,7 @@ description: Key people involved in ReproducibleResearchOxford
 permalink: /people/
 type: page
 ---
-
+---
 Below you can find information on many people involved in reproducible research at Oxford. Click on a person to see more detailed information about them.
 
 You can also find people by [project group]({{ "/all_groups" | relative_url }}) or [affiliation]({{ "/all_affiliations" | relative_url }}).

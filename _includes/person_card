@@ -13,12 +13,21 @@
   <div class="card-body">
     <div id="{{- person.firstname | append: person.lastname | replace: " ", "" -}}-Detail" class="collapse" data-parent="#accordion">
       <div class="card-links">
-        <ul>
+        <ul class="border-left border-muted">
         {% if person.twitter %}
           <li><i class="fab fa-fw fa-twitter-square" aria-hidden="true"></i><a href="https://twitter.com/{{ person.twitter }}">@{{ person.twitter }}</a></li>
         {% endif %}
         {% if person.website %}
           <li><i class="fa fa-globe" aria-hidden="true"></i><a href="{{ person.website }}">Personal website</a></li>
+        {% endif %}
+        {% if person.orcid %}
+          <li><i class="ai ai-orcid-square" aria-hidden="true"></i><a href="https://orcid.org/{{ person.orcid }}">{{ person.orcid }}</a></li>
+        {% endif %}
+        {% if person.github %}
+          <li><i class="fab fa-fw fa-github-square" aria-hidden="true"></i><a href="https://github.com/{{ person.github }}">{{ person.github }}</a></li>
+        {% endif %}
+        {% if person.osf %}
+          <li><i class="ai ai-osf-square" aria-hidden="true"></i><a href="{{ person.osf }}">{{ person.osf }}</a></li>
         {% endif %}
         </ul>
       </div>

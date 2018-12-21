@@ -31,14 +31,14 @@ of R.
 the goal to make the tech community more diverse!
 {: .text-justify}
 
----
-
-#### Information on reproducible & open science
-
 [ReproducibiliTea podcasts](https://soundcloud.com/reproducibilitea): these
 cover topics like questionable research practices, the preregistration
-evolution, and the natural selection of bad science.
+evolution, and the natural selection of bad science. Run by the same team behind the [ReproducibiliTea journal clubs]({{ 'events/#ReproducibiliTea' | relative_url}}).
 {: .text-justify}
+
+---
+
+#### Other resources
 
 [The NeuroAnaTody blog page](http://neuroanatody.com/) by Ana Todorovic has lots
 of useful blog posts on reproducibility and open research, including summaries
@@ -54,33 +54,5 @@ listed on this OSF page.
 
 [Software Carpentry](https://software-carpentry.org) and
 [Data Carpentry](https://www.datacarpentry.org) teach computational methods to
-improve reproducibility.
-{: .text-justify}
-
-<html>
-<style>
-img:hover {
-  opacity: 0.7;
-  filter: alpha(opacity=70);
-}
-</style>
-</html>
-
-<figure>
-  <img src="{{ site.url }}{{ site.baseurl }}/assets/images/for-loops.png" alt="this is an image">
-</figure>
-
----
-
-#### Reproducible Research events
-
-[ReproducibiliTea twitter page](https://twitter.com/reproducibilit): follow this
-for updates on the ReproducibiliTea journal clubs that are held each week during
-term time in Oxford!
-{: .text-justify}
-
-The Reproducible Research Oxford [twitter page](https://twitter.com/rroxford)
-will list updates to our latest events, including the
-**Software and data carpentry workshops** are organised during the year. Follow
-the!
+improve reproducibility. You can attend some of these carpentry [events]({{ 'events/#Softwareanddatacarpentry' | relative_url }}) through Reproducible Research Oxford.
 {: .text-justify}

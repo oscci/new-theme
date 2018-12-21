@@ -5,7 +5,7 @@ description: Key reproducibility events in Oxford
 type: page
 permalink: /events/
 ---
-
+---
 <div class="initial-content" id="accordion">
   {% for event in site.events %}
     <div class="card event">
@@ -16,7 +16,7 @@ permalink: /events/
           </div>
         {% endif %}
         <div class="brief">
-          <p>{{ event.type }}</p>
+          <p class="text-muted">{{ event.type }}</p>
           <h4>{{ event.title }}</h4>
         </div>
       </div>

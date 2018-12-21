@@ -172,15 +172,14 @@
   }
 }
 .card-links ul {
-    display: inline-flex;
-    width: 100%;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    list-style-type: none;
-    margin-bottom: 0;
+  float: right;
+  list-style-type: none;
+  margin: 0 0 .5em 1em;
+  padding: 0 .5em;
 }
 .card-links a {
   margin-left: .5em;
+  font-size: .8em;
 }
 @include media-breakpoint-up(sm) {
   .person-card .panel-body {
@@ -220,6 +219,9 @@
 /* Group list */
 .card{
   margin-bottom: 1em;
+}
+.card-body {
+  font-size: .8em;
 }
 .card.group-list .card-header,
 .card.affiliation-list .card-header,

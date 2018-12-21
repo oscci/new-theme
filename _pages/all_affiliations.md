@@ -1,8 +1,10 @@
 ---
 
+title: Ambassadors listed by affiliation
 type: page
 permalink: /all_affiliations
 
+---
 ---
 {% comment %} Iterate through people and build a list of affiliations {% endcomment %}
 {% assign affArray = "a, b, c" | split: ", " %}
