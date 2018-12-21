@@ -194,6 +194,29 @@
   width: 100%;
 }
 
+/* Event cards */
+.card.event .card-header {
+  display: inline-flex;
+}
+.card.event .brief {
+  height: 100%;
+  width: 100%;
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 1em;
+}
+.card.event .card-header p {
+  margin-bottom: 0;
+}
+.card.event .card-header .logo {
+  width: 6em;
+  height: 6em;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
 /* Group list */
 .card{
   margin-bottom: 1em;

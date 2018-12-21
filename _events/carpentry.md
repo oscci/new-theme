@@ -1,6 +1,8 @@
 ---
 title: Software and data carpentry
 type: workshop
+image_src: carpentry.png
+website: https://software-carpentry.org/about/
 ---
 **Software and data carpentry workshops** are organised during the year. Follow
 the Reproducible Research Oxford [twitter page](https://twitter.com/rroxford) to

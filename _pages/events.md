@@ -10,10 +10,27 @@ permalink: /events/
   {% for event in site.events %}
     <div class="card event">
       <div class="card-header" data-toggle="collapse" data-target="#{{- event.title | replace: " ", "" -}}">
-        <h4>{{ event.title }}</h4>
-        <p>{{ event.type }}</p>
+        {% if event.image_src %}
+          <div class="logo">
+            <img src="{{ 'assets/images/events' | relative_url}}/{{ event.image_src }}"/>
+          </div>
+        {% endif %}
+        <div class="brief">
+          <p>{{ event.type }}</p>
+          <h4>{{ event.title }}</h4>
+        </div>
       </div>
       <div class="card-body collapse" id="{{- event.title | replace: " ", "" -}}" data-parent="#accordion">
+        <div class="card-links">
+          <ul>
+          {% if event.twitter %}
+            <li><i class="fab fa-fw fa-twitter-square" aria-hidden="true"></i><a href="https://twitter.com/{{ event.twitter }}">@{{ event.twitter }}</a></li>
+          {% endif %}
+          {% if event.website %}
+            <li><i class="fa fa-globe" aria-hidden="true"></i><a href="{{ event.website }}">Event website</a></li>
+          {% endif %}
+          </ul>
+        </div>
         <div class="event-detail">
           {{ event.content | markdownify }}
         </div>
