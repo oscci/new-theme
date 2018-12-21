@@ -28,7 +28,7 @@
 
       {% for group in person.groups %}
         {% if forloop.first == true %}
-          <div class="btn-group">
+          <div class="buttons">
         {% endif %}
             <button type="button" class="btn btn-outline-info" data-toggle="modal" data-target="#{{- group | replace: " ", "" -}}-Modal">{{ group }}</button>
         {% if forloop.last == true %}

@@ -1,0 +1,9 @@
+<script>
+  setTimeout(function() {
+    if(window.location.hash === "" || !$(window.location.hash))
+      return;
+
+    $(window.location.hash)[0].classList.add("show");
+    $([document.documentElement, document.body]).scrollTop($(window.location.hash)[0].parentElement.scrollHeight);
+  }, 50);
+</script>

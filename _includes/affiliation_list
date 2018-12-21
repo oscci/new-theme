@@ -13,7 +13,7 @@
           {% if person.affiliations contains include.affiliation %}
           <a onclick="openCardURL('{{ ''/'' | relative_url }}people/#{{- person.firstname | append: person.lastname | replace: " ", "" -}}')">
               <button type="button" class="btn btn-block">
-                {{ person.frstname }} {{ person.lastname }}
+                {{ person.firstname }} {{ person.lastname }}
               </button>
             </a>
           {% endif %}

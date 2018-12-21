@@ -105,13 +105,8 @@
   justify-content: center;
 }
 .person-card {
-  width: calc((100% - 3.5em) / 3);
+  width: calc((100% - 3em) / 3);
   margin: 1em .5em;
-}
-@include media-breakpoint-up(sm) {
-  .person-card {
-    width: calc((100% - 4.5em) / 4);
-  }
 }
 .person-card .card-top {
   cursor: pointer;
@@ -200,10 +195,12 @@
 }
 
 /* Group list */
-.card.group-list, .card.affiliation-list{
+.card{
   margin-bottom: 1em;
 }
-.card.group-list .card-header, .card.affiliation-list .card-header {
+.card.group-list .card-header,
+.card.affiliation-list .card-header,
+.card.event .card-header {
   cursor: pointer;
 }
 
