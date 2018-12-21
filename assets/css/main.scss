@@ -116,6 +116,9 @@
 .person-card .card-pic {
   width: 100%;
 }
+.person-card .card-pic > img {
+  width: 100%;
+}
 @include media-breakpoint-up(sm) {
   .person-card.expand .card-top {
     flex-wrap: nowrap;
@@ -123,6 +126,9 @@
   .person-card.expand .card-pic {
     max-width: 40%;
     margin-right: 1em;
+  }
+  .person-card .card-pic > img {
+    width: unset;
   }
 }
 .person-card.expand {
