@@ -1,11 +1,16 @@
 var store = [{
         "title": "Software and data carpentry",
-        "excerpt":"Software and data carpentry workshops are organised during the year. Followthe Reproducible Research Oxford twitter page toreceive updates on when the next workshop will be held! ","categories": [],
+        "excerpt":"Software and data carpentry workshops are organised during the year. Followthe Reproducible Research Oxford twitter page toreceive updates on when the next workshop will be held!  ","categories": [],
         "tags": [],
         "url": "http://localhost:4000/new-theme/events/carpentry/",
         "teaser":null},{
+        "title": "Oxford-Berlin Summer School",
+        "excerpt":"The Oxford-Berlin Summer School will be held again in the summer of 2019, aftera successful run in 2018. Stay tuned and follow ourtwitter page for more details! ","categories": [],
+        "tags": [],
+        "url": "http://localhost:4000/new-theme/events/oxford-berlin-summer-school/",
+        "teaser":null},{
         "title": "ReproducibiliTea",
-        "excerpt":"ReproducibiliTea journal clubs are held weekly during term time. Follow thetwitter page for updates, or to requestto sign up to the mailing list. ","categories": [],
+        "excerpt":"ReproducibiliTea journal clubs are held weekly during term time. Follow thetwitter page for updates, or to requestto sign up to the mailing list.  ","categories": [],
         "tags": [],
         "url": "http://localhost:4000/new-theme/events/reproducibiliTea/",
         "teaser":null},{
@@ -39,6 +44,11 @@ var store = [{
         "tags": [],
         "url": "http://localhost:4000/new-theme/team/adam-kenny/",
         "teaser":null},{
+        "title": "Amy Orben",
+        "excerpt":"Amy is a DPhil Candidate at the Department of Experimental Psychology. She isone of the organisers of ReprodubiliTea. ","categories": [],
+        "tags": [],
+        "url": "http://localhost:4000/new-theme/team/amy-orben/",
+        "teaser":null},{
         "title": "Amy Warner May",
         "excerpt":"Amy Warner May is the Associate Director of Scholarly Resources at the BodleianLibraries, University of Oxford. ","categories": [],
         "tags": [],
@@ -50,7 +60,7 @@ var store = [{
         "url": "http://localhost:4000/new-theme/team/dorothy-bishop/",
         "teaser":null},{
         "title": "Elise",
-        "excerpt":"Some bio about me. ","categories": [],
+        "excerpt":"Elise worked as a Research Assistant for the Effective Computing of ResearchReproducibility project. ","categories": [],
         "tags": [],
         "url": "http://localhost:4000/new-theme/team/elise/",
         "teaser":null},{
@@ -59,13 +69,28 @@ var store = [{
         "tags": [],
         "url": "http://localhost:4000/new-theme/team/laura-fortunato/",
         "teaser":null},{
+        "title": "Matt Jaquiery",
+        "excerpt":"Matt studies decision-making with Nick Yeung and the Attention and Cognitive Control lab. ","categories": [],
+        "tags": [],
+        "url": "http://localhost:4000/new-theme/team/matt-jaquiery/",
+        "teaser":null},{
         "title": "Sally Rumsey",
         "excerpt":"Sally Rumsey (Head of Scholarly Communications &amp; RDM, Bodleian Libraries,University of Oxford) is the Libraries’ strategic lead for scholarlycommunications, including providing advise and writing University policies onaspects of open access. She oversees the university’s repository service forresearch outputs, Oxford University Research Archive(ORA and ORA-Data https://ora.ox.ac.uk/). She is currently liaising with...","categories": [],
         "tags": [],
         "url": "http://localhost:4000/new-theme/team/sally-rumsey/",
         "teaser":null},{
+        "title": "Sam Parsons",
+        "excerpt":"Sam is a DPhil Candidate at the Department of Experimental Psychology. He isone of the organisers of ReprodubiliTea. ","categories": [],
+        "tags": [],
+        "url": "http://localhost:4000/new-theme/team/sam-parsons/",
+        "teaser":null},{
         "title": "Sarah De Vries",
         "excerpt":"Sarah is a first-year PhD student at the University of Oxford. She is working on an interdisciplinary project studying how human groups shape social behaviour, led by Laura Fortunato (Evolutionary Anthropology) and Miles Hewstone (Experimental Psychology), funded by the Calleva Research Centre at Magdalen College. She completed a BSc in...","categories": [],
         "tags": [],
         "url": "http://localhost:4000/new-theme/team/sarah-de-vries/",
+        "teaser":null},{
+        "title": "Verena Heise",
+        "excerpt":"Verena is an Intermediate Fellow at the Nuffield Department of Population Health.She is the organiser of the Oxford-Berlin Summer School. ","categories": [],
+        "tags": [],
+        "url": "http://localhost:4000/new-theme/team/verena-heise/",
         "teaser":null}]

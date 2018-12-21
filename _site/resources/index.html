@@ -10,7 +10,7 @@
     <meta charset="utf-8">
 
 <!-- begin _includes/seo.html --><title>Resources &amp; materials - Reproducible Research Oxford</title>
-<meta name="description" content="A test of the website.">
+<meta name="description" content="Championing reproducible research practices at the University of Oxford.">
 
 
 
@@ -48,7 +48,7 @@
     {
       "@context": "http://schema.org",
       "@type": "Person",
-      "name": "EM Hamerslag",
+      "name": "Reproducible Research Oxford",
       "url": "http://localhost:4000/new-theme",
       "sameAs": null
     }
@@ -122,8 +122,6 @@
         </div>
         <a class="site-title" href="/new-theme/">Reproducible Research Oxford</a>
         <ul class="visible-links"><li class="masthead__menu-item">
-              <a href="/new-theme/about/" >About</a>
-            </li><li class="masthead__menu-item">
               <a href="/new-theme/people/" >People</a>
             </li><li class="masthead__menu-item">
               <a href="/new-theme/events/" >Events</a>
@@ -192,13 +190,13 @@ of R.</p>
 <p class="text-justify"><a href="https://codebar.io/">Codebar Oxford</a> offers free programming workshops, with
 the goal to make the tech community more diverse!</p>
 
-<hr />
-
-<h4 id="information-on-reproducible--open-science">Information on reproducible &amp; open science</h4>
-
 <p class="text-justify"><a href="https://soundcloud.com/reproducibilitea">ReproducibiliTea podcasts</a>: these
 cover topics like questionable research practices, the preregistration
-evolution, and the natural selection of bad science.</p>
+evolution, and the natural selection of bad science. Run by the same team behind the <a href="/new-theme/events/#ReproducibiliTea">ReproducibiliTea journal clubs</a>.</p>
+
+<hr />
+
+<h4 id="other-resources">Other resources</h4>
 
 <p class="text-justify"><a href="http://neuroanatody.com/">The NeuroAnaTody blog page</a> by Ana Todorovic has lots
 of useful blog posts on reproducibility and open research, including summaries
@@ -212,33 +210,7 @@ listed on this OSF page.</p>
 
 <p class="text-justify"><a href="https://software-carpentry.org">Software Carpentry</a> and
 <a href="https://www.datacarpentry.org">Data Carpentry</a> teach computational methods to
-improve reproducibility.</p>
-
-<html>
-<style>
-img:hover {
-  opacity: 0.7;
-  filter: alpha(opacity=70);
-}
-</style>
-</html>
-
-<figure>
-  <img src="http://localhost:4000/new-theme/assets/images/for-loops.png" alt="this is an image" />
-</figure>
-
-<hr />
-
-<h4 id="reproducible-research-events">Reproducible Research events</h4>
-
-<p class="text-justify"><a href="https://twitter.com/reproducibilit">ReproducibiliTea twitter page</a>: follow this
-for updates on the ReproducibiliTea journal clubs that are held each week during
-term time in Oxford!</p>
-
-<p class="text-justify">The Reproducible Research Oxford <a href="https://twitter.com/rroxford">twitter page</a>
-will list updates to our latest events, including the
-<strong>Software and data carpentry workshops</strong> are organised during the year. Follow
-the!</p>
+improve reproducibility. You can attend some of these carpentry <a href="/new-theme/events/#Softwareanddatacarpentry">events</a> through Reproducible Research Oxford.</p>
 
         
       </section>
@@ -302,12 +274,13 @@ the!</p>
     if(cardId[0] !== '#')
       cardId = '#' + cardId;
 
+    // Close other cards
     $('.person-card').each(function() {
       if('#' + this.id !== cardId)
         this.classList.remove('expand');
     });
 
-    if(cardId === "")
+    if(cardId === "#")
       return;
 
     $(cardId)[0].classList.toggle('expand');
@@ -317,6 +290,24 @@ the!</p>
   function openCardURL(cardURL) {
     openCard(cardURL.substring(cardURL.search('#')));
   }
+
+  function closeCards(e) {
+    // If a card itself was clicked the card already handled the event
+    if(e instanceof Event &&
+      (e.target.closest('.person-card')) || e.target.closest('.modal'))
+      return;
+
+    $('.person-card').each(function() {
+        this.classList.remove('expand');
+    });
+  }
+
+  /* run a little script to ensure the initial-content div adopts the same bottom margin as the body*/
+  function tweakInitialContentMargin() {
+    $('.initial-content').css('margin-bottom', $('.page__footer').outerHeight(true));
+  }
+  setTimeout(tweakInitialContentMargin, 50);
+  window.addEventListener('resize', tweakInitialContentMargin);
 </script>
 <!-- end custom footer snippets -->
 
@@ -348,13 +339,11 @@ the!</p>
           <li><a href="mailto:ReproducibleResearchOxford@gmail.com"><i class="fas fa-fw fa-envelope-square" aria-hidden="true"></i> Email</a></li>
         
       
-    
-
-      <li><a href="/new-theme/feed.xml"><i class="fas fa-fw fa-rss-square" aria-hidden="true"></i> Feed</a></li>  
+     
   </ul>
 </div>
 
-<div class="page__footer-copyright">&copy; 2018 EM Hamerslag. Powered by <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
+<div class="page__footer-copyright">&copy; 2018 Reproducible Research Oxford. Powered by <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
 
       </footer>
     </div>

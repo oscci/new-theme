@@ -8,4 +8,4 @@ website: https://software-carpentry.org/about/
 the Reproducible Research Oxford [twitter page](https://twitter.com/rroxford) to
 receive updates on when the next workshop will be held!
 
-![Software carpentry session]({{ 'assets/images/software-carpentry-workshop.png' | relative_url }})
+![Software carpentry session]({{ 'assets/images/software-carpentry-workshop2.png' | relative_url }})

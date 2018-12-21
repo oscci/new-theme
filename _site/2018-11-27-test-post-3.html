@@ -52,7 +52,7 @@
     {
       "@context": "http://schema.org",
       "@type": "Person",
-      "name": "EM Hamerslag",
+      "name": "Reproducible Research Oxford",
       "url": "http://localhost:4000/new-theme",
       "sameAs": null
     }
@@ -126,8 +126,6 @@
         </div>
         <a class="site-title" href="/new-theme/">Reproducible Research Oxford</a>
         <ul class="visible-links"><li class="masthead__menu-item">
-              <a href="/new-theme/about/" >About</a>
-            </li><li class="masthead__menu-item">
               <a href="/new-theme/people/" >People</a>
             </li><li class="masthead__menu-item">
               <a href="/new-theme/events/" >Events</a>
@@ -445,12 +443,13 @@
     if(cardId[0] !== '#')
       cardId = '#' + cardId;
 
+    // Close other cards
     $('.person-card').each(function() {
       if('#' + this.id !== cardId)
         this.classList.remove('expand');
     });
 
-    if(cardId === "")
+    if(cardId === "#")
       return;
 
     $(cardId)[0].classList.toggle('expand');
@@ -460,6 +459,24 @@
   function openCardURL(cardURL) {
     openCard(cardURL.substring(cardURL.search('#')));
   }
+
+  function closeCards(e) {
+    // If a card itself was clicked the card already handled the event
+    if(e instanceof Event &&
+      (e.target.closest('.person-card')) || e.target.closest('.modal'))
+      return;
+
+    $('.person-card').each(function() {
+        this.classList.remove('expand');
+    });
+  }
+
+  /* run a little script to ensure the initial-content div adopts the same bottom margin as the body*/
+  function tweakInitialContentMargin() {
+    $('.initial-content').css('margin-bottom', $('.page__footer').outerHeight(true));
+  }
+  setTimeout(tweakInitialContentMargin, 50);
+  window.addEventListener('resize', tweakInitialContentMargin);
 </script>
 <!-- end custom footer snippets -->
 
@@ -491,13 +508,11 @@
           <li><a href="mailto:ReproducibleResearchOxford@gmail.com"><i class="fas fa-fw fa-envelope-square" aria-hidden="true"></i> Email</a></li>
         
       
-    
-
-      <li><a href="/new-theme/feed.xml"><i class="fas fa-fw fa-rss-square" aria-hidden="true"></i> Feed</a></li>  
+     
   </ul>
 </div>
 
-<div class="page__footer-copyright">&copy; 2018 EM Hamerslag. Powered by <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
+<div class="page__footer-copyright">&copy; 2018 Reproducible Research Oxford. Powered by <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
 
       </footer>
     </div>

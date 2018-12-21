@@ -2,9 +2,10 @@
 
 firstname: Sarah de
 lastname: Vries
-position: DPhil student in Cognitive and Evolutionary Anthropology
-affiliations: []
-groups: [ReproducibiliTea]
+position: DPhil Candidate in Cognitive and Evolutionary Anthropology
+image_src: sarah-de-vries.png
+affiliations: [Anthropology, Experimental Psychology, Magdalen College]
+groups: []
 
 ---
 

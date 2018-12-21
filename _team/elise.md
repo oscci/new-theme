@@ -3,9 +3,11 @@
 firstname: Elise
 lastname: Hamerslag
 position: Website Builder
-groups: [ReproducibiliTea]
+image_src: elise-hamerslag.jpg
+groups: []
 affiliations: [Anthropology, Website]
 
 ---
 
-Some bio about me.
+Elise worked as a Research Assistant for the Effective Computing of Research
+Reproducibility project.

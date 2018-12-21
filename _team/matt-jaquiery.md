@@ -2,14 +2,14 @@
 
 firstname: Matt
 lastname: Jaquiery
-position: DPhil student in Experimental Psychology
+position: DPhil Candidate in Experimental Psychology
 image_src: matt-jaquiery.png
 twitter: mjaquiery
 orcid: 0000-0003-3599-1580
 github: mjaquiery
 osf: https://osf.io/bc9xt/
 website: https://github.com/oxacclab/
-groups: [ReproducibiliTea]
+groups: []
 affiliations: [Experimental Psychology, Website]
 
 ---
