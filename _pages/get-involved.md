@@ -8,15 +8,7 @@ type: pages
 
 
 ---
-
-<html>
-<style>
-img:hover {
-  opacity: 0.7;
-  filter: alpha(opacity=70);
-}
-</style>
-</html>
+---
 
 ![image-center]({{ site.url }}{{ site.baseurl }}/assets/images/workshop-people.png){: .align-center}
 

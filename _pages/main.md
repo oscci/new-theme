@@ -9,7 +9,7 @@ classes: landing
 
 <style>
 body {
-  background-image: url({{ 'assets/images/dukehumphreys.jpg' | relative_url }});
+  background-image: url({{ 'assets/images/radcliffe_camera.jpg' | relative_url }});
   background-attachment: fixed;
   background-size: cover;
   background-position-y: center;
@@ -26,7 +26,6 @@ body {
   background-color: #00193b;
   padding: 1em;
   text-align: justify;
-    margin-bottom: 3em; /* don't flow into the footer */
 }
 </style>
 

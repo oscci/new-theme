@@ -55,5 +55,11 @@
     });
   }
 
+  /* run a little script to ensure the initial-content div adopts the same bottom margin as the body*/
+  function tweakInitialContentMargin() {
+    $('.initial-content').css('margin-bottom', $('.page__footer').outerHeight(true));
+  }
+  setTimeout(tweakInitialContentMargin, 50);
+  window.addEventListener('resize', tweakInitialContentMargin);
 </script>
 <!-- end custom footer snippets -->
