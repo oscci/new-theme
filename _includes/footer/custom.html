@@ -27,6 +27,7 @@
     if(cardId[0] !== '#')
       cardId = '#' + cardId;
 
+    // Close other cards
     $('.person-card').each(function() {
       if('#' + this.id !== cardId)
         this.classList.remove('expand');
@@ -42,5 +43,17 @@
   function openCardURL(cardURL) {
     openCard(cardURL.substring(cardURL.search('#')));
   }
+
+  function closeCards(e) {
+    // If a card itself was clicked the card already handled the event
+    if(e instanceof Event &&
+      (e.target.closest('.person-card')) || e.target.closest('.modal'))
+      return;
+
+    $('.person-card').each(function() {
+        this.classList.remove('expand');
+    });
+  }
+
 </script>
 <!-- end custom footer snippets -->

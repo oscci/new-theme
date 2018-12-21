@@ -12,6 +12,7 @@
 .logo-wrapper {
   display: inline-flex;
   padding: .1em;
+  min-width: 8em;
 }
 .logo-wrapper a {
   margin: 0;
@@ -112,38 +113,101 @@
     width: calc((100% - 4.5em) / 4);
   }
 }
-.person-card .card-img-top {
+.person-card .card-top {
   cursor: pointer;
+  display: inline-flex;
+  flex-wrap: wrap;
+}
+.person-card .card-pic {
+  width: 100%;
+}
+@include media-breakpoint-up(sm) {
+  .person-card.expand .card-top {
+    flex-wrap: nowrap;
+  }
+  .person-card.expand .card-pic {
+    max-width: 40%;
+    margin-right: 1em;
+  }
 }
 .person-card.expand {
   width: 100%;
-  clear: both;
+  max-width: 90vw;
+}
+.person-card.expand .card-brief {
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+}
+@include media-breakpoint-up(sm) {
+  width: unset;
 }
 .person-card.expand .collapse:first-of-type {
   display: unset;
 }
+.person-card .card-brief {
+  width: 100%;
+}
 .person-card h4 {
-  font-size: 0.6rem;
+  font-size: 0.8rem;
   text-align: center;
+  margin: .5em 0;
 }
 .person-card.expand h4 {
   font-size: 1.5rem;
+  margin: 0;
 }
-.person-card .card-title {
+.person-card .card-brief p {
+  text-align: center;
+  font-size: .6rem;
   margin-bottom: 0;
+}
+.person-card.expand .card-brief p {
+  text-align: center;
+  font-size: unset;
+}
+@include media-breakpoint-up(sm) {
+  .person-card.expand h4 {
+    margin-bottom: .5em;
+    text-align: left;
+  }
+  .person-card.expand .card-brief p {
+    text-align: left;
+  }
+}
+.card-links ul {
+    display: inline-flex;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    list-style-type: none;
+    margin-bottom: 0;
+}
+.card-links a {
+  margin-left: .5em;
+}
+@include media-breakpoint-up(sm) {
+  .person-card .panel-body {
+    text-align: justify;
+  }
 }
 .person-card:not(.expand) .card-body {
   padding: .2em;
 }
-.person-card .btn-group {
+.person-card .buttons {
   width: 100%;
 }
-.person-card .collapse p:first-child {
-  text-align: center;
+
+/* Group list */
+.card.group-list, .card.affiliation-list{
+  margin-bottom: 1em;
+}
+.card.group-list .card-header, .card.affiliation-list .card-header {
+  cursor: pointer;
 }
 
 /* Link stuff */
-
 a {
   font-weight: bold;
 }

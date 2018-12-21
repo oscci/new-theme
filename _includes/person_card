@@ -1,11 +1,27 @@
 <div class="card person-card" id="{{- person.name | replace: " ", "" -}}">
-  <img src="{{ '/' | relative_url }}assets/images/team_members/{{ person.image_src | default: "blank.png" }}" class="portrait card-img-top" onclick="openCard(this.parentElement.id);"/>
-  <div class="card-body">
-    <h4 class="card-title">
-      {{ person.name }}
-    </h4>
-    <div id="{{- person.name | replace: " ", "" -}}-Detail" class="collapse" data-parent="#accordion">
+  <div class="card-top" onclick="openCard(this.parentElement.id);">
+    <div class="card-pic">
+      <img src="{{ '/' | relative_url }}assets/images/team_members/{{ person.image_src | default: "blank.png" }}" class="portrait"/>
+    </div>
+    <div class="card-brief">
+      <h4 class="card-title">
+        {{ person.name }}
+      </h4>
       <p>{{ person.position }}</p>
+    </div>
+  </div>
+  <div class="card-body">
+    <div id="{{- person.name | replace: " ", "" -}}-Detail" class="collapse" data-parent="#accordion">
+      <div class="card-links">
+        <ul>
+        {% if person.twitter %}
+          <li><i class="fab fa-fw fa-twitter-square" aria-hidden="true"></i><a href="https://twitter.com/{{ person.twitter }}">@{{ person.twitter }}</a></li>
+        {% endif %}
+        {% if person.website %}
+          <li><i class="fa fa-globe" aria-hidden="true"></i><a href="{{ person.website }}">Personal website</a></li>
+        {% endif %}
+        </ul>
+      </div>
       <div class="panel-body">
         {{ person.content | markdownify }}
       </div>
@@ -22,7 +38,7 @@
 
       {% for group in person.affiliations %}
         {% if forloop.first == true %}
-          <div class="btn-group">
+          <div class="buttons">
         {% endif %}
             <button type="button" class="btn btn-outline-dark" data-toggle="modal" data-target="#{{- group | replace: " ", "" -}}-ModalAff">{{ group }}</button>
         {% if forloop.last == true %}
