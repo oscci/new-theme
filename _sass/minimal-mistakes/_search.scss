@@ -73,7 +73,7 @@
   &.is--visible {
     display: block;
     visibility: visible;
-    background-color: $search-background-color;
+    background-color: 'lightblue';
 
     &::after {
       content: "";
