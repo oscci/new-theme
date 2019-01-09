@@ -6,6 +6,9 @@ position: Professor in Evolutionary Anthropology
 image_src: laura-fortunato.png
 website: https://www.anthro.ox.ac.uk/people/dr-laura-fortunato
 twitter: anthrolog
+orcid: 0000-0001-8546-9497
+github: laurafortunato
+osf: https://osf.io/ekmjy/
 affiliations: [Anthropology, Magdalen College, Steering Committee]
 groups: [Software and data carpentry]
 ---
