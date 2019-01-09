@@ -23,4 +23,4 @@ College, Oxford and an External Professor of the Santa Fe Institute.
 
 Laura is the Project Lead for Reproducible Research Oxford. She qualified as
 Software Carpentry and Data Carpentry instructor in January 2017. GNU Emacs
-nerd, with a strong preference for hg over git.
+nerd, with a strong preference for [hg](https://www.mercurial-scm.org/) over git.
