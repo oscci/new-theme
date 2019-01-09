@@ -19,7 +19,7 @@ and biology.
 
 She is based in the School of Anthropology and Museum Ethnography as Associate
 Professor of Evolutionary Anthropology. She is also a Fellow of Magdalen
-College, Oxford and an External Professor of the Santa Fe Institute.
+College, Oxford and an External Professor of the [Santa Fe Institute](https://www.santafe.edu/).
 
 Laura is the Project Lead for Reproducible Research Oxford. She qualified as
 Software Carpentry and Data Carpentry instructor in January 2017. GNU Emacs
