@@ -13,10 +13,10 @@ type: pages
 ![image-center]({{ site.url }}{{ site.baseurl }}/assets/images/workshop-people.png){: .align-center}
 
 We'd love for you to get involved! Have you already attended one of our
-[events]({{ site.url }}{{ site.baseurl }}/events/)?
+[initiatives]({{ site.url }}{{ site.baseurl }}/initiatives/)?
 
 Take a look at the [people involved]({{ site.url }}{{ site.baseurl }}/people/)
-in the project and get in touch if you have any questions, or ideas for events.
+in the project and get in touch if you have any questions, or ideas for initiatives.
 
 Don't forget to follow us on [Twitter](http://twitter.com/RR_Oxford) to stay up
 to date on everything that's going on!

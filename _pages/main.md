@@ -34,7 +34,7 @@ body {
   Oxford</a>. We are the local branch of the <a href="http://ukrn.org/">UK Reproducibility Network</a> and
   aim to lay the groundwork for a culture of reproducibility and open
   research practices in Oxford.</p>
-  <p>To that purpose, we organise <a href="{{ '/events' | relative_url }}">events</a>, and
+  <p>To that purpose, we organise <a href="{{ '/initiatives' | relative_url }}">initiatives</a>, and
   have set up a network of <a href="{{ '/people' | relative_url }}">ambassadors</a> who provide information and initiate conversation on these issues at their departments. We also maintain a list of helpful <a href="{{ '/resources' | relative_url }}">resources</a>.</p>
   <p>If you're affiliated with Oxford and are interested in reproducible research, <a href="{{ '/get-involved' | relative_url }}">join us</a>!</p>
 </div>

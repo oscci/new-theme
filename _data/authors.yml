@@ -15,38 +15,6 @@ Elise Hamerslag:
       icon: "fab fa-fw fa-twitter-square"
     # url: ""
 
-Test author 1:
-  name        : "Author no. 1"
-  bio         : "I am the first author"
-  avatar      : "/images/face4.jpg"
-  links:
-    - label: "Email"
-      icon: "fas fa-fw fa-envelope-square"
-      url: "mailto:ReproducibleResearchOxford@gmail.com"
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/RROxford"
-
-
-Person 2:
-  name        : "Jane Doe"
-  bio         : "Lecturer in Psychology at University X"
-  avatar      : "/images/face3.jpg"
-  links:
-    - label: "Email"
-      icon: "fas fa-fw fa-envelope-square"
-      url: "mailto:test123123@gmail.com"
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/RROxford"
-    - label: "GitHub"
-      icon: "fab fa-fw fa-github"
-      url: "https://github.com/"
-    - label: "ResearchGate"
-      icon: "fab fa-fw fa-researchgate"
-      url: "https://researchgate.com/"
-
-
 Laura Fortunato:
   name        : "Laura Fortunato"
   bio         : "Associate Professor of Evolutionary Anthropology"
@@ -64,21 +32,3 @@ Laura Fortunato:
     - label: "ORCID"
       icon: "ai ai-orcid-square"
       url: "https://orcid.io"
-
-Adam Kenny:
-  name        : "Adam Kenny"
-  bio         : "DPhil student in Cognitive & Evolutionary Anthropology"
-  avatar      : "/assets/images/team_members/adam-kenny.png"
-  links:
-    - label: "Email"
-      icon: "fas fa-fw fa-envelope-square"
-      url: "mailto:adam.kenny@anthro.ox.ac.uk"
-
-Sarah de Vries:
-  name        : "Sarah de Vries"
-  bio         : "DPhil student in Cognitive & Evolutionary Anthropology"
-  avatar      : "/assets/images/team_members/sarah-de-vries.png"
-  links:
-    - label: "Email"
-      icon: "fas fa-fw fa-envelope-square"
-      url: "mailto:sarah.devries@anthro.ox.ac.uk"

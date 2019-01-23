@@ -1,18 +1,18 @@
 ---
-title: "Events"
+title: "Initiatives"
 tagline: "What's going on in Oxford?"
-description: Key reproducibility events in Oxford
+description: Key reproducibility initiatives in Oxford
 type: page
-permalink: /events/
+permalink: /initiatives/
 ---
 ---
 <div class="initial-content" id="accordion">
-  {% for event in site.events %}
+  {% for event in site.initiatives %}
     <div class="card event">
       <div class="card-header" data-toggle="collapse" data-target="#{{- event.title | replace: " ", "" -}}">
         {% if event.image_src %}
           <div class="logo">
-            <img src="{{ 'assets/images/events' | relative_url}}/{{ event.image_src }}"/>
+            <img src="{{ 'assets/images/initiatives' | relative_url}}/{{ event.image_src }}"/>
           </div>
         {% endif %}
         <div class="brief">

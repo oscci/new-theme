@@ -33,7 +33,7 @@ the goal to make the tech community more diverse!
 
 [ReproducibiliTea podcasts](https://soundcloud.com/reproducibilitea): these
 cover topics like questionable research practices, the preregistration
-evolution, and the natural selection of bad science. Run by the same team behind the [ReproducibiliTea journal clubs]({{ 'events/#ReproducibiliTea' | relative_url}}).
+evolution, and the natural selection of bad science. Run by the same team behind the [ReproducibiliTea journal clubs]({{ 'initiatives/#ReproducibiliTea' | relative_url}}).
 {: .text-justify}
 
 ---
@@ -54,5 +54,5 @@ listed on this OSF page.
 
 [Software Carpentry](https://software-carpentry.org) and
 [Data Carpentry](https://www.datacarpentry.org) teach computational methods to
-improve reproducibility. You can attend some of these carpentry [events]({{ 'events/#Softwareanddatacarpentry' | relative_url }}) through Reproducible Research Oxford.
+improve reproducibility. You can attend some of these carpentry [events]({{ 'initiatives/#Softwareanddatacarpentry' | relative_url }}) through Reproducible Research Oxford.
 {: .text-justify}
