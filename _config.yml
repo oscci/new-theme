@@ -156,6 +156,9 @@ footer:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
       url: mailto:ReproducibleResearchOxford@gmail.com
+    - label: "OSF Page"
+      icon: "fas fa-fw fa-globe-square"
+      url: https://osf.io/se4dq/
 
 
 # Reading Files
