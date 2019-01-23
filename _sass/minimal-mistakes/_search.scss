@@ -60,6 +60,7 @@
     box-shadow: none;
     background-color: transparent;
     font-size: $type-size-3;
+    color: black;
 
     @include breakpoint($large) {
       font-size: $type-size-2;

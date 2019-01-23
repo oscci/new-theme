@@ -2,7 +2,7 @@
 main:
   - title: "People"
     url: /people/
-  - title: "initiatives"
+  - title: "Initiatives"
     url: /initiatives/
   - title: "Resources"
     url: /resources/
