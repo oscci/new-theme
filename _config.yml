@@ -20,9 +20,9 @@ title                    : "Reproducible Research Oxford"
 title_separator          : "-"
 name                     : "Reproducible Research Oxford"
 description              : "Championing reproducible research practices at the University of Oxford."
-url                      : "https://elisehamerslag.github.io"
+url                      : "https://rroxford.github.io"
 baseurl                  : "/new-theme"
-repository               : "elisehamerslag/new-theme"
+repository               : "rroxford/new-theme"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
@@ -327,5 +327,5 @@ defaults:
       layout: single
       author_profile: true
       share: false
-      
+
 github: [metadata]
