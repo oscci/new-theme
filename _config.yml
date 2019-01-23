@@ -157,7 +157,7 @@ footer:
       icon: "fas fa-fw fa-envelope-square"
       url: mailto:ReproducibleResearchOxford@gmail.com
     - label: "OSF Page"
-      icon: "fas fa-fw fa-globe-square"
+      icon: "fas fa-fw fa-globe"
       url: https://osf.io/se4dq/
 
 
