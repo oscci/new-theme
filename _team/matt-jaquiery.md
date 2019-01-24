@@ -15,3 +15,6 @@ affiliations: [Experimental Psychology, Website]
 ---
 
 Matt studies decision-making with Nick Yeung and the Attention and Cognitive Control lab.
+{{ "2016-01-07" | convert: "date" | date: "%b %d, %y %s" }}
+Now:
+{{ "now" | date: "%b %d, %y %s" }}

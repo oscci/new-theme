@@ -8,9 +8,9 @@
     <script src="{{ script_path }}"></script>
   {% endfor %}
 {% else %}
+<script src="{{ '/assets/js/plugins/bootstrap.min.js' | relative_url }}"></script>
+<script src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
   <script src="{{ '/assets/js/main.min.js' | relative_url }}"></script>
-  <script src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
-  <script src="{{ '/assets/js/plugins/bootstrap.min.js' | relative_url }}"></script>
 {% endif %}
 
 {% if site.search == true or page.layout == "search" %}
