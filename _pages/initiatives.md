@@ -10,7 +10,7 @@ permalink: /initiatives/
   <div id="accordion">
     {% for event in site.initiatives %}
       <div class="card event" data-expires-after='{{ event.expires | convert: "date" | date: "%Y-%m-%d" }}'>
-        <div class="card-header" data-toggle="collapse" data-target="#{{- event.title | replace: " ", "" -}}">
+        <div class="card-header" data-toggle="collapse" data-target="#{{- event.title | replace: " ", "" -}}" tabindex="0" onkeydown="clickMe(event)">
           {% if event.image_src %}
             <div class="logo">
               <img src="{{ 'assets/images/initiatives' | relative_url}}/{{ event.image_src }}"/>
@@ -42,7 +42,7 @@ permalink: /initiatives/
             {% assign people = site.team | sort_natural: 'lastname' %}
             {% for person in people %}
               {% if person.groups contains event.title %}
-                <div class="btn btn-outline-info" onclick="window.location.assign('{{ '/people' | relative_url }}#{{- person.firstname | append: person.lastname | replace: ' ', '' -}}')">
+                <div class="btn btn-outline-info" onclick="window.location.assign('{{ '/people' | relative_url }}#{{- person.firstname | append: person.lastname | replace: ' ', '' -}}')" tabindex="0" onkeydown="clickMe(event)">
                   {{ person.firstname }} {{ person.lastname }}
                 </div>
               {% endif %}

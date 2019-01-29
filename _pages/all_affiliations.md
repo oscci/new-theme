@@ -24,11 +24,11 @@ permalink: /all_affiliations
 
 {% for affiliation in affArray %}
   <div class="card affiliation-list">
-    <div class="card-header" data-toggle="collapse" data-target="#{{ affiliation }}">{{ affiliation }}</div>
+    <div class="card-header" data-toggle="collapse" data-target="#{{ affiliation }}" tabindex="0" onkeydown="clickMe(event)">{{ affiliation }}</div>
     <div class="card-body collapse" id="{{ affiliation }}">
       {% for person in site.team %}
         {% if person.affiliations contains affiliation %}
-          <button type="button" class="btn btn-block" onclick="window.location.assign('{{ '/' | relative_url }}people/#{{- person.firstname | append: person.lastname | replace: " ", "" -}}')">
+          <button type="button" class="btn btn-block" onclick="window.location.assign('{{ '/' | relative_url }}people/#{{- person.firstname | append: person.lastname | replace: " ", "" -}}')" tabindex="0" onkeydown="clickMe(event)">
             {{ person.firstname }} {{ person.lastname}}
           </button>
         {% endif %}

@@ -28,7 +28,7 @@
   color: $primary;
   transition: all .5s;
 }
-.search__toggle:hover {
+.search__toggle:hover, .search__toggle:focus {
   transform: scale(1.3);
 }
 .greedy-nav {
@@ -246,4 +246,10 @@ nav a {
 }
 footer a {
   color: $primary !important;
+}
+
+/* Accessibility highlighting */
+[tabindex="0"]:focus {
+  outline: 5px auto #f89406;
+  outline-offset: -2px;
 }

@@ -1,5 +1,5 @@
 <!-- start custom footer snippets -->
-<div class='twitter-embedd-wrapper' onclick="this.classList.toggle('show')">
+<div class='twitter-embedd-wrapper' onclick="this.classList.toggle('show')" tabindex="0" onkeydown="clickMe(event)">
   <i class="fab fa-fw fa-twitter-square" aria-hidden="true"></i>
   <div class='jekyll-twitter-plugin'>
       <a class="twitter-timeline" data-theme="light" href="https://twitter.com/RR_Oxford?ref_src=twsrc%5Etfw">Tweets by RR_Oxford</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
@@ -54,6 +54,13 @@
         this.classList.remove('expand');
     });
   }
+
+  /* Focus handler for modals */
+  $('.modal').on('shown.bs.modal', function () {
+    let elm = document.querySelector('#'+this.id+' [tabindex="0"]');
+    if(elm)
+      elm.focus();
+  })
 
   /* run a little script to ensure the initial-content div adopts the same bottom margin as the body*/
   function tweakInitialContentMargin() {
