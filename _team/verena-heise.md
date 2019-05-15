@@ -3,7 +3,7 @@
 firstname: Verena
 lastname: Heise
 position: NDPH Intermediate Fellow
-image_src: blank.png
+image_src: verena-heise.png
 affiliations: [Big Data Institute]
 groups: [Oxford-Berlin Summer School]
 ---

@@ -3,7 +3,7 @@
 firstname: Amy
 lastname: Warner May
 position: Associate Director of Scholarly Resources, Bodleian Libraries
-image_src: amy-warner-may.jpg
+image_src: amy-warner-may.png
 affiliations: [Bodleian, Steering Committee]
 groups: []
 ---

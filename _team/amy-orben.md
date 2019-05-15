@@ -3,7 +3,7 @@
 firstname: Amy
 lastname: Orben
 position: DPhil Candidate in Experimental Psychology
-image_src: blank.png
+image_src: amy-orben.png
 affiliations: [Experimental Psychology]
 groups: [ReproducibiliTea]
 ---

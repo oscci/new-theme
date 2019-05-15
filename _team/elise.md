@@ -3,7 +3,7 @@
 firstname: Elise
 lastname: Hamerslag
 position: Website Builder
-image_src: elise-hamerslag.jpg
+image_src: elise-hamerslag.png
 groups: []
 affiliations: [Anthropology, Website]
 

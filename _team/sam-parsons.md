@@ -2,7 +2,7 @@
 firstname: Sam
 lastname: Parsons
 position: DPhil Candidate in Experimental Psychology
-image_src: blank.png
+image_src: sam-parsons.png
 affiliations: [Experimental Psychology]
 groups: [ReproducibiliTea]
 ---
