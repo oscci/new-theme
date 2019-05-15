@@ -57,10 +57,10 @@
 
   /* Focus handler for modals */
   $('.modal').on('shown.bs.modal', function () {
-    let elm = document.querySelector('#'+this.id+' [tabindex="0"]');
+    var elm = document.querySelector('#'+this.id+' [tabindex="0"]');
     if(elm)
       elm.focus();
-  })
+  });
 
   /* run a little script to ensure the initial-content div adopts the same bottom margin as the body*/
   function tweakInitialContentMargin() {
