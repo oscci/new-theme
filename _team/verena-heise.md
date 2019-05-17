@@ -5,7 +5,7 @@ lastname: Heise
 position: NDPH Intermediate Fellow
 image_src: verena-heise.png
 website: https://www.ndph.ox.ac.uk/team/verena-heise
-orcid: https://orcid.org/0000-0002-5625-4128
+orcid: 0000-0002-5625-4128
 osf: https://osf.io/zacmy/
 email: verena.heise@ndph.ox.ac.uk
 affiliations: [Big Data Institute, Nuffield Department of Population Health, Wellcome Centre for Integrative Neuroimaging, Steering Committee]
