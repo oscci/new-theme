@@ -13,14 +13,4 @@ affiliations: [Anthropology, Magdalen College, Steering Committee]
 groups: [Software and data carpentry]
 ---
 
-Laura is an evolutionary anthropologist. Her research focuses on the evolution
-of human social and cultural behaviour, working at the interface of anthropology
-and biology.
-
-She is based in the School of Anthropology and Museum Ethnography as Associate
-Professor of Evolutionary Anthropology. She is also a Fellow of Magdalen
-College, Oxford and an External Professor of the [Santa Fe Institute](https://www.santafe.edu/).
-
-Laura is the Project Lead for Reproducible Research Oxford. She qualified as
-Software Carpentry and Data Carpentry instructor in January 2017. GNU Emacs
-nerd, with a strong preference for [hg](https://www.mercurial-scm.org/) over git.
+Laura Fortunato is Associate Professor of Evolutionary Anthropology at the University of Oxford, and an External Professor at the Santa Fe Institute. In the area of open research, her interests focus on the provision of training, and in particular on effective computing for research reproducibility and the use of free and open source software. She is a member of the Steering Group of the [UK Reproducibility Network](http://www.ukrn.org/) and of the Board of Directors of the [Software Freedom Conservancy](https://sfconservancy.org/).
