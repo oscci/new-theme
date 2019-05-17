@@ -18,5 +18,4 @@ We'd love for you to get involved! Have you already attended one of our
 Take a look at the [people involved]({{ site.url }}{{ site.baseurl }}/people/)
 in the project and get in touch if you have any questions, or ideas for initiatives.
 
-Don't forget to follow us on [Twitter](http://twitter.com/RR_Oxford) to stay up
-to date on everything that's going on!
+Don't forget to follow us on [Twitter](http://twitter.com/RR_Oxford) and [subscribe to our mailing list](mailto:sympa@maillist.ox.ac.uk?subject=subscribe%20rroxford) to stay up to date on everything that's going on!
